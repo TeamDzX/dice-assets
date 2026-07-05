@@ -1,0 +1,83 @@
+{
+ "id": "gemstones",
+ "type": "dice",
+ "version": 1,
+ "styles": [
+  {
+   "id": "jade",
+   "name": {
+    "en": "Jade",
+    "ja": "翡翠",
+    "zh-Hans": "翡翠",
+    "ar": "يشم",
+    "he": "ירקן",
+    "fr": "Jade",
+    "de": "Jade",
+    "es": "Jade",
+    "pt": "Jade"
+   },
+   "body": "#4FA173",
+   "pip": "#F5F2E8",
+   "roughness": 0.15,
+   "metalness": 0.05,
+   "emission": null
+  },
+  {
+   "id": "obsidian",
+   "name": {
+    "en": "Obsidian",
+    "ja": "黒曜石",
+    "zh-Hans": "黑曜石",
+    "ar": "سبج",
+    "he": "אובסידיאן",
+    "fr": "Obsidienne",
+    "de": "Obsidian",
+    "es": "Obsidiana",
+    "pt": "Obsidiana"
+   },
+   "body": "#17171C",
+   "pip": "#E0DEE6",
+   "roughness": 0.05,
+   "metalness": 0.1,
+   "emission": null
+  },
+  {
+   "id": "sapphire",
+   "name": {
+    "en": "Sapphire",
+    "ja": "サファイア",
+    "zh-Hans": "蓝宝石",
+    "ar": "ياقوت أزرق",
+    "he": "ספיר",
+    "fr": "Saphir",
+    "de": "Saphir",
+    "es": "Zafiro",
+    "pt": "Safira"
+   },
+   "body": "#1F3C88",
+   "pip": "#DCE4F7",
+   "roughness": 0.12,
+   "metalness": 0.05,
+   "emission": null
+  },
+  {
+   "id": "ruby",
+   "name": {
+    "en": "Ruby",
+    "ja": "ルビー",
+    "zh-Hans": "红宝石",
+    "ar": "ياقوت أحمر",
+    "he": "אודם",
+    "fr": "Rubis",
+    "de": "Rubin",
+    "es": "Rubí",
+    "pt": "Rubi"
+   },
+   "body": "#8C1F35",
+   "pip": "#F7DCDF",
+   "roughness": 0.12,
+   "metalness": 0.05,
+   "emission": null
+  }
+ ]
+}

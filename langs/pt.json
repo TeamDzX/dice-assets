@@ -1,0 +1,133 @@
+{
+ "packs": {
+  "sakura-set": {
+   "name": "Kit Sakura",
+   "tagline": "Dados de primavera, por conta da casa",
+   "description": "Três dados sazonais com acabamento artesanal inspirados na primavera japonesa: rosa sakura suave, roxo glicínia e verde matchá. Um presente gratuito — aproveite!"
+  },
+  "metal-works": {
+   "name": "Metais",
+   "tagline": "Forjados, escovados e polidos",
+   "description": "Quatro dados metálicos com brilho de verdade: prata polida, cinza-chumbo profundo, ouro rosê acolhedor e cobre envelhecido. Veja a luz dançar enquanto eles rolam."
+  },
+  "gemstones": {
+   "name": "Pedras Preciosas",
+   "tagline": "Pedras preciosas, jogadas perfeitas",
+   "description": "Quatro dados lapidados com acabamento de joalheria: jade imperial, obsidiana da meia-noite, safira real e rubi vermelho-sangue."
+  },
+  "neon-glow": {
+   "name": "Brilho Neon",
+   "tagline": "Dados que iluminam a noite",
+   "description": "Quatro dados elétricos que brilham por dentro: rosa choque, ciano cibernético, verde-limão laser e ultravioleta. Perfeitos na mesa de mármore em um ambiente escuro."
+  },
+  "tatami-room": {
+   "name": "Sala de Tatame",
+   "tagline": "Jogue como se estivesse em um ryokan",
+   "description": "Traga a calma de uma sala de tatame japonesa para a sua mesa, com uma superfície macia de palha trançada que amortece suavemente cada jogada. Grátis para todos."
+  },
+  "casino-night": {
+   "name": "Noite de Cassino",
+   "tagline": "A banca sempre cai bem",
+   "description": "Três superfícies profissionais de cassino: feltro vermelho clássico, feltro azul-marinho profundo e uma borda de nogueira polida. A física ajustada dá a cada mesa seu próprio quique."
+  },
+  "party-night": {
+   "name": "Pacote Noite de Festa",
+   "tagline": "Três sucessos de izakaya",
+   "description": "Três jogos de dados rápidos, animados, de sorte e ousadia, direto da mesa do izakaya: Chinchirorin, Cee-lo e Drop Dead. Regras completas e ilustradas incluídas."
+  },
+  "tavern-classics": {
+   "name": "Clássicos de Taverna",
+   "tagline": "Favoritos de bar com séculos de história",
+   "description": "Três jogos de taverna atemporais — Feche a Caixa, Trios e Rumo a Boston — com regras completas para a sua noite de jogos."
+  }
+ },
+ "styles": {
+  "Sakura": "Sakura",
+  "Wisteria": "Glicínia",
+  "Matcha": "Matchá",
+  "Silver": "Prata",
+  "Gunmetal": "Cinza-chumbo",
+  "Rose Gold": "Ouro rosê",
+  "Copper": "Cobre",
+  "Jade": "Jade",
+  "Obsidian": "Obsidiana",
+  "Sapphire": "Safira",
+  "Ruby": "Rubi",
+  "Neon Pink": "Rosa neon",
+  "Cyber Cyan": "Ciano cibernético",
+  "Laser Lime": "Verde-limão laser",
+  "Ultraviolet": "Ultravioleta",
+  "Tatami": "Tatame",
+  "Red Baize": "Feltro vermelho",
+  "Navy Baize": "Feltro azul-marinho",
+  "Walnut": "Nogueira"
+ },
+ "games": {
+  "chinchirorin": {
+   "name": "Chinchirorin",
+   "summary": "O clássico jogo japonês da tigela. Três dados, até três lances — forme um par com dois dados e pontue com o terceiro!",
+   "rules": [
+    "Cada jogador coloca sua aposta no pote e, em seguida, os jogadores se revezam como lançador.",
+    "Lance três dados dentro de uma tigela. Se algum dado pular para fora, o lance conta como erro.",
+    "Você tem até três lances para formar uma mão: um par mais um dado avulso — o dado avulso é a sua pontuação.",
+    "Mãos especiais: 4-5-6 vence na hora, 1-2-3 perde na hora, e trincas vencem qualquer pontuação normal.",
+    "Três erros seguidos são derrota automática. A mão mais alta leva o pote."
+   ]
+  },
+  "cee-lo": {
+   "name": "Cee-lo",
+   "summary": "Um clássico das ruas, com vitórias instantâneas, derrotas instantâneas e pura ousadia.",
+   "rules": [
+    "Os jogadores se revezam lançando três dados até aparecer uma combinação que pontue.",
+    "4-5-6 vence na hora; 1-2-3 perde na hora.",
+    "Um par mais um dado avulso define o seu ponto — o dado avulso é a sua pontuação.",
+    "Trincas vencem qualquer ponto, e trincas mais altas vencem trincas mais baixas.",
+    "O banqueiro enfrenta cada desafiante um a um; a mão mais alta leva a aposta."
+   ]
+  },
+  "drop-dead": {
+   "name": "Drop Dead",
+   "summary": "Um divertido jogo de resistência — continue lançando até seus dados caírem mortos.",
+   "rules": [
+    "Lance os cinco dados. Se não aparecer nenhum 2 ou 5, some o total à sua pontuação e lance os cinco novamente.",
+    "Se aparecer algum 2 ou 5, você não pontua nada nesse lance e esses dados são removidos.",
+    "Continue lançando os dados restantes — todo lance com um 2 ou 5 custa esses dados.",
+    "Quando seu último dado mostrar um 2 ou 5, você está 'morto' e sua vez termina.",
+    "Vence quem tiver a maior pontuação total depois que todos jogarem."
+   ]
+  },
+  "shut-the-box": {
+   "name": "Feche a Caixa",
+   "summary": "O favorito dos bares há séculos: feche números e escape das penalidades.",
+   "rules": [
+    "Anote os números de 1 a 9 em um lugar visível para todos; cada jogador começa a vez com os nove números abertos.",
+    "Lance dois dados e feche quaisquer números abertos que somem exatamente o total (um lance de 9 pode fechar o 9, ou 6+3, ou 5+3+1).",
+    "Continue lançando e fechando números. Quando 7, 8 e 9 estiverem todos fechados, você pode optar por lançar apenas um dado.",
+    "Quando não conseguir fechar nada com um lance, sua vez termina — a soma dos números que ficaram abertos é a sua penalidade.",
+    "Feche os nove números para 'fechar a caixa' e vencer na hora; caso contrário, vence quem tiver a menor penalidade ao fim da rodada completa."
+   ]
+  },
+  "threes": {
+   "name": "Trios",
+   "summary": "Pontuações baixas vencem, e os 3 valem ouro — eles contam como zero.",
+   "rules": [
+    "Lance cinco dados. Os 3 contam como zero; todos os outros dados valem o número mostrado.",
+    "Após cada lance, você deve separar pelo menos um dado.",
+    "Relance os dados restantes até que os cinco tenham sido separados.",
+    "Sua pontuação é o total dos dados que você guardou — a menor pontuação vence a rodada.",
+    "Jogue cinco rodadas; o menor total geral leva o jogo."
+   ]
+  },
+  "going-to-boston": {
+   "name": "Rumo a Boston",
+   "summary": "Uma corrida rápida de três dados que qualquer um aprende em uma única rodada.",
+   "rules": [
+    "Lance três dados e separe o mais alto.",
+    "Lance os dois dados restantes e separe novamente o mais alto.",
+    "Lance o último dado — a soma dos seus três dados guardados é a sua pontuação.",
+    "Cada jogador lança na sua vez; a maior pontuação vence a rodada.",
+    "Vence o jogo quem primeiro ganhar um número combinado de rodadas — cinco funciona bem."
+   ]
+  }
+ }
+}

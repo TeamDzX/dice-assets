@@ -1,0 +1,133 @@
+{
+ "packs": {
+  "sakura-set": {
+   "name": "Set Sakura",
+   "tagline": "Dados de primavera, por cuenta de la casa",
+   "description": "Tres dados de temporada con acabado artesanal inspirados en la primavera japonesa: rosa sakura suave, morado glicina y verde matcha. Un regalo gratis. ¡Disfrútalos!"
+  },
+  "metal-works": {
+   "name": "Metalurgia",
+   "tagline": "Forjados, cepillados y pulidos",
+   "description": "Cuatro dados metálicos con brillo auténtico: plata pulida, gris acero profundo, cálido oro rosa y cobre envejecido. Observa cómo juega la luz mientras ruedan."
+  },
+  "gemstones": {
+   "name": "Gemas",
+   "tagline": "Piedras preciosas, tiradas perfectas",
+   "description": "Cuatro dados tallados como gemas con acabado de joyería: jade imperial, obsidiana de medianoche, zafiro real y rubí rojo sangre."
+  },
+  "neon-glow": {
+   "name": "Neón",
+   "tagline": "Dados que iluminan la noche",
+   "description": "Cuatro dados eléctricos que brillan desde dentro: rosa intenso, cian cibernético, lima láser y ultravioleta. Perfectos sobre la mesa de mármol en una sala a oscuras."
+  },
+  "tatami-room": {
+   "name": "Sala de tatami",
+   "tagline": "Tira como si estuvieras en un ryokan",
+   "description": "Lleva a tu mesa la calma de una sala de tatami japonesa, con una suave superficie de paja tejida que amortigua delicadamente cada tirada. Gratis para todos."
+  },
+  "casino-night": {
+   "name": "Noche de casino",
+   "tagline": "La banca siempre sienta bien",
+   "description": "Tres superficies profesionales de casino: tapete rojo clásico, tapete azul marino profundo y un borde de nogal pulido. Una física ajustada le da a cada mesa su propio rebote."
+  },
+  "party-night": {
+   "name": "Pack Noche de fiesta",
+   "tagline": "Tres éxitos de izakaya",
+   "description": "Tres juegos de dados rápidos, ruidosos y de pura suerte y sangre fría, directos de la mesa de un izakaya: Chinchirorin, Cee-lo y Drop Dead. Incluye reglas completas ilustradas."
+  },
+  "tavern-classics": {
+   "name": "Clásicos de taberna",
+   "tagline": "Favoritos de pub con siglos de historia",
+   "description": "Tres juegos de taberna atemporales — Cierra la caja, Treses y Rumbo a Boston — con reglas completas para tu noche de juegos."
+  }
+ },
+ "styles": {
+  "Sakura": "Sakura",
+  "Wisteria": "Glicina",
+  "Matcha": "Matcha",
+  "Silver": "Plata",
+  "Gunmetal": "Gris acero",
+  "Rose Gold": "Oro rosa",
+  "Copper": "Cobre",
+  "Jade": "Jade",
+  "Obsidian": "Obsidiana",
+  "Sapphire": "Zafiro",
+  "Ruby": "Rubí",
+  "Neon Pink": "Rosa neón",
+  "Cyber Cyan": "Cian cibernético",
+  "Laser Lime": "Lima láser",
+  "Ultraviolet": "Ultravioleta",
+  "Tatami": "Tatami",
+  "Red Baize": "Tapete rojo",
+  "Navy Baize": "Tapete azul marino",
+  "Walnut": "Nogal"
+ },
+ "games": {
+  "chinchirorin": {
+   "name": "Chinchirorin",
+   "summary": "El clásico juego japonés del cuenco. Tres dados, hasta tres tiradas: ¡forma una pareja con dos dados y puntúa con el tercero!",
+   "rules": [
+    "Cada jugador aporta su apuesta al bote y luego los jugadores se turnan como tirador.",
+    "Lanza tres dados dentro de un cuenco. Si algún dado sale rebotado, la tirada cuenta como fallo.",
+    "Tienes hasta tres tiradas para formar una mano: una pareja más un dado suelto; el dado suelto es tu puntuación.",
+    "Manos especiales: 4-5-6 gana al instante, 1-2-3 pierde al instante y los tríos superan cualquier puntuación normal.",
+    "Tres fallos seguidos son una derrota automática. La mano más alta se lleva el bote."
+   ]
+  },
+  "cee-lo": {
+   "name": "Cee-lo",
+   "summary": "Un clásico callejero de victorias instantáneas, derrotas instantáneas y pura sangre fría.",
+   "rules": [
+    "Los jugadores se turnan lanzando tres dados hasta que aparece una combinación que puntúe.",
+    "4-5-6 gana al instante; 1-2-3 pierde al instante.",
+    "Una pareja más un dado suelto fija tu punto; el dado suelto es tu puntuación.",
+    "Los tríos superan cualquier punto, y los tríos más altos superan a los más bajos.",
+    "La banca juega contra cada retador uno a uno; la mano más alta gana la apuesta."
+   ]
+  },
+  "drop-dead": {
+   "name": "Drop Dead",
+   "summary": "Un alegre juego de desgaste: sigue tirando hasta que tus dados caigan muertos.",
+   "rules": [
+    "Lanza los cinco dados. Si no aparece ningún 2 ni 5, suma el total a tu puntuación y vuelve a lanzar los cinco.",
+    "Si aparece algún 2 o 5, no puntúas nada en esa tirada y esos dados se retiran.",
+    "Sigue lanzando los dados restantes: cada tirada que contenga un 2 o un 5 te cuesta esos dados.",
+    "Cuando tu último dado muestra un 2 o un 5, estás 'muerto' y tu turno termina.",
+    "Gana quien tenga la puntuación total más alta cuando todos hayan jugado."
+   ]
+  },
+  "shut-the-box": {
+   "name": "Cierra la caja",
+   "summary": "El favorito de los pubs desde hace siglos: cierra números y esquiva las penalizaciones.",
+   "rules": [
+    "Escribe los números del 1 al 9 donde todos puedan verlos; cada jugador empieza su turno con los nueve números abiertos.",
+    "Lanza dos dados y cierra cualquier número abierto que sume exactamente el total (una tirada de 9 puede cerrar el 9, o 6+3, o 5+3+1).",
+    "Sigue lanzando y cerrando números. Cuando el 7, el 8 y el 9 estén cerrados, puedes optar por lanzar un solo dado.",
+    "Cuando no puedas cerrar nada con una tirada, tu turno termina: la suma de tus números abiertos restantes es tu penalización.",
+    "Cierra los nueve números para 'cerrar la caja' y ganar al instante; si no, gana la penalización más baja tras una ronda completa."
+   ]
+  },
+  "threes": {
+   "name": "Treses",
+   "summary": "Las tiradas bajas ganan, y los treses son oro: cuentan como cero.",
+   "rules": [
+    "Lanza cinco dados. Los treses cuentan como cero; los demás dados cuentan por su valor.",
+    "Después de cada tirada debes apartar al menos un dado.",
+    "Vuelve a lanzar los dados restantes hasta haber apartado los cinco.",
+    "Tu puntuación es el total de los dados que apartaste; la puntuación más baja gana la ronda.",
+    "Se juegan cinco rondas; el total general más bajo se lleva la partida."
+   ]
+  },
+  "going-to-boston": {
+   "name": "Rumbo a Boston",
+   "summary": "Una carrera rápida con tres dados que cualquiera aprende en una sola ronda.",
+   "rules": [
+    "Lanza tres dados y aparta el más alto.",
+    "Lanza los dos dados restantes y aparta de nuevo el más alto.",
+    "Lanza el último dado: la suma de tus tres dados apartados es tu puntuación.",
+    "Cada jugador lanza por turnos; la puntuación más alta gana la ronda.",
+    "El primero en ganar un número acordado de rondas — cinco funciona bien — gana la partida."
+   ]
+  }
+ }
+}

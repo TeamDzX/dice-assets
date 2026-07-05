@@ -1,0 +1,262 @@
+{
+ "id": "party-night",
+ "type": "games",
+ "version": 1,
+ "games": [
+  {
+   "id": "chinchirorin",
+   "icon": "sparkles",
+   "diceNeeded": 3,
+   "players": "2+",
+   "name": {
+    "en": "Chinchirorin",
+    "ja": "チンチロリン",
+    "zh-Hans": "亲亲罗林（Chinchirorin）",
+    "ar": "تشينتشيرورين",
+    "he": "צ'ינצ'ירורין",
+    "fr": "Chinchirorin",
+    "de": "Chinchirorin",
+    "es": "Chinchirorin",
+    "pt": "Chinchirorin"
+   },
+   "summary": {
+    "en": "The classic Japanese bowl game. Three dice, up to three throws — pair two dice and score with the third!",
+    "ja": "日本でおなじみの丼(どんぶり)を使ったダイスゲーム。サイコロ3個を最大3回振り、2個の目を揃えて残り1個の目で勝負!",
+    "zh-Hans": "经典日式碗掷骰戏。三枚骰子，最多掷三次——凑出对子，剩下那枚就是你的点数！",
+    "ar": "لعبة الوعاء اليابانية الكلاسيكية. ثلاثة أحجار نرد وحتى ثلاث رميات — كوّن زوجًا بحجرين وسجّل نقاطك بالحجر الثالث!",
+    "he": "משחק הקערה היפני הקלאסי. שלוש קוביות, עד שלוש הטלות — התאימו זוג קוביות ונקדו עם השלישית!",
+    "fr": "Le grand classique japonais du bol. Trois dés, jusqu'à trois lancers — formez une paire et marquez avec le troisième dé !",
+    "de": "Das klassische japanische Schalenspiel. Drei Würfel, bis zu drei Würfe – bilde ein Paar und punkte mit dem dritten Würfel!",
+    "es": "El clásico juego japonés del cuenco. Tres dados, hasta tres tiradas: ¡forma una pareja con dos dados y puntúa con el tercero!",
+    "pt": "O clássico jogo japonês da tigela. Três dados, até três lances — forme um par com dois dados e pontue com o terceiro!"
+   },
+   "rules": [
+    {
+     "en": "Each player antes into the pot, then players take turns as the roller.",
+     "ja": "各プレイヤーが場に賭け金を出し、順番に親(振り手)を務めます。",
+     "zh-Hans": "每位玩家先向奖池下注，然后轮流担任掷骰者。",
+     "ar": "يضع كل لاعب حصته في المجموع المشترك، ثم يتناوب اللاعبون على دور الرامي.",
+     "he": "כל שחקן מכניס סכום פתיחה לקופה, ואז השחקנים מתחלפים בתור המטיל.",
+     "fr": "Chaque joueur mise dans le pot, puis les joueurs lancent les dés à tour de rôle.",
+     "de": "Jeder Spieler zahlt seinen Einsatz in den Pot, dann sind die Spieler abwechselnd als Werfer an der Reihe.",
+     "es": "Cada jugador aporta su apuesta al bote y luego los jugadores se turnan como tirador.",
+     "pt": "Cada jogador coloca sua aposta no pote e, em seguida, os jogadores se revezam como lançador."
+    },
+    {
+     "en": "Roll three dice into a bowl. If any die bounces out, the throw counts as a miss.",
+     "ja": "サイコロ3個を丼に振り入れます。丼から飛び出したサイコロがあれば、その投は無効(ションベン)となります。",
+     "zh-Hans": "将三枚骰子掷入碗中。若有骰子弹出碗外，该次投掷判为失手。",
+     "ar": "ارمِ ثلاثة أحجار نرد داخل وعاء. إذا قفز أي حجر خارج الوعاء، تُحسب الرمية محاولة ضائعة.",
+     "he": "מטילים שלוש קוביות לתוך קערה. אם קובייה כלשהי קופצת החוצה, ההטלה נחשבת החטאה.",
+     "fr": "Lancez trois dés dans un bol. Si un dé rebondit hors du bol, le lancer compte comme raté.",
+     "de": "Wirf drei Würfel in eine Schale. Springt ein Würfel heraus, zählt der Wurf als Fehlwurf.",
+     "es": "Lanza tres dados dentro de un cuenco. Si algún dado sale rebotado, la tirada cuenta como fallo.",
+     "pt": "Lance três dados dentro de uma tigela. Se algum dado pular para fora, o lance conta como erro."
+    },
+    {
+     "en": "You get up to three throws to make a hand: a pair plus a single die — the single die is your score.",
+     "ja": "最大3回まで振って役を作ります。2個がゾロ目、残り1個が出目——その1個の目があなたの点数です。",
+     "zh-Hans": "你最多可掷三次来凑出牌型：一对加一枚单骰——单骰的点数就是你的得分。",
+     "ar": "لديك حتى ثلاث رميات لتكوين يد: زوج متماثل وحجر منفرد — والحجر المنفرد هو نقاطك.",
+     "he": "יש לכם עד שלוש הטלות להשיג יד: זוג ועוד קובייה בודדת — הקובייה הבודדת היא הניקוד שלכם.",
+     "fr": "Vous disposez d'au plus trois lancers pour former une main : une paire plus un dé isolé — le dé isolé est votre score.",
+     "de": "Du hast bis zu drei Würfe, um eine Hand zu bilden: ein Paar plus ein einzelner Würfel – der einzelne Würfel ist deine Punktzahl.",
+     "es": "Tienes hasta tres tiradas para formar una mano: una pareja más un dado suelto; el dado suelto es tu puntuación.",
+     "pt": "Você tem até três lances para formar uma mão: um par mais um dado avulso — o dado avulso é a sua pontuação."
+    },
+    {
+     "en": "Special hands: 4-5-6 wins instantly, 1-2-3 loses instantly, and triples beat any normal score.",
+     "ja": "特別な役:4-5-6は即勝ち、1-2-3は即負け、3個のゾロ目(アラシ)は通常の目に必ず勝ちます。",
+     "zh-Hans": "特殊牌型：4-5-6 直接获胜，1-2-3 直接落败，三条（豹子）胜过任何普通点数。",
+     "ar": "أيدٍ خاصة: 4-5-6 تفوز فورًا، و1-2-3 تخسر فورًا، والثلاثية المتماثلة تتفوق على أي نتيجة عادية.",
+     "he": "ידיים מיוחדות: 4-5-6 מנצח מיידית, 1-2-3 מפסיד מיידית, ושלישייה גוברת על כל ניקוד רגיל.",
+     "fr": "Mains spéciales : 4-5-6 gagne immédiatement, 1-2-3 perd immédiatement, et les triples battent tout score normal.",
+     "de": "Sonderhände: 4-5-6 gewinnt sofort, 1-2-3 verliert sofort, und Drillinge schlagen jede normale Punktzahl.",
+     "es": "Manos especiales: 4-5-6 gana al instante, 1-2-3 pierde al instante y los tríos superan cualquier puntuación normal.",
+     "pt": "Mãos especiais: 4-5-6 vence na hora, 1-2-3 perde na hora, e trincas vencem qualquer pontuação normal."
+    },
+    {
+     "en": "Three misses in a row is an automatic loss. The highest hand takes the pot.",
+     "ja": "3回続けて役なしの場合は自動的に負けです。最も強い役のプレイヤーが場の賭け金を総取りします。",
+     "zh-Hans": "连续三次失手即自动落败。牌型最大者赢取全部奖池。",
+     "ar": "ثلاث محاولات ضائعة متتالية تعني خسارة تلقائية. وصاحب أعلى يد يفوز بالمجموع.",
+     "he": "שלוש החטאות ברצף הן הפסד אוטומטי. היד הגבוהה ביותר לוקחת את הקופה.",
+     "fr": "Trois lancers ratés d'affilée entraînent une défaite automatique. La meilleure main remporte le pot.",
+     "de": "Drei Fehlwürfe in Folge bedeuten eine automatische Niederlage. Die höchste Hand gewinnt den Pot.",
+     "es": "Tres fallos seguidos son una derrota automática. La mano más alta se lleva el bote.",
+     "pt": "Três erros seguidos são derrota automática. A mão mais alta leva o pote."
+    }
+   ]
+  },
+  {
+   "id": "cee-lo",
+   "icon": "flame.fill",
+   "diceNeeded": 3,
+   "players": "2+",
+   "name": {
+    "en": "Cee-lo",
+    "ja": "シーロー",
+    "zh-Hans": "四五六（Cee-lo）",
+    "ar": "سي-لو",
+    "he": "סי-לו",
+    "fr": "Cee-lo",
+    "de": "Cee-lo",
+    "es": "Cee-lo",
+    "pt": "Cee-lo"
+   },
+   "summary": {
+    "en": "A street-corner classic of instant wins, instant losses, and pure nerve.",
+    "ja": "即勝ち、即負け、そして度胸勝負。ストリート生まれの定番ダイスゲームです。",
+    "zh-Hans": "街头经典玩法，瞬间定胜负，全凭胆量与运气。",
+    "ar": "لعبة شوارع كلاسيكية قوامها الفوز الفوري والخسارة الفورية والأعصاب الفولاذية.",
+    "he": "קלאסיקת רחוב של ניצחונות מיידיים, הפסדים מיידיים ועצבי ברזל.",
+    "fr": "Un classique des coins de rue : victoires éclair, défaites éclair et sang-froid à l'état pur.",
+    "de": "Ein Straßenklassiker voller Sofortsiege, Sofortniederlagen und purer Nervenstärke.",
+    "es": "Un clásico callejero de victorias instantáneas, derrotas instantáneas y pura sangre fría.",
+    "pt": "Um clássico das ruas, com vitórias instantâneas, derrotas instantâneas e pura ousadia."
+   },
+   "rules": [
+    {
+     "en": "Players take turns rolling three dice until a scoring combination appears.",
+     "ja": "プレイヤーは順番にサイコロ3個を振り、役が出るまで振り直します。",
+     "zh-Hans": "玩家轮流投掷三枚骰子，直到掷出有效的计分组合为止。",
+     "ar": "يتناوب اللاعبون على رمي ثلاثة أحجار نرد حتى تظهر توليفة تسجّل نقاطًا.",
+     "he": "השחקנים מתחלפים בהטלת שלוש קוביות עד שמופיע צירוף מנקד.",
+     "fr": "Les joueurs lancent trois dés à tour de rôle jusqu'à obtenir une combinaison qui compte.",
+     "de": "Die Spieler würfeln abwechselnd mit drei Würfeln, bis eine wertbare Kombination erscheint.",
+     "es": "Los jugadores se turnan lanzando tres dados hasta que aparece una combinación que puntúe.",
+     "pt": "Os jogadores se revezam lançando três dados até aparecer uma combinação que pontue."
+    },
+    {
+     "en": "4-5-6 wins instantly; 1-2-3 loses instantly.",
+     "ja": "4-5-6が出れば即勝ち、1-2-3が出れば即負けです。",
+     "zh-Hans": "4-5-6 直接获胜；1-2-3 直接落败。",
+     "ar": "‏4-5-6 تفوز فورًا؛ و1-2-3 تخسر فورًا.",
+     "he": "4-5-6 מנצח מיידית; 1-2-3 מפסיד מיידית.",
+     "fr": "4-5-6 gagne immédiatement ; 1-2-3 perd immédiatement.",
+     "de": "4-5-6 gewinnt sofort; 1-2-3 verliert sofort.",
+     "es": "4-5-6 gana al instante; 1-2-3 pierde al instante.",
+     "pt": "4-5-6 vence na hora; 1-2-3 perde na hora."
+    },
+    {
+     "en": "A pair plus a single die sets your point — the single die is your score.",
+     "ja": "2個がゾロ目、残り1個が出目の場合、その1個の目があなたのポイント(点数)になります。",
+     "zh-Hans": "一对加一枚单骰即确立点数——单骰的点数就是你的得分。",
+     "ar": "زوج متماثل مع حجر منفرد يحدد نقطتك — والحجر المنفرد هو نقاطك.",
+     "he": "זוג ועוד קובייה בודדת קובעים את הנקודה שלכם — הקובייה הבודדת היא הניקוד.",
+     "fr": "Une paire plus un dé isolé fixe votre point — le dé isolé est votre score.",
+     "de": "Ein Paar plus ein einzelner Würfel legt deinen Punktwert fest – der einzelne Würfel ist deine Punktzahl.",
+     "es": "Una pareja más un dado suelto fija tu punto; el dado suelto es tu puntuación.",
+     "pt": "Um par mais um dado avulso define o seu ponto — o dado avulso é a sua pontuação."
+    },
+    {
+     "en": "Triples beat any point, and higher triples beat lower triples.",
+     "ja": "3個のゾロ目はどんなポイントにも勝ち、ゾロ目同士では大きい目が勝ちます。",
+     "zh-Hans": "三条（豹子）胜过任何点数，且大三条压小三条。",
+     "ar": "الثلاثية المتماثلة تتفوق على أي نقطة، والثلاثية الأعلى تتفوق على الثلاثية الأدنى.",
+     "he": "שלישייה גוברת על כל נקודה, ושלישייה גבוהה גוברת על שלישייה נמוכה.",
+     "fr": "Les triples battent n'importe quel point, et un triple plus élevé bat un triple plus faible.",
+     "de": "Drillinge schlagen jeden Punktwert, und höhere Drillinge schlagen niedrigere.",
+     "es": "Los tríos superan cualquier punto, y los tríos más altos superan a los más bajos.",
+     "pt": "Trincas vencem qualquer ponto, e trincas mais altas vencem trincas mais baixas."
+    },
+    {
+     "en": "The banker plays each challenger head-to-head; the higher hand wins the stake.",
+     "ja": "親(バンカー)は挑戦者と1対1で勝負し、強い役を出した側が賭け金を獲得します。",
+     "zh-Hans": "庄家与每位挑战者一对一较量；牌型较大的一方赢得赌注。",
+     "ar": "يواجه المصرفي كل متحدٍّ وجهًا لوجه؛ واليد الأعلى تفوز بالرهان.",
+     "he": "הבנקאי משחק מול כל מתמודד אחד-על-אחד; היד הגבוהה יותר זוכה בהימור.",
+     "fr": "Le banquier affronte chaque adversaire en duel ; la meilleure main remporte la mise.",
+     "de": "Der Bankhalter tritt gegen jeden Herausforderer einzeln an; die höhere Hand gewinnt den Einsatz.",
+     "es": "La banca juega contra cada retador uno a uno; la mano más alta gana la apuesta.",
+     "pt": "O banqueiro enfrenta cada desafiante um a um; a mão mais alta leva a aposta."
+    }
+   ]
+  },
+  {
+   "id": "drop-dead",
+   "icon": "heart.slash.fill",
+   "diceNeeded": 5,
+   "players": "2+",
+   "name": {
+    "en": "Drop Dead",
+    "ja": "ドロップデッド",
+    "zh-Hans": "一败涂地（Drop Dead）",
+    "ar": "دروب ديد",
+    "he": "דרופ דד",
+    "fr": "Drop Dead",
+    "de": "Drop Dead",
+    "es": "Drop Dead",
+    "pt": "Drop Dead"
+   },
+   "summary": {
+    "en": "A cheerful game of attrition — keep rolling until your dice drop dead.",
+    "ja": "サイコロが力尽きるまで振り続ける、陽気なサバイバルゲームです。",
+    "zh-Hans": "一场欢乐的消耗战——不停掷骰，直到手中骰子全军覆没。",
+    "ar": "لعبة استنزاف مرحة — واصل الرمي حتى تسقط أحجار نردك واحدًا تلو الآخر.",
+    "he": "משחק התשה עליז — ממשיכים לגלגל עד שהקוביות שלכם נופלות מתות.",
+    "fr": "Un joyeux jeu d'usure — lancez encore et encore, jusqu'à ce que vos dés tombent au champ d'honneur.",
+    "de": "Ein fröhliches Spiel ums Durchhalten – würfle weiter, bis deine Würfel tot umfallen.",
+    "es": "Un alegre juego de desgaste: sigue tirando hasta que tus dados caigan muertos.",
+    "pt": "Um divertido jogo de resistência — continue lançando até seus dados caírem mortos."
+   },
+   "rules": [
+    {
+     "en": "Roll all five dice. If no 2s or 5s appear, add the total to your score and roll all five again.",
+     "ja": "サイコロ5個をすべて振ります。2と5が1つも出なければ、合計を得点に加えて再び5個全部を振ります。",
+     "zh-Hans": "掷出全部五枚骰子。若没有出现 2 或 5，将总点数计入得分，再掷全部五枚。",
+     "ar": "ارمِ أحجار النرد الخمسة كلها. إذا لم يظهر الرقم 2 أو 5، أضف المجموع إلى نقاطك وارمِ الأحجار الخمسة من جديد.",
+     "he": "מטילים את כל חמש הקוביות. אם לא מופיעים 2 או 5, מוסיפים את הסכום לניקוד ומטילים שוב את כל החמש.",
+     "fr": "Lancez les cinq dés. Si aucun 2 ni 5 n'apparaît, ajoutez le total à votre score et relancez les cinq dés.",
+     "de": "Wirf alle fünf Würfel. Zeigt keiner eine 2 oder 5, addiere die Summe zu deiner Punktzahl und wirf alle fünf erneut.",
+     "es": "Lanza los cinco dados. Si no aparece ningún 2 ni 5, suma el total a tu puntuación y vuelve a lanzar los cinco.",
+     "pt": "Lance os cinco dados. Se não aparecer nenhum 2 ou 5, some o total à sua pontuação e lance os cinco novamente."
+    },
+    {
+     "en": "If any 2s or 5s appear, you score nothing for that throw and those dice are removed.",
+     "ja": "2または5が出た場合、その投は得点にならず、出たサイコロは取り除かれます。",
+     "zh-Hans": "若出现任何 2 或 5，该次投掷不得分，且这些骰子被移除。",
+     "ar": "إذا ظهر أي 2 أو 5، فلن تسجل شيئًا في تلك الرمية وتُستبعد تلك الأحجار من اللعب.",
+     "he": "אם מופיעים 2 או 5, לא מקבלים נקודות על אותה הטלה והקוביות האלה יוצאות מהמשחק.",
+     "fr": "Si un ou plusieurs 2 ou 5 apparaissent, le lancer ne rapporte rien et ces dés sont retirés.",
+     "de": "Erscheint eine 2 oder 5, bekommst du für diesen Wurf keine Punkte, und diese Würfel werden aus dem Spiel genommen.",
+     "es": "Si aparece algún 2 o 5, no puntúas nada en esa tirada y esos dados se retiran.",
+     "pt": "Se aparecer algum 2 ou 5, você não pontua nada nesse lance e esses dados são removidos."
+    },
+    {
+     "en": "Keep rolling the remaining dice — every throw containing a 2 or 5 costs you those dice.",
+     "ja": "残ったサイコロで振り続けます。2か5が出るたびに、そのサイコロを失います。",
+     "zh-Hans": "继续投掷剩余的骰子——每次投掷中出现 2 或 5，就会失去相应的骰子。",
+     "ar": "واصل رمي الأحجار المتبقية — كل رمية تحتوي على 2 أو 5 تكلفك تلك الأحجار.",
+     "he": "ממשיכים להטיל את הקוביות שנותרו — כל הטלה שמכילה 2 או 5 עולה לכם באותן קוביות.",
+     "fr": "Continuez à lancer les dés restants — chaque lancer contenant un 2 ou un 5 vous coûte ces dés.",
+     "de": "Würfle mit den verbleibenden Würfeln weiter – jeder Wurf mit einer 2 oder 5 kostet dich diese Würfel.",
+     "es": "Sigue lanzando los dados restantes: cada tirada que contenga un 2 o un 5 te cuesta esos dados.",
+     "pt": "Continue lançando os dados restantes — todo lance com um 2 ou 5 custa esses dados."
+    },
+    {
+     "en": "When your last die shows a 2 or 5, you're 'dead' and your turn ends.",
+     "ja": "最後の1個が2または5を出したら「デッド」となり、あなたの手番は終了です。",
+     "zh-Hans": "当最后一枚骰子掷出 2 或 5 时，你就“阵亡”了，本回合结束。",
+     "ar": "عندما يُظهر آخر حجر لديك 2 أو 5، تكون قد «سقطت» وينتهي دورك.",
+     "he": "כשהקובייה האחרונה שלכם מראה 2 או 5, אתם 'מתים' והתור שלכם נגמר.",
+     "fr": "Quand votre dernier dé affiche un 2 ou un 5, vous êtes « mort » et votre tour s'achève.",
+     "de": "Zeigt dein letzter Würfel eine 2 oder 5, bist du 'tot' und dein Zug endet.",
+     "es": "Cuando tu último dado muestra un 2 o un 5, estás 'muerto' y tu turno termina.",
+     "pt": "Quando seu último dado mostrar um 2 ou 5, você está 'morto' e sua vez termina."
+    },
+    {
+     "en": "Highest total score after everyone has played wins.",
+     "ja": "全員がプレイし終えた時点で、合計得点が最も高いプレイヤーの勝ちです。",
+     "zh-Hans": "所有人轮完后，总得分最高者获胜。",
+     "ar": "صاحب أعلى مجموع نقاط بعد أن يلعب الجميع هو الفائز.",
+     "he": "הניקוד הכולל הגבוה ביותר אחרי שכולם שיחקו — מנצח.",
+     "fr": "Le score total le plus élevé une fois que tout le monde a joué l'emporte.",
+     "de": "Wer nach allen Zügen die höchste Gesamtpunktzahl hat, gewinnt.",
+     "es": "Gana quien tenga la puntuación total más alta cuando todos hayan jugado.",
+     "pt": "Vence quem tiver a maior pontuação total depois que todos jogarem."
+    }
+   ]
+  }
+ ]
+}

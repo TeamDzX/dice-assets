@@ -1,0 +1,76 @@
+{
+ "id": "casino-night",
+ "type": "table",
+ "version": 1,
+ "surfaces": [
+  {
+   "id": "red-baize",
+   "name": {
+    "en": "Red Baize",
+    "ja": "赤ラシャ",
+    "zh-Hans": "红呢绒",
+    "ar": "جوخ أحمر",
+    "he": "לבד אדום",
+    "fr": "Feutrine rouge",
+    "de": "Rotes Tuch",
+    "es": "Tapete rojo",
+    "pt": "Feltro vermelho"
+   },
+   "background": "#3A0D12",
+   "floor": "#7A1622",
+   "roughness": 0.95,
+   "metalness": 0.0,
+   "normalIntensity": 0.15,
+   "reflectivity": 0.05,
+   "friction": 1.0,
+   "restitution": 0.12,
+   "accent": "#3A0D12"
+  },
+  {
+   "id": "navy-baize",
+   "name": {
+    "en": "Navy Baize",
+    "ja": "ネイビーラシャ",
+    "zh-Hans": "藏青呢绒",
+    "ar": "جوخ كحلي",
+    "he": "לבד נייבי",
+    "fr": "Feutrine marine",
+    "de": "Blaues Tuch",
+    "es": "Tapete azul marino",
+    "pt": "Feltro azul-marinho"
+   },
+   "background": "#0C1630",
+   "floor": "#1B2C5C",
+   "roughness": 0.95,
+   "metalness": 0.0,
+   "normalIntensity": 0.15,
+   "reflectivity": 0.05,
+   "friction": 1.0,
+   "restitution": 0.12,
+   "accent": "#0C1630"
+  },
+  {
+   "id": "walnut",
+   "name": {
+    "en": "Walnut",
+    "ja": "ウォールナット",
+    "zh-Hans": "胡桃木",
+    "ar": "خشب الجوز",
+    "he": "אגוז",
+    "fr": "Noyer",
+    "de": "Nussbaum",
+    "es": "Nogal",
+    "pt": "Nogueira"
+   },
+   "background": "#241209",
+   "floor": "#5C3A22",
+   "roughness": 0.5,
+   "metalness": 0.0,
+   "normalIntensity": 0.4,
+   "reflectivity": 0.08,
+   "friction": 0.55,
+   "restitution": 0.28,
+   "accent": "#3A2113"
+  }
+ ]
+}

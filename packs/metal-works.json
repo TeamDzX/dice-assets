@@ -1,0 +1,83 @@
+{
+ "id": "metal-works",
+ "type": "dice",
+ "version": 1,
+ "styles": [
+  {
+   "id": "silver",
+   "name": {
+    "en": "Silver",
+    "ja": "シルバー",
+    "zh-Hans": "白银",
+    "ar": "فضي",
+    "he": "כסף",
+    "fr": "Argent",
+    "de": "Silber",
+    "es": "Plata",
+    "pt": "Prata"
+   },
+   "body": "#D9DBDE",
+   "pip": "#2A2A2E",
+   "roughness": 0.25,
+   "metalness": 0.9,
+   "emission": null
+  },
+  {
+   "id": "gunmetal",
+   "name": {
+    "en": "Gunmetal",
+    "ja": "ガンメタル",
+    "zh-Hans": "枪灰",
+    "ar": "رمادي معدني",
+    "he": "אפור-פלדה",
+    "fr": "Canon de fusil",
+    "de": "Gunmetal",
+    "es": "Gris acero",
+    "pt": "Cinza-chumbo"
+   },
+   "body": "#4A4E57",
+   "pip": "#E8E8EC",
+   "roughness": 0.35,
+   "metalness": 0.85,
+   "emission": null
+  },
+  {
+   "id": "rose-gold",
+   "name": {
+    "en": "Rose Gold",
+    "ja": "ローズゴールド",
+    "zh-Hans": "玫瑰金",
+    "ar": "ذهبي وردي",
+    "he": "זהב ורדרד",
+    "fr": "Or rose",
+    "de": "Roségold",
+    "es": "Oro rosa",
+    "pt": "Ouro rosê"
+   },
+   "body": "#E3A98F",
+   "pip": "#5C2E22",
+   "roughness": 0.3,
+   "metalness": 0.8,
+   "emission": null
+  },
+  {
+   "id": "copper",
+   "name": {
+    "en": "Copper",
+    "ja": "カッパー",
+    "zh-Hans": "紫铜",
+    "ar": "نحاسي",
+    "he": "נחושת",
+    "fr": "Cuivre",
+    "de": "Kupfer",
+    "es": "Cobre",
+    "pt": "Cobre"
+   },
+   "body": "#B4653F",
+   "pip": "#F2E7DC",
+   "roughness": 0.4,
+   "metalness": 0.85,
+   "emission": null
+  }
+ ]
+}

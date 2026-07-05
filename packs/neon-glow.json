@@ -1,0 +1,83 @@
+{
+ "id": "neon-glow",
+ "type": "dice",
+ "version": 1,
+ "styles": [
+  {
+   "id": "neon-pink",
+   "name": {
+    "en": "Neon Pink",
+    "ja": "ネオンピンク",
+    "zh-Hans": "霓虹粉",
+    "ar": "وردي نيون",
+    "he": "ורוד ניאון",
+    "fr": "Rose néon",
+    "de": "Neonpink",
+    "es": "Rosa neón",
+    "pt": "Rosa neon"
+   },
+   "body": "#1A0A14",
+   "pip": "#FFD9EC",
+   "roughness": 0.4,
+   "metalness": 0.0,
+   "emission": "#FF2E93"
+  },
+  {
+   "id": "cyber-cyan",
+   "name": {
+    "en": "Cyber Cyan",
+    "ja": "サイバーシアン",
+    "zh-Hans": "赛博青",
+    "ar": "سماوي سايبر",
+    "he": "ציאן סייבר",
+    "fr": "Cyan cyber",
+    "de": "Cyber-Cyan",
+    "es": "Cian cibernético",
+    "pt": "Ciano cibernético"
+   },
+   "body": "#061418",
+   "pip": "#D7FCFF",
+   "roughness": 0.4,
+   "metalness": 0.0,
+   "emission": "#22D3EE"
+  },
+  {
+   "id": "laser-lime",
+   "name": {
+    "en": "Laser Lime",
+    "ja": "レーザーライム",
+    "zh-Hans": "激光青柠",
+    "ar": "ليموني ليزري",
+    "he": "ליים לייזר",
+    "fr": "Citron laser",
+    "de": "Laser-Limette",
+    "es": "Lima láser",
+    "pt": "Verde-limão laser"
+   },
+   "body": "#0D1406",
+   "pip": "#F2FFE0",
+   "roughness": 0.4,
+   "metalness": 0.0,
+   "emission": "#A3E635"
+  },
+  {
+   "id": "ultraviolet",
+   "name": {
+    "en": "Ultraviolet",
+    "ja": "ウルトラバイオレット",
+    "zh-Hans": "紫外光",
+    "ar": "فوق بنفسجي",
+    "he": "אולטרה-סגול",
+    "fr": "Ultraviolet",
+    "de": "Ultraviolett",
+    "es": "Ultravioleta",
+    "pt": "Ultravioleta"
+   },
+   "body": "#12081F",
+   "pip": "#EFE4FF",
+   "roughness": 0.4,
+   "metalness": 0.0,
+   "emission": "#8B5CF6"
+  }
+ ]
+}

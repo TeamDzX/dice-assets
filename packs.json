@@ -1,0 +1,413 @@
+{
+ "updated": "2026-07-05",
+ "categories": [
+  "dice",
+  "table",
+  "games"
+ ],
+ "packs": [
+  {
+   "id": "sakura-set",
+   "type": "dice",
+   "emoji": "🌸",
+   "name": {
+    "en": "Sakura Set",
+    "ja": "桜セット",
+    "zh-Hans": "樱花套装",
+    "ar": "طقم الساكورا",
+    "he": "ערכת סאקורה",
+    "fr": "Set Sakura",
+    "de": "Sakura-Set",
+    "es": "Set Sakura",
+    "pt": "Kit Sakura"
+   },
+   "tagline": {
+    "en": "Springtime dice, on the house",
+    "ja": "春爛漫のダイスを、無料でプレゼント",
+    "zh-Hans": "春日骰子，免费奉上",
+    "ar": "نرد الربيع، هدية منّا",
+    "he": "קוביות אביביות, על חשבון הבית",
+    "fr": "Des dés printaniers, offerts par la maison",
+    "de": "Frühlingswürfel – geschenkt",
+    "es": "Dados de primavera, por cuenta de la casa",
+    "pt": "Dados de primavera, por conta da casa"
+   },
+   "description": {
+    "en": "Three hand-finished seasonal dice inspired by Japanese spring: soft sakura pink, wisteria purple, and matcha green. A free gift — enjoy!",
+    "ja": "日本の春をイメージした、手仕上げの季節限定ダイス3種。やわらかな桜ピンク、上品な藤むらさき、落ち着いた抹茶グリーン。無料の贈り物です——どうぞお楽しみください!",
+    "zh-Hans": "三枚手工打磨的季节限定骰子，灵感源自日本春色：柔美樱粉、淡雅藤紫、清新抹茶绿。免费赠礼，敬请享用！",
+    "ar": "ثلاثة أحجار نرد موسمية بلمسة يدوية مستوحاة من الربيع الياباني: وردي الساكورا الناعم، وبنفسجي الوستارية، وأخضر الماتشا. هدية مجانية — استمتعوا بها!",
+    "he": "שלוש קוביות עונתיות בגימור יד בהשראת האביב היפני: ורוד סאקורה רך, סגול ויסטריה וירוק מאצ'ה. מתנה חינם — תיהנו!",
+    "fr": "Trois dés de saison aux finitions soignées, inspirés du printemps japonais : rose sakura délicat, violet glycine et vert matcha. Un cadeau gratuit — profitez-en !",
+    "de": "Drei handveredelte Saisonwürfel, inspiriert vom japanischen Frühling: zartes Sakura-Rosa, Glyzinien-Lila und Matcha-Grün. Ein Geschenk für dich – viel Freude!",
+    "es": "Tres dados de temporada con acabado artesanal inspirados en la primavera japonesa: rosa sakura suave, morado glicina y verde matcha. Un regalo gratis. ¡Disfrútalos!",
+    "pt": "Três dados sazonais com acabamento artesanal inspirados na primavera japonesa: rosa sakura suave, roxo glicínia e verde matchá. Um presente gratuito — aproveite!"
+   },
+   "tags": [
+    "japan",
+    "seasonal",
+    "free"
+   ],
+   "iconSymbol": "leaf.fill",
+   "iconColor": "pink",
+   "version": 1,
+   "featured": true,
+   "productId": null,
+   "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/sakura-set.jpg",
+   "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/sakura-set.json",
+   "sizeKB": 1
+  },
+  {
+   "id": "metal-works",
+   "type": "dice",
+   "emoji": "⚙️",
+   "name": {
+    "en": "Metal Works",
+    "ja": "メタルワークス",
+    "zh-Hans": "金属工坊",
+    "ar": "روائع المعدن",
+    "he": "מטאל וורקס",
+    "fr": "Forge Métal",
+    "de": "Metallwerk",
+    "es": "Metalurgia",
+    "pt": "Metais"
+   },
+   "tagline": {
+    "en": "Forged, brushed, and polished",
+    "ja": "鍛えて、磨いて、輝かせて",
+    "zh-Hans": "锻造、拉丝、抛光",
+    "ar": "مطروقة ومصقولة ولامعة",
+    "he": "מחושל, מוברש ומלוטש",
+    "fr": "Forgés, brossés et polis",
+    "de": "Geschmiedet, gebürstet, poliert",
+    "es": "Forjados, cepillados y pulidos",
+    "pt": "Forjados, escovados e polidos"
+   },
+   "description": {
+    "en": "Four metallic dice with real shine: polished silver, deep gunmetal, warm rose gold, and antique copper. Watch the light play as they tumble.",
+    "ja": "本物の輝きを放つメタリックダイス4種。磨き上げたシルバー、深みのあるガンメタル、あたたかなローズゴールド、味わい深いアンティークカッパー。転がるたびにきらめく光をお楽しみください。",
+    "zh-Hans": "四枚金属质感骰子，光泽真实动人：锃亮白银、深沉枪灰、温润玫瑰金、复古紫铜。翻滚之间，尽赏流光溢彩。",
+    "ar": "أربعة أحجار نرد معدنية ببريق حقيقي: فضة مصقولة، ورمادي معدني داكن، وذهب وردي دافئ، ونحاس عتيق. راقب الضوء وهو يتراقص عليها كلما تدحرجت.",
+    "he": "ארבע קוביות מתכתיות עם ברק אמיתי: כסף מלוטש, אפור-פלדה עמוק, זהב ורדרד חמים ונחושת עתיקה. צפו במשחק האור בזמן שהן מתגלגלות.",
+    "fr": "Quatre dés métalliques au brillant authentique : argent poli, gris canon de fusil profond, or rose chaleureux et cuivre antique. Admirez les jeux de lumière à chaque lancer.",
+    "de": "Vier Metallwürfel mit echtem Glanz: poliertes Silber, dunkles Gunmetal, warmes Roségold und antikes Kupfer. Sieh zu, wie das Licht beim Rollen über sie tanzt.",
+    "es": "Cuatro dados metálicos con brillo auténtico: plata pulida, gris acero profundo, cálido oro rosa y cobre envejecido. Observa cómo juega la luz mientras ruedan.",
+    "pt": "Quatro dados metálicos com brilho de verdade: prata polida, cinza-chumbo profundo, ouro rosê acolhedor e cobre envelhecido. Veja a luz dançar enquanto eles rolam."
+   },
+   "tags": [
+    "metal",
+    "premium"
+   ],
+   "iconSymbol": "gearshape.2.fill",
+   "iconColor": "teal",
+   "version": 1,
+   "featured": false,
+   "productId": "TeamDZX.dice.pack.dicestyles",
+   "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/metal-works.jpg",
+   "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/metal-works.json",
+   "sizeKB": 1
+  },
+  {
+   "id": "gemstones",
+   "type": "dice",
+   "emoji": "💎",
+   "name": {
+    "en": "Gemstones",
+    "ja": "ジェムストーン",
+    "zh-Hans": "宝石套装",
+    "ar": "الأحجار الكريمة",
+    "he": "אבני חן",
+    "fr": "Pierres Précieuses",
+    "de": "Edelsteine",
+    "es": "Gemas",
+    "pt": "Pedras Preciosas"
+   },
+   "tagline": {
+    "en": "Precious stones, perfect rolls",
+    "ja": "宝石の輝き、完璧なひと振り",
+    "zh-Hans": "珍稀宝石，完美一掷",
+    "ar": "أحجار ثمينة ورميات مثالية",
+    "he": "אבנים יקרות, הטלות מושלמות",
+    "fr": "Des pierres précieuses, des lancers parfaits",
+    "de": "Edle Steine, perfekte Würfe",
+    "es": "Piedras preciosas, tiradas perfectas",
+    "pt": "Pedras preciosas, jogadas perfeitas"
+   },
+   "description": {
+    "en": "Four gem-cut dice with a jeweller's finish: imperial jade, midnight obsidian, royal sapphire, and blood-red ruby.",
+    "ja": "宝飾職人の仕上げが光る、ジェムカットのダイス4種。気品ある翡翠、漆黒の黒曜石、高貴なサファイア、深紅のルビー。",
+    "zh-Hans": "四枚宝石切割骰子，尽显珠宝级工艺：帝王翡翠、午夜黑曜石、皇家蓝宝石、血色红宝石。",
+    "ar": "أربعة أحجار نرد بقصّة الجواهر ولمسة الصائغ الأخيرة: يشم إمبراطوري، وسبج بلون منتصف الليل، وياقوت أزرق ملكي، وياقوت أحمر قانٍ.",
+    "he": "ארבע קוביות בליטוש יהלומן: ירקן קיסרי, אובסידיאן חצות, ספיר מלכותי ואודם אדום-דם.",
+    "fr": "Quatre dés taillés comme des gemmes, avec une finition de joaillier : jade impérial, obsidienne de minuit, saphir royal et rubis rouge sang.",
+    "de": "Vier Würfel im Edelsteinschliff mit Juwelier-Finish: kaiserliche Jade, mitternachtsschwarzer Obsidian, königlicher Saphir und blutroter Rubin.",
+    "es": "Cuatro dados tallados como gemas con acabado de joyería: jade imperial, obsidiana de medianoche, zafiro real y rubí rojo sangre.",
+    "pt": "Quatro dados lapidados com acabamento de joalheria: jade imperial, obsidiana da meia-noite, safira real e rubi vermelho-sangue."
+   },
+   "tags": [
+    "gems",
+    "premium"
+   ],
+   "iconSymbol": "diamond.fill",
+   "iconColor": "indigo",
+   "version": 1,
+   "featured": false,
+   "productId": "TeamDZX.dice.pack.dicestyles",
+   "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/gemstones.jpg",
+   "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/gemstones.json",
+   "sizeKB": 1
+  },
+  {
+   "id": "neon-glow",
+   "type": "dice",
+   "emoji": "🌈",
+   "name": {
+    "en": "Neon Glow",
+    "ja": "ネオングロウ",
+    "zh-Hans": "霓虹光辉",
+    "ar": "وهج النيون",
+    "he": "זוהר ניאון",
+    "fr": "Éclat Néon",
+    "de": "Neonlicht",
+    "es": "Neón",
+    "pt": "Brilho Neon"
+   },
+   "tagline": {
+    "en": "Dice that light up the night",
+    "ja": "夜を照らす、光るダイス",
+    "zh-Hans": "点亮黑夜的骰子",
+    "ar": "نرد يضيء الليل",
+    "he": "קוביות שמאירות את הלילה",
+    "fr": "Des dés qui illuminent la nuit",
+    "de": "Würfel, die die Nacht erleuchten",
+    "es": "Dados que iluminan la noche",
+    "pt": "Dados que iluminam a noite"
+   },
+   "description": {
+    "en": "Four electric dice that glow from within: hot pink, cyber cyan, laser lime, and ultraviolet. Perfect on the marble table in a dark room.",
+    "ja": "内側から光を放つエレクトリックなダイス4種。ホットピンク、サイバーシアン、レーザーライム、ウルトラバイオレット。暗い部屋の大理石テーブルで映えること間違いなし。",
+    "zh-Hans": "四枚自内而外发光的电感骰子：炽热粉、赛博青、激光青柠、紫外光。在暗室的大理石桌面上掷出，效果惊艳。",
+    "ar": "أربعة أحجار نرد كهربائية تتوهج من الداخل: وردي صارخ، وسماوي سايبر، وليموني ليزري، وفوق بنفسجي. مثالية على طاولة الرخام في غرفة مظلمة.",
+    "he": "ארבע קוביות חשמליות שזוהרות מבפנים: ורוד לוהט, ציאן סייבר, ליים לייזר ואולטרה-סגול. מושלמות על שולחן השיש בחדר חשוך.",
+    "fr": "Quatre dés électriques qui brillent de l'intérieur : rose fluo, cyan cyber, citron laser et ultraviolet. Parfaits sur la table en marbre, dans une pièce sombre.",
+    "de": "Vier elektrisierende Würfel, die von innen leuchten: knalliges Pink, Cyber-Cyan, Laser-Limette und Ultraviolett. Perfekt auf dem Marmortisch im dunklen Raum.",
+    "es": "Cuatro dados eléctricos que brillan desde dentro: rosa intenso, cian cibernético, lima láser y ultravioleta. Perfectos sobre la mesa de mármol en una sala a oscuras.",
+    "pt": "Quatro dados elétricos que brilham por dentro: rosa choque, ciano cibernético, verde-limão laser e ultravioleta. Perfeitos na mesa de mármore em um ambiente escuro."
+   },
+   "tags": [
+    "neon",
+    "glow",
+    "premium"
+   ],
+   "iconSymbol": "bolt.fill",
+   "iconColor": "purple",
+   "version": 1,
+   "featured": false,
+   "productId": "TeamDZX.dice.pack.dicestyles",
+   "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/neon-glow.jpg",
+   "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/neon-glow.json",
+   "sizeKB": 1
+  },
+  {
+   "id": "tatami-room",
+   "type": "table",
+   "emoji": "🎋",
+   "name": {
+    "en": "Tatami Room",
+    "ja": "和室セット",
+    "zh-Hans": "榻榻米和室",
+    "ar": "غرفة التاتامي",
+    "he": "חדר טאטאמי",
+    "fr": "Salon Tatami",
+    "de": "Tatami-Zimmer",
+    "es": "Sala de tatami",
+    "pt": "Sala de Tatame"
+   },
+   "tagline": {
+    "en": "Roll like it's a ryokan",
+    "ja": "旅館気分で、ひと振り",
+    "zh-Hans": "宛如置身日式旅馆",
+    "ar": "ارمِ النرد كأنك في ريوكان ياباني",
+    "he": "לגלגל כמו בריוקאן",
+    "fr": "Lancez vos dés comme dans un ryokan",
+    "de": "Würfeln wie im Ryokan",
+    "es": "Tira como si estuvieras en un ryokan",
+    "pt": "Jogue como se estivesse em um ryokan"
+   },
+   "description": {
+    "en": "Bring the calm of a Japanese tatami room to your table, complete with a soft woven-straw surface that gently deadens each roll. Free for everyone.",
+    "ja": "日本の和室の静けさをあなたのテーブルへ。やわらかな畳の目がダイスの音を心地よく吸い込みます。どなたでも無料でお使いいただけます。",
+    "zh-Hans": "将日式榻榻米和室的宁静带上桌面，柔软的草编表面轻轻吸收每一次掷骰的声响。人人免费。",
+    "ar": "أضِف هدوء غرفة التاتامي اليابانية إلى طاولتك، مع سطح ناعم من القش المنسوج يكتم صوت كل رمية بلطف. مجاني للجميع.",
+    "he": "הביאו את השלווה של חדר טאטאמי יפני אל השולחן שלכם, כולל משטח קש ארוג ורך שמרכך בעדינות כל הטלה. חינם לכולם.",
+    "fr": "Apportez le calme d'une pièce en tatami japonaise à votre table, avec une surface de paille tressée toute douce qui amortit délicatement chaque lancer. Gratuit pour tous.",
+    "de": "Hol dir die Ruhe eines japanischen Tatami-Zimmers an deinen Tisch – mit einer weichen, geflochtenen Strohmatte, die jeden Wurf sanft abdämpft. Kostenlos für alle.",
+    "es": "Lleva a tu mesa la calma de una sala de tatami japonesa, con una suave superficie de paja tejida que amortigua delicadamente cada tirada. Gratis para todos.",
+    "pt": "Traga a calma de uma sala de tatame japonesa para a sua mesa, com uma superfície macia de palha trançada que amortece suavemente cada jogada. Grátis para todos."
+   },
+   "tags": [
+    "japan",
+    "free"
+   ],
+   "iconSymbol": "square.grid.3x3.square",
+   "iconColor": "green",
+   "version": 1,
+   "featured": true,
+   "productId": null,
+   "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/tatami-room.jpg",
+   "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/tatami-room.json",
+   "sizeKB": 1
+  },
+  {
+   "id": "casino-night",
+   "type": "table",
+   "emoji": "🎰",
+   "name": {
+    "en": "Casino Night",
+    "ja": "カジノナイト",
+    "zh-Hans": "赌场之夜",
+    "ar": "ليلة الكازينو",
+    "he": "ליל קזינו",
+    "fr": "Soirée Casino",
+    "de": "Casino-Nacht",
+    "es": "Noche de casino",
+    "pt": "Noite de Cassino"
+   },
+   "tagline": {
+    "en": "The house always feels right",
+    "ja": "本場カジノの空気を、そのまま",
+    "zh-Hans": "庄家的感觉，就是对味",
+    "ar": "إحساس الكازينو الأصيل في كل رمية",
+    "he": "הבית תמיד מרגיש נכון",
+    "fr": "La maison a toujours raison",
+    "de": "Die Bank fühlt sich immer richtig an",
+    "es": "La banca siempre sienta bien",
+    "pt": "A banca sempre cai bem"
+   },
+   "description": {
+    "en": "Three professional casino surfaces: classic red baize, deep navy baize, and a polished walnut rail. Tuned physics give each table its own bounce.",
+    "ja": "プロ仕様のカジノテーブル3種。クラシックな赤ラシャ、深いネイビーラシャ、磨き上げたウォールナットのレール。テーブルごとに調整された物理挙動で、それぞれ異なる跳ね方を楽しめます。",
+    "zh-Hans": "三种专业赌场桌面：经典红呢绒、深海军蓝呢绒、抛光胡桃木围栏。精心调校的物理效果，让每张桌子都有独特的弹跳手感。",
+    "ar": "ثلاثة أسطح كازينو احترافية: جوخ أحمر كلاسيكي، وجوخ كحلي عميق، وحافة من خشب الجوز المصقول. فيزياء مضبوطة بدقة تمنح كل طاولة ارتدادها الخاص.",
+    "he": "שלושה משטחי קזינו מקצועיים: לבד אדום קלאסי, לבד כחול-נייבי עמוק ומעקה אגוז מלוטש. פיזיקה מכוונת מעניקה לכל שולחן קפיצה משלו.",
+    "fr": "Trois surfaces de casino professionnelles : tapis rouge classique, tapis bleu marine profond et rebord en noyer poli. Une physique ajustée donne à chaque table son propre rebond.",
+    "de": "Drei professionelle Casino-Oberflächen: klassisches rotes Tuch, tiefblaues Tuch und eine polierte Nussbaum-Bande. Fein abgestimmte Physik verleiht jedem Tisch seinen eigenen Sprung.",
+    "es": "Tres superficies profesionales de casino: tapete rojo clásico, tapete azul marino profundo y un borde de nogal pulido. Una física ajustada le da a cada mesa su propio rebote.",
+    "pt": "Três superfícies profissionais de cassino: feltro vermelho clássico, feltro azul-marinho profundo e uma borda de nogueira polida. A física ajustada dá a cada mesa seu próprio quique."
+   },
+   "tags": [
+    "casino",
+    "premium"
+   ],
+   "iconSymbol": "suit.club.fill",
+   "iconColor": "red",
+   "version": 1,
+   "featured": false,
+   "productId": "TeamDZX.dice.pack.tables",
+   "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/casino-night.jpg",
+   "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/casino-night.json",
+   "sizeKB": 1
+  },
+  {
+   "id": "party-night",
+   "type": "games",
+   "emoji": "🏮",
+   "name": {
+    "en": "Party Night Pack",
+    "ja": "パーティーナイトパック",
+    "zh-Hans": "派对之夜包",
+    "ar": "حزمة ليلة السهر",
+    "he": "חבילת ליל מסיבה",
+    "fr": "Pack Soirée Festive",
+    "de": "Partynacht-Paket",
+    "es": "Pack Noche de fiesta",
+    "pt": "Pacote Noite de Festa"
+   },
+   "tagline": {
+    "en": "Three izakaya crowd-pleasers",
+    "ja": "居酒屋で盛り上がる定番3種",
+    "zh-Hans": "三款居酒屋人气游戏",
+    "ar": "ثلاث ألعاب تشعل أجواء الإيزاكايا",
+    "he": "שלושה להיטי איזקאיה",
+    "fr": "Trois valeurs sûres de l'izakaya",
+    "de": "Drei Izakaya-Klassiker für die Runde",
+    "es": "Tres éxitos de izakaya",
+    "pt": "Três sucessos de izakaya"
+   },
+   "description": {
+    "en": "Three fast, loud, luck-and-nerve dice games straight from the izakaya table: Chinchirorin, Cee-lo, and Drop Dead. Full illustrated rules included.",
+    "ja": "居酒屋の席そのままの、スピーディーで熱くなれる運と度胸のダイスゲーム3種。チンチロリン、シーロー、ドロップデッド。イラスト付きの詳しいルールも収録しています。",
+    "zh-Hans": "三款节奏快、气氛热、拼运气也拼胆量的骰子游戏，直接来自居酒屋的酒桌：亲亲罗林（Chinchirorin）、四五六（Cee-lo）和一败涂地（Drop Dead）。附完整图解规则。",
+    "ar": "ثلاث ألعاب نرد سريعة وصاخبة تجمع بين الحظ والجرأة، قادمة مباشرة من طاولات الإيزاكايا اليابانية: تشينتشيرورين، وسي-لو، ودروب ديد. مع قواعد كاملة مصوّرة.",
+    "he": "שלושה משחקי קוביות מהירים, רועשים, של מזל ועצבי ברזל היישר משולחן האיזקאיה: צ'ינצ'ירורין, סי-לו ודרופ דד. כולל חוקים מלאים ומאוירים.",
+    "fr": "Trois jeux de dés rapides, bruyants, entre chance et sang-froid, tout droit venus des tables d'izakaya : Chinchirorin, Cee-lo et Drop Dead. Règles complètes illustrées incluses.",
+    "de": "Drei schnelle, laute Würfelspiele voller Glück und Nervenkitzel, direkt vom Izakaya-Tisch: Chinchirorin, Cee-lo und Drop Dead. Komplette illustrierte Regeln inklusive.",
+    "es": "Tres juegos de dados rápidos, ruidosos y de pura suerte y sangre fría, directos de la mesa de un izakaya: Chinchirorin, Cee-lo y Drop Dead. Incluye reglas completas ilustradas.",
+    "pt": "Três jogos de dados rápidos, animados, de sorte e ousadia, direto da mesa do izakaya: Chinchirorin, Cee-lo e Drop Dead. Regras completas e ilustradas incluídas."
+   },
+   "tags": [
+    "party",
+    "japan",
+    "premium"
+   ],
+   "iconSymbol": "flame.fill",
+   "iconColor": "orange",
+   "version": 1,
+   "featured": false,
+   "productId": "TeamDZX.dice.pack.partynight",
+   "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/party-night.jpg",
+   "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/party-night.json",
+   "sizeKB": 19
+  },
+  {
+   "id": "tavern-classics",
+   "type": "games",
+   "emoji": "🍺",
+   "name": {
+    "en": "Tavern Classics",
+    "ja": "タバーンクラシックス",
+    "zh-Hans": "酒馆经典",
+    "ar": "كلاسيكيات الحانة",
+    "he": "קלאסיקות הפאב",
+    "fr": "Classiques de Taverne",
+    "de": "Wirtshaus-Klassiker",
+    "es": "Clásicos de taberna",
+    "pt": "Clássicos de Taverna"
+   },
+   "tagline": {
+    "en": "Centuries-old pub favourites",
+    "ja": "何世紀も愛されるパブの定番",
+    "zh-Hans": "流传数百年的酒馆名作",
+    "ar": "ألعاب حانات عريقة عمرها قرون",
+    "he": "משחקי פאב אהובים בני מאות שנים",
+    "fr": "Des jeux de pub vieux de plusieurs siècles",
+    "de": "Jahrhundertealte Kneipenfavoriten",
+    "es": "Favoritos de pub con siglos de historia",
+    "pt": "Favoritos de bar com séculos de história"
+   },
+   "description": {
+    "en": "Three timeless tavern games — Shut the Box, Threes, and Going to Boston — with complete rules for game night.",
+    "ja": "時代を超えて愛される酒場のゲーム3種——シャット・ザ・ボックス、スリーズ、ゴーイング・トゥ・ボストン。ゲームナイトにぴったりの完全ルール付きです。",
+    "zh-Hans": "三款经久不衰的酒馆游戏——关盒子（Shut the Box）、逢三清零（Threes）和波士顿之旅（Going to Boston），附完整规则，游戏之夜必备。",
+    "ar": "ثلاث ألعاب حانة خالدة — شَت ذا بوكس، وثريز، وغوينغ تو بوسطن — مع قواعد كاملة لأمسيات اللعب.",
+    "he": "שלושה משחקי פאב על-זמניים — סגור את הקופסה, שלשות ונוסעים לבוסטון — עם חוקים מלאים לערב משחקים.",
+    "fr": "Trois jeux de taverne intemporels — Shut the Box (« Ferme la boîte »), Threes et En route pour Boston — avec des règles complètes pour vos soirées jeux.",
+    "de": "Drei zeitlose Wirtshausspiele – Shut the Box, Threes und Nach Boston – mit vollständigen Regeln für deinen Spieleabend.",
+    "es": "Tres juegos de taberna atemporales — Cierra la caja, Treses y Rumbo a Boston — con reglas completas para tu noche de juegos.",
+    "pt": "Três jogos de taverna atemporais — Feche a Caixa, Trios e Rumo a Boston — com regras completas para a sua noite de jogos."
+   },
+   "tags": [
+    "classic",
+    "premium"
+   ],
+   "iconSymbol": "mug.fill",
+   "iconColor": "yellow",
+   "version": 1,
+   "featured": false,
+   "productId": "TeamDZX.dice.pack.tavernclassics",
+   "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/tavern-classics.jpg",
+   "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/tavern-classics.json",
+   "sizeKB": 19
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "packs": {
+  "sakura-set": {
+   "name": "Sakura-Set",
+   "tagline": "Frühlingswürfel – geschenkt",
+   "description": "Drei handveredelte Saisonwürfel, inspiriert vom japanischen Frühling: zartes Sakura-Rosa, Glyzinien-Lila und Matcha-Grün. Ein Geschenk für dich – viel Freude!"
+  },
+  "metal-works": {
+   "name": "Metallwerk",
+   "tagline": "Geschmiedet, gebürstet, poliert",
+   "description": "Vier Metallwürfel mit echtem Glanz: poliertes Silber, dunkles Gunmetal, warmes Roségold und antikes Kupfer. Sieh zu, wie das Licht beim Rollen über sie tanzt."
+  },
+  "gemstones": {
+   "name": "Edelsteine",
+   "tagline": "Edle Steine, perfekte Würfe",
+   "description": "Vier Würfel im Edelsteinschliff mit Juwelier-Finish: kaiserliche Jade, mitternachtsschwarzer Obsidian, königlicher Saphir und blutroter Rubin."
+  },
+  "neon-glow": {
+   "name": "Neonlicht",
+   "tagline": "Würfel, die die Nacht erleuchten",
+   "description": "Vier elektrisierende Würfel, die von innen leuchten: knalliges Pink, Cyber-Cyan, Laser-Limette und Ultraviolett. Perfekt auf dem Marmortisch im dunklen Raum."
+  },
+  "tatami-room": {
+   "name": "Tatami-Zimmer",
+   "tagline": "Würfeln wie im Ryokan",
+   "description": "Hol dir die Ruhe eines japanischen Tatami-Zimmers an deinen Tisch – mit einer weichen, geflochtenen Strohmatte, die jeden Wurf sanft abdämpft. Kostenlos für alle."
+  },
+  "casino-night": {
+   "name": "Casino-Nacht",
+   "tagline": "Die Bank fühlt sich immer richtig an",
+   "description": "Drei professionelle Casino-Oberflächen: klassisches rotes Tuch, tiefblaues Tuch und eine polierte Nussbaum-Bande. Fein abgestimmte Physik verleiht jedem Tisch seinen eigenen Sprung."
+  },
+  "party-night": {
+   "name": "Partynacht-Paket",
+   "tagline": "Drei Izakaya-Klassiker für die Runde",
+   "description": "Drei schnelle, laute Würfelspiele voller Glück und Nervenkitzel, direkt vom Izakaya-Tisch: Chinchirorin, Cee-lo und Drop Dead. Komplette illustrierte Regeln inklusive."
+  },
+  "tavern-classics": {
+   "name": "Wirtshaus-Klassiker",
+   "tagline": "Jahrhundertealte Kneipenfavoriten",
+   "description": "Drei zeitlose Wirtshausspiele – Shut the Box, Threes und Nach Boston – mit vollständigen Regeln für deinen Spieleabend."
+  }
+ },
+ "styles": {
+  "Sakura": "Sakura",
+  "Wisteria": "Glyzinie",
+  "Matcha": "Matcha",
+  "Silver": "Silber",
+  "Gunmetal": "Gunmetal",
+  "Rose Gold": "Roségold",
+  "Copper": "Kupfer",
+  "Jade": "Jade",
+  "Obsidian": "Obsidian",
+  "Sapphire": "Saphir",
+  "Ruby": "Rubin",
+  "Neon Pink": "Neonpink",
+  "Cyber Cyan": "Cyber-Cyan",
+  "Laser Lime": "Laser-Limette",
+  "Ultraviolet": "Ultraviolett",
+  "Tatami": "Tatami",
+  "Red Baize": "Rotes Tuch",
+  "Navy Baize": "Blaues Tuch",
+  "Walnut": "Nussbaum"
+ },
+ "games": {
+  "chinchirorin": {
+   "name": "Chinchirorin",
+   "summary": "Das klassische japanische Schalenspiel. Drei Würfel, bis zu drei Würfe – bilde ein Paar und punkte mit dem dritten Würfel!",
+   "rules": [
+    "Jeder Spieler zahlt seinen Einsatz in den Pot, dann sind die Spieler abwechselnd als Werfer an der Reihe.",
+    "Wirf drei Würfel in eine Schale. Springt ein Würfel heraus, zählt der Wurf als Fehlwurf.",
+    "Du hast bis zu drei Würfe, um eine Hand zu bilden: ein Paar plus ein einzelner Würfel – der einzelne Würfel ist deine Punktzahl.",
+    "Sonderhände: 4-5-6 gewinnt sofort, 1-2-3 verliert sofort, und Drillinge schlagen jede normale Punktzahl.",
+    "Drei Fehlwürfe in Folge bedeuten eine automatische Niederlage. Die höchste Hand gewinnt den Pot."
+   ]
+  },
+  "cee-lo": {
+   "name": "Cee-lo",
+   "summary": "Ein Straßenklassiker voller Sofortsiege, Sofortniederlagen und purer Nervenstärke.",
+   "rules": [
+    "Die Spieler würfeln abwechselnd mit drei Würfeln, bis eine wertbare Kombination erscheint.",
+    "4-5-6 gewinnt sofort; 1-2-3 verliert sofort.",
+    "Ein Paar plus ein einzelner Würfel legt deinen Punktwert fest – der einzelne Würfel ist deine Punktzahl.",
+    "Drillinge schlagen jeden Punktwert, und höhere Drillinge schlagen niedrigere.",
+    "Der Bankhalter tritt gegen jeden Herausforderer einzeln an; die höhere Hand gewinnt den Einsatz."
+   ]
+  },
+  "drop-dead": {
+   "name": "Drop Dead",
+   "summary": "Ein fröhliches Spiel ums Durchhalten – würfle weiter, bis deine Würfel tot umfallen.",
+   "rules": [
+    "Wirf alle fünf Würfel. Zeigt keiner eine 2 oder 5, addiere die Summe zu deiner Punktzahl und wirf alle fünf erneut.",
+    "Erscheint eine 2 oder 5, bekommst du für diesen Wurf keine Punkte, und diese Würfel werden aus dem Spiel genommen.",
+    "Würfle mit den verbleibenden Würfeln weiter – jeder Wurf mit einer 2 oder 5 kostet dich diese Würfel.",
+    "Zeigt dein letzter Würfel eine 2 oder 5, bist du 'tot' und dein Zug endet.",
+    "Wer nach allen Zügen die höchste Gesamtpunktzahl hat, gewinnt."
+   ]
+  },
+  "shut-the-box": {
+   "name": "Shut the Box",
+   "summary": "Der jahrhundertealte Kneipenklassiker: Zahlen schließen und Strafpunkte vermeiden.",
+   "rules": [
+    "Schreibe die Zahlen 1 bis 9 gut sichtbar auf; jeder Spieler beginnt seinen Zug mit allen neun offenen Zahlen.",
+    "Wirf zwei Würfel und schließe beliebige offene Zahlen, die zusammen genau die Wurfsumme ergeben (eine 9 kann die 9 schließen, oder 6+3, oder 5+3+1).",
+    "Würfle weiter und schließe Zahlen. Sobald 7, 8 und 9 geschlossen sind, darfst du stattdessen mit nur einem Würfel werfen.",
+    "Kannst du mit einem Wurf nichts mehr schließen, endet dein Zug – die Summe deiner noch offenen Zahlen sind deine Strafpunkte.",
+    "Schließe alle neun Zahlen, um die 'Box zu schließen' und sofort zu gewinnen; andernfalls gewinnt nach einer vollen Runde, wer die wenigsten Strafpunkte hat."
+   ]
+  },
+  "threes": {
+   "name": "Threes",
+   "summary": "Niedrige Würfe gewinnen, und Dreien sind Gold wert – sie zählen null.",
+   "rules": [
+    "Wirf fünf Würfel. Dreien zählen null; jeder andere Würfel zählt seinen Augenwert.",
+    "Nach jedem Wurf musst du mindestens einen Würfel beiseitelegen.",
+    "Wirf die verbleibenden Würfel erneut, bis alle fünf beiseitegelegt sind.",
+    "Deine Punktzahl ist die Summe deiner behaltenen Würfel – die niedrigste Punktzahl gewinnt die Runde.",
+    "Spielt fünf Runden; die niedrigste Gesamtsumme gewinnt das Spiel."
+   ]
+  },
+  "going-to-boston": {
+   "name": "Nach Boston",
+   "summary": "Ein schnelles Rennen mit drei Würfeln, das jeder in einer einzigen Runde lernt.",
+   "rules": [
+    "Wirf drei Würfel und lege den höchsten beiseite.",
+    "Wirf die verbleibenden zwei Würfel und lege wieder den höchsten beiseite.",
+    "Wirf den letzten Würfel – die Summe deiner drei behaltenen Würfel ist deine Punktzahl.",
+    "Jeder Spieler würfelt der Reihe nach; die höchste Punktzahl gewinnt die Runde.",
+    "Wer zuerst eine vereinbarte Anzahl an Runden gewinnt – fünf sind ein guter Wert –, gewinnt das Spiel."
+   ]
+  }
+ }
+}

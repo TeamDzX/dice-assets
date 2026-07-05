@@ -1,0 +1,262 @@
+{
+ "id": "tavern-classics",
+ "type": "games",
+ "version": 1,
+ "games": [
+  {
+   "id": "shut-the-box",
+   "icon": "square.grid.3x3.fill",
+   "diceNeeded": 2,
+   "players": "2+",
+   "name": {
+    "en": "Shut the Box",
+    "ja": "シャット・ザ・ボックス",
+    "zh-Hans": "关盒子（Shut the Box）",
+    "ar": "شَت ذا بوكس",
+    "he": "סגור את הקופסה",
+    "fr": "Shut the Box",
+    "de": "Shut the Box",
+    "es": "Cierra la caja",
+    "pt": "Feche a Caixa"
+   },
+   "summary": {
+    "en": "The centuries-old pub favourite of closing numbers and dodging penalties.",
+    "ja": "数字を閉じてペナルティを避ける、何世紀も愛されるパブの定番ゲームです。",
+    "zh-Hans": "流传数百年的酒馆名作：关闭数字，躲避罚分。",
+    "ar": "اللعبة المفضلة في الحانات منذ قرون: أغلق الأرقام وتجنّب نقاط العقوبة.",
+    "he": "משחק הפאב האהוב בן מאות השנים של סגירת מספרים והתחמקות מקנסות.",
+    "fr": "Le célèbre jeu de pub séculaire, aussi connu sous le nom de « Ferme la boîte » : fermez les chiffres et évitez les pénalités.",
+    "de": "Der jahrhundertealte Kneipenklassiker: Zahlen schließen und Strafpunkte vermeiden.",
+    "es": "El favorito de los pubs desde hace siglos: cierra números y esquiva las penalizaciones.",
+    "pt": "O favorito dos bares há séculos: feche números e escape das penalidades."
+   },
+   "rules": [
+    {
+     "en": "Write the numbers 1 to 9 where everyone can see them; each player starts a turn with all nine numbers open.",
+     "ja": "全員に見えるところに1から9の数字を書きます。各プレイヤーは9つの数字がすべて開いた状態で手番を始めます。",
+     "zh-Hans": "将数字 1 到 9 写在所有人都能看到的地方；每位玩家回合开始时，九个数字全部开启。",
+     "ar": "اكتب الأرقام من 1 إلى 9 في مكان يراه الجميع؛ ويبدأ كل لاعب دوره والأرقام التسعة كلها مفتوحة.",
+     "he": "רשמו את המספרים 1 עד 9 במקום שכולם רואים; כל שחקן מתחיל תור כשכל תשעת המספרים פתוחים.",
+     "fr": "Inscrivez les chiffres de 1 à 9 à la vue de tous ; chaque joueur commence son tour avec les neuf chiffres ouverts.",
+     "de": "Schreibe die Zahlen 1 bis 9 gut sichtbar auf; jeder Spieler beginnt seinen Zug mit allen neun offenen Zahlen.",
+     "es": "Escribe los números del 1 al 9 donde todos puedan verlos; cada jugador empieza su turno con los nueve números abiertos.",
+     "pt": "Anote os números de 1 a 9 em um lugar visível para todos; cada jogador começa a vez com os nove números abertos."
+    },
+    {
+     "en": "Roll two dice and close any open numbers that add up exactly to the total (a roll of 9 can close 9, or 6+3, or 5+3+1).",
+     "ja": "サイコロ2個を振り、合計とちょうど同じになるように開いている数字を閉じます(合計9なら「9」でも「6+3」でも「5+3+1」でも構いません)。",
+     "zh-Hans": "掷两枚骰子，关闭任意加起来恰好等于总点数的开启数字（掷出 9 可关闭 9，或 6+3，或 5+3+1）。",
+     "ar": "ارمِ حجري نرد وأغلق أي أرقام مفتوحة يساوي مجموعها الناتج تمامًا (رمية 9 يمكن أن تغلق 9، أو 6+3، أو 5+3+1).",
+     "he": "מטילים שתי קוביות וסוגרים מספרים פתוחים שסכומם שווה בדיוק לתוצאה (הטלה של 9 יכולה לסגור 9, או 6+3, או 5+3+1).",
+     "fr": "Lancez deux dés et fermez des chiffres ouverts dont la somme correspond exactement au total (un 9 permet de fermer le 9, ou 6+3, ou 5+3+1).",
+     "de": "Wirf zwei Würfel und schließe beliebige offene Zahlen, die zusammen genau die Wurfsumme ergeben (eine 9 kann die 9 schließen, oder 6+3, oder 5+3+1).",
+     "es": "Lanza dos dados y cierra cualquier número abierto que sume exactamente el total (una tirada de 9 puede cerrar el 9, o 6+3, o 5+3+1).",
+     "pt": "Lance dois dados e feche quaisquer números abertos que somem exatamente o total (um lance de 9 pode fechar o 9, ou 6+3, ou 5+3+1)."
+    },
+    {
+     "en": "Keep rolling and closing numbers. Once 7, 8 and 9 are all closed, you may choose to roll a single die instead.",
+     "ja": "振っては数字を閉じることを繰り返します。7・8・9がすべて閉じたら、以降はサイコロ1個で振ることを選べます。",
+     "zh-Hans": "不断掷骰并关闭数字。当 7、8、9 全部关闭后，你可以选择改掷一枚骰子。",
+     "ar": "واصل الرمي وإغلاق الأرقام. وبعد إغلاق 7 و8 و9 جميعها، يجوز لك اختيار رمي حجر واحد فقط.",
+     "he": "ממשיכים להטיל ולסגור מספרים. ברגע ש-7, 8 ו-9 סגורים כולם, מותר לבחור להטיל קובייה אחת בלבד.",
+     "fr": "Continuez à lancer et à fermer des chiffres. Une fois le 7, le 8 et le 9 fermés, vous pouvez choisir de lancer un seul dé.",
+     "de": "Würfle weiter und schließe Zahlen. Sobald 7, 8 und 9 geschlossen sind, darfst du stattdessen mit nur einem Würfel werfen.",
+     "es": "Sigue lanzando y cerrando números. Cuando el 7, el 8 y el 9 estén cerrados, puedes optar por lanzar un solo dado.",
+     "pt": "Continue lançando e fechando números. Quando 7, 8 e 9 estiverem todos fechados, você pode optar por lançar apenas um dado."
+    },
+    {
+     "en": "When you can't close anything with a roll, your turn ends — the sum of your remaining open numbers is your penalty.",
+     "ja": "出た目でどの数字も閉じられなくなったら手番終了です。残った開いている数字の合計があなたのペナルティになります。",
+     "zh-Hans": "当某次投掷无法关闭任何数字时，回合结束——剩余开启数字之和就是你的罚分。",
+     "ar": "إذا لم تستطع إغلاق أي رقم برمية ما، ينتهي دورك — ومجموع أرقامك المفتوحة المتبقية هو عقوبتك.",
+     "he": "כשאי אפשר לסגור שום דבר עם הטלה, התור נגמר — סכום המספרים שנותרו פתוחים הוא הקנס שלכם.",
+     "fr": "Quand un lancer ne vous permet plus de rien fermer, votre tour s'achève — la somme de vos chiffres encore ouverts constitue votre pénalité.",
+     "de": "Kannst du mit einem Wurf nichts mehr schließen, endet dein Zug – die Summe deiner noch offenen Zahlen sind deine Strafpunkte.",
+     "es": "Cuando no puedas cerrar nada con una tirada, tu turno termina: la suma de tus números abiertos restantes es tu penalización.",
+     "pt": "Quando não conseguir fechar nada com um lance, sua vez termina — a soma dos números que ficaram abertos é a sua penalidade."
+    },
+    {
+     "en": "Close all nine numbers to 'shut the box' and win instantly; otherwise the lowest penalty after a full round wins.",
+     "ja": "9つの数字をすべて閉じれば「シャット・ザ・ボックス」で即勝利!そうでなければ、1巡終了時にペナルティが最も少ないプレイヤーの勝ちです。",
+     "zh-Hans": "关闭全部九个数字即“关上盒子”，立即获胜；否则一整轮结束后罚分最低者获胜。",
+     "ar": "أغلق الأرقام التسعة كلها «لتغلق الصندوق» وتفوز فورًا؛ وإلا فصاحب أقل عقوبة بعد جولة كاملة هو الفائز.",
+     "he": "סגרו את כל תשעת המספרים כדי 'לסגור את הקופסה' ולנצח מיידית; אחרת, הקנס הנמוך ביותר אחרי סבב מלא מנצח.",
+     "fr": "Fermez les neuf chiffres pour « fermer la boîte » et gagner immédiatement ; sinon, la pénalité la plus faible après un tour complet l'emporte.",
+     "de": "Schließe alle neun Zahlen, um die 'Box zu schließen' und sofort zu gewinnen; andernfalls gewinnt nach einer vollen Runde, wer die wenigsten Strafpunkte hat.",
+     "es": "Cierra los nueve números para 'cerrar la caja' y ganar al instante; si no, gana la penalización más baja tras una ronda completa.",
+     "pt": "Feche os nove números para 'fechar a caixa' e vencer na hora; caso contrário, vence quem tiver a menor penalidade ao fim da rodada completa."
+    }
+   ]
+  },
+  {
+   "id": "threes",
+   "icon": "3.circle.fill",
+   "diceNeeded": 5,
+   "players": "1+",
+   "name": {
+    "en": "Threes",
+    "ja": "スリーズ",
+    "zh-Hans": "逢三清零（Threes）",
+    "ar": "ثريز",
+    "he": "שלשות",
+    "fr": "Threes",
+    "de": "Threes",
+    "es": "Treses",
+    "pt": "Trios"
+   },
+   "summary": {
+    "en": "Low rolls win, and threes are gold — they count as zero.",
+    "ja": "小さい目が勝ち、3は最強——なんと0点として数えます。",
+    "zh-Hans": "点数越低越好，3 是宝贝——它按零计算。",
+    "ar": "الرميات المنخفضة تفوز، والثلاثات كنز ثمين — فهي تُحسب صفرًا.",
+    "he": "הטלות נמוכות מנצחות, ושלשות שוות זהב — הן נחשבות אפס.",
+    "fr": "Les petits scores gagnent, et les 3 valent de l'or — ils comptent pour zéro.",
+    "de": "Niedrige Würfe gewinnen, und Dreien sind Gold wert – sie zählen null.",
+    "es": "Las tiradas bajas ganan, y los treses son oro: cuentan como cero.",
+    "pt": "Pontuações baixas vencem, e os 3 valem ouro — eles contam como zero."
+   },
+   "rules": [
+    {
+     "en": "Roll five dice. Threes count as zero; every other die counts at face value.",
+     "ja": "サイコロ5個を振ります。3は0点、それ以外の目はそのままの数で数えます。",
+     "zh-Hans": "掷出五枚骰子。3 按零计算；其余骰子按面值计算。",
+     "ar": "ارمِ خمسة أحجار نرد. الرقم 3 يُحسب صفرًا؛ وكل حجر آخر يُحسب بقيمته الظاهرة.",
+     "he": "מטילים חמש קוביות. שלשות נחשבות אפס; כל קובייה אחרת נחשבת בערכה הנקוב.",
+     "fr": "Lancez cinq dés. Les 3 comptent pour zéro ; chaque autre dé compte pour sa valeur faciale.",
+     "de": "Wirf fünf Würfel. Dreien zählen null; jeder andere Würfel zählt seinen Augenwert.",
+     "es": "Lanza cinco dados. Los treses cuentan como cero; los demás dados cuentan por su valor.",
+     "pt": "Lance cinco dados. Os 3 contam como zero; todos os outros dados valem o número mostrado."
+    },
+    {
+     "en": "After each roll you must set aside at least one die.",
+     "ja": "振るたびに、少なくとも1個のサイコロを残して確定させなければなりません。",
+     "zh-Hans": "每次投掷后，必须至少留下一枚骰子。",
+     "ar": "بعد كل رمية يجب أن تضع جانبًا حجرًا واحدًا على الأقل.",
+     "he": "אחרי כל הטלה חייבים להניח בצד לפחות קובייה אחת.",
+     "fr": "Après chaque lancer, vous devez mettre de côté au moins un dé.",
+     "de": "Nach jedem Wurf musst du mindestens einen Würfel beiseitelegen.",
+     "es": "Después de cada tirada debes apartar al menos un dado.",
+     "pt": "Após cada lance, você deve separar pelo menos um dado."
+    },
+    {
+     "en": "Re-roll the remaining dice until all five have been set aside.",
+     "ja": "5個すべてを確定させるまで、残りのサイコロを振り直します。",
+     "zh-Hans": "重掷剩余的骰子，直到五枚全部留定。",
+     "ar": "أعد رمي الأحجار المتبقية حتى تكون الأحجار الخمسة كلها قد وُضعت جانبًا.",
+     "he": "מטילים מחדש את הקוביות שנותרו עד שכל החמש הונחו בצד.",
+     "fr": "Relancez les dés restants jusqu'à ce que les cinq soient mis de côté.",
+     "de": "Wirf die verbleibenden Würfel erneut, bis alle fünf beiseitegelegt sind.",
+     "es": "Vuelve a lanzar los dados restantes hasta haber apartado los cinco.",
+     "pt": "Relance os dados restantes até que os cinco tenham sido separados."
+    },
+    {
+     "en": "Your score is the total of your kept dice — the lowest score wins the round.",
+     "ja": "確定したサイコロの合計があなたの得点です。合計が最も小さいプレイヤーがそのラウンドの勝者です。",
+     "zh-Hans": "留下骰子的总点数就是你的得分——本轮得分最低者获胜。",
+     "ar": "نقاطك هي مجموع الأحجار التي احتفظت بها — وأقل نقاط تفوز بالجولة.",
+     "he": "הניקוד שלכם הוא סכום הקוביות ששמרתם — הניקוד הנמוך ביותר מנצח בסיבוב.",
+     "fr": "Votre score est le total des dés conservés — le score le plus bas remporte la manche.",
+     "de": "Deine Punktzahl ist die Summe deiner behaltenen Würfel – die niedrigste Punktzahl gewinnt die Runde.",
+     "es": "Tu puntuación es el total de los dados que apartaste; la puntuación más baja gana la ronda.",
+     "pt": "Sua pontuação é o total dos dados que você guardou — a menor pontuação vence a rodada."
+    },
+    {
+     "en": "Play five rounds; the lowest overall total takes the game.",
+     "ja": "5ラウンド行い、合計得点が最も少ないプレイヤーがゲームの勝者となります。",
+     "zh-Hans": "共进行五轮；总分最低者赢得整场游戏。",
+     "ar": "العبوا خمس جولات؛ وصاحب أقل مجموع كلي يفوز باللعبة.",
+     "he": "משחקים חמישה סיבובים; הסכום הכולל הנמוך ביותר לוקח את המשחק.",
+     "fr": "Jouez cinq manches ; le total général le plus bas remporte la partie.",
+     "de": "Spielt fünf Runden; die niedrigste Gesamtsumme gewinnt das Spiel.",
+     "es": "Se juegan cinco rondas; el total general más bajo se lleva la partida.",
+     "pt": "Jogue cinco rodadas; o menor total geral leva o jogo."
+    }
+   ]
+  },
+  {
+   "id": "going-to-boston",
+   "icon": "arrow.right.circle.fill",
+   "diceNeeded": 3,
+   "players": "2+",
+   "name": {
+    "en": "Going to Boston",
+    "ja": "ゴーイング・トゥ・ボストン",
+    "zh-Hans": "波士顿之旅（Going to Boston）",
+    "ar": "غوينغ تو بوسطن",
+    "he": "נוסעים לבוסטון",
+    "fr": "En route pour Boston",
+    "de": "Nach Boston",
+    "es": "Rumbo a Boston",
+    "pt": "Rumo a Boston"
+   },
+   "summary": {
+    "en": "A quick three-dice race that anyone can learn in a single round.",
+    "ja": "1ラウンドで覚えられる、サイコロ3個のスピードレースです。",
+    "zh-Hans": "节奏轻快的三骰竞速，一轮就能学会。",
+    "ar": "سباق سريع بثلاثة أحجار نرد يتعلمه أي شخص في جولة واحدة.",
+    "he": "מרוץ מהיר של שלוש קוביות שכל אחד לומד בסיבוב אחד.",
+    "fr": "Une course rapide à trois dés que tout le monde apprend en une seule manche.",
+    "de": "Ein schnelles Rennen mit drei Würfeln, das jeder in einer einzigen Runde lernt.",
+    "es": "Una carrera rápida con tres dados que cualquiera aprende en una sola ronda.",
+    "pt": "Uma corrida rápida de três dados que qualquer um aprende em uma única rodada."
+   },
+   "rules": [
+    {
+     "en": "Roll three dice and set aside the highest one.",
+     "ja": "サイコロ3個を振り、いちばん大きい目のサイコロを1個取り分けます。",
+     "zh-Hans": "掷三枚骰子，留下点数最大的一枚。",
+     "ar": "ارمِ ثلاثة أحجار نرد وضع الحجر الأعلى جانبًا.",
+     "he": "מטילים שלוש קוביות ומניחים בצד את הגבוהה ביותר.",
+     "fr": "Lancez trois dés et mettez de côté le plus élevé.",
+     "de": "Wirf drei Würfel und lege den höchsten beiseite.",
+     "es": "Lanza tres dados y aparta el más alto.",
+     "pt": "Lance três dados e separe o mais alto."
+    },
+    {
+     "en": "Roll the remaining two dice and again set aside the highest.",
+     "ja": "残りの2個を振り、再びいちばん大きい目を取り分けます。",
+     "zh-Hans": "掷剩余两枚骰子，再次留下点数最大的一枚。",
+     "ar": "ارمِ الحجرين المتبقيين وضع الأعلى منهما جانبًا مرة أخرى.",
+     "he": "מטילים את שתי הקוביות שנותרו ושוב מניחים בצד את הגבוהה.",
+     "fr": "Lancez les deux dés restants et mettez à nouveau de côté le plus élevé.",
+     "de": "Wirf die verbleibenden zwei Würfel und lege wieder den höchsten beiseite.",
+     "es": "Lanza los dos dados restantes y aparta de nuevo el más alto.",
+     "pt": "Lance os dois dados restantes e separe novamente o mais alto."
+    },
+    {
+     "en": "Roll the last die — the sum of your three kept dice is your score.",
+     "ja": "最後の1個を振ります。取り分けた3個の合計があなたの得点です。",
+     "zh-Hans": "掷最后一枚骰子——留下的三枚骰子点数之和就是你的得分。",
+     "ar": "ارمِ الحجر الأخير — ومجموع أحجارك الثلاثة المحتفظ بها هو نقاطك.",
+     "he": "מטילים את הקובייה האחרונה — סכום שלוש הקוביות ששמרתם הוא הניקוד שלכם.",
+     "fr": "Lancez le dernier dé — la somme de vos trois dés conservés constitue votre score.",
+     "de": "Wirf den letzten Würfel – die Summe deiner drei behaltenen Würfel ist deine Punktzahl.",
+     "es": "Lanza el último dado: la suma de tus tres dados apartados es tu puntuación.",
+     "pt": "Lance o último dado — a soma dos seus três dados guardados é a sua pontuação."
+    },
+    {
+     "en": "Every player rolls in turn; the highest score wins the round.",
+     "ja": "全員が順番に振り、得点が最も高いプレイヤーがそのラウンドの勝者です。",
+     "zh-Hans": "玩家依次投掷；本轮得分最高者获胜。",
+     "ar": "يرمي كل لاعب بدوره؛ وصاحب أعلى نقاط يفوز بالجولة.",
+     "he": "כל שחקן מטיל בתורו; הניקוד הגבוה ביותר מנצח בסיבוב.",
+     "fr": "Chaque joueur lance à son tour ; le score le plus élevé remporte la manche.",
+     "de": "Jeder Spieler würfelt der Reihe nach; die höchste Punktzahl gewinnt die Runde.",
+     "es": "Cada jugador lanza por turnos; la puntuación más alta gana la ronda.",
+     "pt": "Cada jogador lança na sua vez; a maior pontuação vence a rodada."
+    },
+    {
+     "en": "First to win an agreed number of rounds — five works well — wins the game.",
+     "ja": "あらかじめ決めたラウンド数——5ラウンドがおすすめです——を先に勝ち取ったプレイヤーの優勝です。",
+     "zh-Hans": "率先赢得约定轮数者（五轮为宜）赢得整场游戏。",
+     "ar": "أول من يفوز بعدد متفق عليه من الجولات — وخمس جولات خيار جيد — يفوز باللعبة.",
+     "he": "הראשון שמנצח במספר סיבובים מוסכם — חמישה זה מספר טוב — זוכה במשחק.",
+     "fr": "Le premier à gagner un nombre de manches convenu — cinq fonctionne bien — remporte la partie.",
+     "de": "Wer zuerst eine vereinbarte Anzahl an Runden gewinnt – fünf sind ein guter Wert –, gewinnt das Spiel.",
+     "es": "El primero en ganar un número acordado de rondas — cinco funciona bien — gana la partida.",
+     "pt": "Vence o jogo quem primeiro ganhar um número combinado de rodadas — cinco funciona bem."
+    }
+   ]
+  }
+ ]
+}

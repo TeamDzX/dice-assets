@@ -1,0 +1,30 @@
+{
+ "id": "tatami-room",
+ "type": "table",
+ "version": 1,
+ "surfaces": [
+  {
+   "id": "tatami",
+   "name": {
+    "en": "Tatami",
+    "ja": "畳",
+    "zh-Hans": "榻榻米",
+    "ar": "تاتامي",
+    "he": "טאטאמי",
+    "fr": "Tatami",
+    "de": "Tatami",
+    "es": "Tatami",
+    "pt": "Tatame"
+   },
+   "background": "#3E3F2A",
+   "floor": "#8F8F5E",
+   "roughness": 0.92,
+   "metalness": 0.0,
+   "normalIntensity": 0.35,
+   "reflectivity": 0.03,
+   "friction": 1.0,
+   "restitution": 0.08,
+   "accent": "#3E3F2A"
+  }
+ ]
+}

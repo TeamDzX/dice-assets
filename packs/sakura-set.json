@@ -1,0 +1,64 @@
+{
+ "id": "sakura-set",
+ "type": "dice",
+ "version": 1,
+ "styles": [
+  {
+   "id": "sakura",
+   "name": {
+    "en": "Sakura",
+    "ja": "桜",
+    "zh-Hans": "樱花",
+    "ar": "ساكورا",
+    "he": "סאקורה",
+    "fr": "Sakura",
+    "de": "Sakura",
+    "es": "Sakura",
+    "pt": "Sakura"
+   },
+   "body": "#F6CCD8",
+   "pip": "#A63D5C",
+   "roughness": 0.3,
+   "metalness": 0.0,
+   "emission": null
+  },
+  {
+   "id": "wisteria",
+   "name": {
+    "en": "Wisteria",
+    "ja": "藤",
+    "zh-Hans": "紫藤",
+    "ar": "وستارية",
+    "he": "ויסטריה",
+    "fr": "Glycine",
+    "de": "Glyzinie",
+    "es": "Glicina",
+    "pt": "Glicínia"
+   },
+   "body": "#C5B3E6",
+   "pip": "#4B3A78",
+   "roughness": 0.3,
+   "metalness": 0.0,
+   "emission": null
+  },
+  {
+   "id": "matcha",
+   "name": {
+    "en": "Matcha",
+    "ja": "抹茶",
+    "zh-Hans": "抹茶",
+    "ar": "ماتشا",
+    "he": "מאצ'ה",
+    "fr": "Matcha",
+    "de": "Matcha",
+    "es": "Matcha",
+    "pt": "Matchá"
+   },
+   "body": "#A8C686",
+   "pip": "#3D5226",
+   "roughness": 0.35,
+   "metalness": 0.0,
+   "emission": null
+  }
+ ]
+}

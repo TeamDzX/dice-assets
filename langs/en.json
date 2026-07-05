@@ -1,0 +1,133 @@
+{
+ "packs": {
+  "sakura-set": {
+   "name": "Sakura Set",
+   "tagline": "Springtime dice, on the house",
+   "description": "Three hand-finished seasonal dice inspired by Japanese spring: soft sakura pink, wisteria purple, and matcha green. A free gift — enjoy!"
+  },
+  "metal-works": {
+   "name": "Metal Works",
+   "tagline": "Forged, brushed, and polished",
+   "description": "Four metallic dice with real shine: polished silver, deep gunmetal, warm rose gold, and antique copper. Watch the light play as they tumble."
+  },
+  "gemstones": {
+   "name": "Gemstones",
+   "tagline": "Precious stones, perfect rolls",
+   "description": "Four gem-cut dice with a jeweller's finish: imperial jade, midnight obsidian, royal sapphire, and blood-red ruby."
+  },
+  "neon-glow": {
+   "name": "Neon Glow",
+   "tagline": "Dice that light up the night",
+   "description": "Four electric dice that glow from within: hot pink, cyber cyan, laser lime, and ultraviolet. Perfect on the marble table in a dark room."
+  },
+  "tatami-room": {
+   "name": "Tatami Room",
+   "tagline": "Roll like it's a ryokan",
+   "description": "Bring the calm of a Japanese tatami room to your table, complete with a soft woven-straw surface that gently deadens each roll. Free for everyone."
+  },
+  "casino-night": {
+   "name": "Casino Night",
+   "tagline": "The house always feels right",
+   "description": "Three professional casino surfaces: classic red baize, deep navy baize, and a polished walnut rail. Tuned physics give each table its own bounce."
+  },
+  "party-night": {
+   "name": "Party Night Pack",
+   "tagline": "Three izakaya crowd-pleasers",
+   "description": "Three fast, loud, luck-and-nerve dice games straight from the izakaya table: Chinchirorin, Cee-lo, and Drop Dead. Full illustrated rules included."
+  },
+  "tavern-classics": {
+   "name": "Tavern Classics",
+   "tagline": "Centuries-old pub favourites",
+   "description": "Three timeless tavern games — Shut the Box, Threes, and Going to Boston — with complete rules for game night."
+  }
+ },
+ "styles": {
+  "Sakura": "Sakura",
+  "Wisteria": "Wisteria",
+  "Matcha": "Matcha",
+  "Silver": "Silver",
+  "Gunmetal": "Gunmetal",
+  "Rose Gold": "Rose Gold",
+  "Copper": "Copper",
+  "Jade": "Jade",
+  "Obsidian": "Obsidian",
+  "Sapphire": "Sapphire",
+  "Ruby": "Ruby",
+  "Neon Pink": "Neon Pink",
+  "Cyber Cyan": "Cyber Cyan",
+  "Laser Lime": "Laser Lime",
+  "Ultraviolet": "Ultraviolet",
+  "Tatami": "Tatami",
+  "Red Baize": "Red Baize",
+  "Navy Baize": "Navy Baize",
+  "Walnut": "Walnut"
+ },
+ "games": {
+  "chinchirorin": {
+   "name": "Chinchirorin",
+   "summary": "The classic Japanese bowl game. Three dice, up to three throws — pair two dice and score with the third!",
+   "rules": [
+    "Each player antes into the pot, then players take turns as the roller.",
+    "Roll three dice into a bowl. If any die bounces out, the throw counts as a miss.",
+    "You get up to three throws to make a hand: a pair plus a single die — the single die is your score.",
+    "Special hands: 4-5-6 wins instantly, 1-2-3 loses instantly, and triples beat any normal score.",
+    "Three misses in a row is an automatic loss. The highest hand takes the pot."
+   ]
+  },
+  "cee-lo": {
+   "name": "Cee-lo",
+   "summary": "A street-corner classic of instant wins, instant losses, and pure nerve.",
+   "rules": [
+    "Players take turns rolling three dice until a scoring combination appears.",
+    "4-5-6 wins instantly; 1-2-3 loses instantly.",
+    "A pair plus a single die sets your point — the single die is your score.",
+    "Triples beat any point, and higher triples beat lower triples.",
+    "The banker plays each challenger head-to-head; the higher hand wins the stake."
+   ]
+  },
+  "drop-dead": {
+   "name": "Drop Dead",
+   "summary": "A cheerful game of attrition — keep rolling until your dice drop dead.",
+   "rules": [
+    "Roll all five dice. If no 2s or 5s appear, add the total to your score and roll all five again.",
+    "If any 2s or 5s appear, you score nothing for that throw and those dice are removed.",
+    "Keep rolling the remaining dice — every throw containing a 2 or 5 costs you those dice.",
+    "When your last die shows a 2 or 5, you're 'dead' and your turn ends.",
+    "Highest total score after everyone has played wins."
+   ]
+  },
+  "shut-the-box": {
+   "name": "Shut the Box",
+   "summary": "The centuries-old pub favourite of closing numbers and dodging penalties.",
+   "rules": [
+    "Write the numbers 1 to 9 where everyone can see them; each player starts a turn with all nine numbers open.",
+    "Roll two dice and close any open numbers that add up exactly to the total (a roll of 9 can close 9, or 6+3, or 5+3+1).",
+    "Keep rolling and closing numbers. Once 7, 8 and 9 are all closed, you may choose to roll a single die instead.",
+    "When you can't close anything with a roll, your turn ends — the sum of your remaining open numbers is your penalty.",
+    "Close all nine numbers to 'shut the box' and win instantly; otherwise the lowest penalty after a full round wins."
+   ]
+  },
+  "threes": {
+   "name": "Threes",
+   "summary": "Low rolls win, and threes are gold — they count as zero.",
+   "rules": [
+    "Roll five dice. Threes count as zero; every other die counts at face value.",
+    "After each roll you must set aside at least one die.",
+    "Re-roll the remaining dice until all five have been set aside.",
+    "Your score is the total of your kept dice — the lowest score wins the round.",
+    "Play five rounds; the lowest overall total takes the game."
+   ]
+  },
+  "going-to-boston": {
+   "name": "Going to Boston",
+   "summary": "A quick three-dice race that anyone can learn in a single round.",
+   "rules": [
+    "Roll three dice and set aside the highest one.",
+    "Roll the remaining two dice and again set aside the highest.",
+    "Roll the last die — the sum of your three kept dice is your score.",
+    "Every player rolls in turn; the highest score wins the round.",
+    "First to win an agreed number of rounds — five works well — wins the game."
+   ]
+  }
+ }
+}

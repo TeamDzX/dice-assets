@@ -1,0 +1,133 @@
+{
+ "packs": {
+  "sakura-set": {
+   "name": "Set Sakura",
+   "tagline": "Des dés printaniers, offerts par la maison",
+   "description": "Trois dés de saison aux finitions soignées, inspirés du printemps japonais : rose sakura délicat, violet glycine et vert matcha. Un cadeau gratuit — profitez-en !"
+  },
+  "metal-works": {
+   "name": "Forge Métal",
+   "tagline": "Forgés, brossés et polis",
+   "description": "Quatre dés métalliques au brillant authentique : argent poli, gris canon de fusil profond, or rose chaleureux et cuivre antique. Admirez les jeux de lumière à chaque lancer."
+  },
+  "gemstones": {
+   "name": "Pierres Précieuses",
+   "tagline": "Des pierres précieuses, des lancers parfaits",
+   "description": "Quatre dés taillés comme des gemmes, avec une finition de joaillier : jade impérial, obsidienne de minuit, saphir royal et rubis rouge sang."
+  },
+  "neon-glow": {
+   "name": "Éclat Néon",
+   "tagline": "Des dés qui illuminent la nuit",
+   "description": "Quatre dés électriques qui brillent de l'intérieur : rose fluo, cyan cyber, citron laser et ultraviolet. Parfaits sur la table en marbre, dans une pièce sombre."
+  },
+  "tatami-room": {
+   "name": "Salon Tatami",
+   "tagline": "Lancez vos dés comme dans un ryokan",
+   "description": "Apportez le calme d'une pièce en tatami japonaise à votre table, avec une surface de paille tressée toute douce qui amortit délicatement chaque lancer. Gratuit pour tous."
+  },
+  "casino-night": {
+   "name": "Soirée Casino",
+   "tagline": "La maison a toujours raison",
+   "description": "Trois surfaces de casino professionnelles : tapis rouge classique, tapis bleu marine profond et rebord en noyer poli. Une physique ajustée donne à chaque table son propre rebond."
+  },
+  "party-night": {
+   "name": "Pack Soirée Festive",
+   "tagline": "Trois valeurs sûres de l'izakaya",
+   "description": "Trois jeux de dés rapides, bruyants, entre chance et sang-froid, tout droit venus des tables d'izakaya : Chinchirorin, Cee-lo et Drop Dead. Règles complètes illustrées incluses."
+  },
+  "tavern-classics": {
+   "name": "Classiques de Taverne",
+   "tagline": "Des jeux de pub vieux de plusieurs siècles",
+   "description": "Trois jeux de taverne intemporels — Shut the Box (« Ferme la boîte »), Threes et En route pour Boston — avec des règles complètes pour vos soirées jeux."
+  }
+ },
+ "styles": {
+  "Sakura": "Sakura",
+  "Wisteria": "Glycine",
+  "Matcha": "Matcha",
+  "Silver": "Argent",
+  "Gunmetal": "Canon de fusil",
+  "Rose Gold": "Or rose",
+  "Copper": "Cuivre",
+  "Jade": "Jade",
+  "Obsidian": "Obsidienne",
+  "Sapphire": "Saphir",
+  "Ruby": "Rubis",
+  "Neon Pink": "Rose néon",
+  "Cyber Cyan": "Cyan cyber",
+  "Laser Lime": "Citron laser",
+  "Ultraviolet": "Ultraviolet",
+  "Tatami": "Tatami",
+  "Red Baize": "Feutrine rouge",
+  "Navy Baize": "Feutrine marine",
+  "Walnut": "Noyer"
+ },
+ "games": {
+  "chinchirorin": {
+   "name": "Chinchirorin",
+   "summary": "Le grand classique japonais du bol. Trois dés, jusqu'à trois lancers — formez une paire et marquez avec le troisième dé !",
+   "rules": [
+    "Chaque joueur mise dans le pot, puis les joueurs lancent les dés à tour de rôle.",
+    "Lancez trois dés dans un bol. Si un dé rebondit hors du bol, le lancer compte comme raté.",
+    "Vous disposez d'au plus trois lancers pour former une main : une paire plus un dé isolé — le dé isolé est votre score.",
+    "Mains spéciales : 4-5-6 gagne immédiatement, 1-2-3 perd immédiatement, et les triples battent tout score normal.",
+    "Trois lancers ratés d'affilée entraînent une défaite automatique. La meilleure main remporte le pot."
+   ]
+  },
+  "cee-lo": {
+   "name": "Cee-lo",
+   "summary": "Un classique des coins de rue : victoires éclair, défaites éclair et sang-froid à l'état pur.",
+   "rules": [
+    "Les joueurs lancent trois dés à tour de rôle jusqu'à obtenir une combinaison qui compte.",
+    "4-5-6 gagne immédiatement ; 1-2-3 perd immédiatement.",
+    "Une paire plus un dé isolé fixe votre point — le dé isolé est votre score.",
+    "Les triples battent n'importe quel point, et un triple plus élevé bat un triple plus faible.",
+    "Le banquier affronte chaque adversaire en duel ; la meilleure main remporte la mise."
+   ]
+  },
+  "drop-dead": {
+   "name": "Drop Dead",
+   "summary": "Un joyeux jeu d'usure — lancez encore et encore, jusqu'à ce que vos dés tombent au champ d'honneur.",
+   "rules": [
+    "Lancez les cinq dés. Si aucun 2 ni 5 n'apparaît, ajoutez le total à votre score et relancez les cinq dés.",
+    "Si un ou plusieurs 2 ou 5 apparaissent, le lancer ne rapporte rien et ces dés sont retirés.",
+    "Continuez à lancer les dés restants — chaque lancer contenant un 2 ou un 5 vous coûte ces dés.",
+    "Quand votre dernier dé affiche un 2 ou un 5, vous êtes « mort » et votre tour s'achève.",
+    "Le score total le plus élevé une fois que tout le monde a joué l'emporte."
+   ]
+  },
+  "shut-the-box": {
+   "name": "Shut the Box",
+   "summary": "Le célèbre jeu de pub séculaire, aussi connu sous le nom de « Ferme la boîte » : fermez les chiffres et évitez les pénalités.",
+   "rules": [
+    "Inscrivez les chiffres de 1 à 9 à la vue de tous ; chaque joueur commence son tour avec les neuf chiffres ouverts.",
+    "Lancez deux dés et fermez des chiffres ouverts dont la somme correspond exactement au total (un 9 permet de fermer le 9, ou 6+3, ou 5+3+1).",
+    "Continuez à lancer et à fermer des chiffres. Une fois le 7, le 8 et le 9 fermés, vous pouvez choisir de lancer un seul dé.",
+    "Quand un lancer ne vous permet plus de rien fermer, votre tour s'achève — la somme de vos chiffres encore ouverts constitue votre pénalité.",
+    "Fermez les neuf chiffres pour « fermer la boîte » et gagner immédiatement ; sinon, la pénalité la plus faible après un tour complet l'emporte."
+   ]
+  },
+  "threes": {
+   "name": "Threes",
+   "summary": "Les petits scores gagnent, et les 3 valent de l'or — ils comptent pour zéro.",
+   "rules": [
+    "Lancez cinq dés. Les 3 comptent pour zéro ; chaque autre dé compte pour sa valeur faciale.",
+    "Après chaque lancer, vous devez mettre de côté au moins un dé.",
+    "Relancez les dés restants jusqu'à ce que les cinq soient mis de côté.",
+    "Votre score est le total des dés conservés — le score le plus bas remporte la manche.",
+    "Jouez cinq manches ; le total général le plus bas remporte la partie."
+   ]
+  },
+  "going-to-boston": {
+   "name": "En route pour Boston",
+   "summary": "Une course rapide à trois dés que tout le monde apprend en une seule manche.",
+   "rules": [
+    "Lancez trois dés et mettez de côté le plus élevé.",
+    "Lancez les deux dés restants et mettez à nouveau de côté le plus élevé.",
+    "Lancez le dernier dé — la somme de vos trois dés conservés constitue votre score.",
+    "Chaque joueur lance à son tour ; le score le plus élevé remporte la manche.",
+    "Le premier à gagner un nombre de manches convenu — cinq fonctionne bien — remporte la partie."
+   ]
+  }
+ }
+}
