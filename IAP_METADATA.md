@@ -107,6 +107,15 @@ Character limits: Display Name ≤ 30, Description ≤ 45.
 
 ---
 
+### Review notes (paste into each product's Review Notes field)
+
+> This purchase unlocks cosmetic/content packs in the free Dice app. Open the
+> app → tap the bag icon (top bar) → Pack Gallery. Free packs ("Sakura Set",
+> "Tatami Room") demonstrate the install flow without purchase. Restore
+> Purchases is at the bottom of the gallery. Pack content is delivered as
+> JSON from our public repo (github.com/TeamDzX/dice-assets) and rendered by
+> the app's own engine; the purchase is validated with StoreKit 2 on device.
+
 ### Pricing sanity check
 
 Individually: 1.99 + 0.99 + 1.99 + 1.99 = **£6.96** → bundle at **£4.99**
