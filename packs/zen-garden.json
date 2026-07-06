@@ -1,0 +1,76 @@
+{
+ "id": "zen-garden",
+ "type": "table",
+ "version": 1,
+ "surfaces": [
+  {
+   "id": "sand-garden",
+   "name": {
+    "en": "Sand Garden",
+    "ja": "砂庭",
+    "zh-Hans": "沙庭",
+    "ar": "حديقة الرمل",
+    "he": "גן חול",
+    "fr": "Jardin de sable",
+    "de": "Sandgarten",
+    "es": "Jardín de arena",
+    "pt": "Jardim de areia"
+   },
+   "background": "#4A4436",
+   "floor": "#CBBFA3",
+   "roughness": 0.95,
+   "metalness": 0.0,
+   "normalIntensity": 0.5,
+   "reflectivity": 0.02,
+   "friction": 1.0,
+   "restitution": 0.06,
+   "accent": "#6B6250"
+  },
+  {
+   "id": "slate",
+   "name": {
+    "en": "Slate",
+    "ja": "スレート",
+    "zh-Hans": "板岩",
+    "ar": "إردواز",
+    "he": "צפחה",
+    "fr": "Ardoise",
+    "de": "Schiefer",
+    "es": "Pizarra",
+    "pt": "Ardósia"
+   },
+   "background": "#1E2226",
+   "floor": "#3E464D",
+   "roughness": 0.6,
+   "metalness": 0.0,
+   "normalIntensity": 0.3,
+   "reflectivity": 0.06,
+   "friction": 0.7,
+   "restitution": 0.2,
+   "accent": "#2E363D"
+  },
+  {
+   "id": "moss",
+   "name": {
+    "en": "Moss",
+    "ja": "苔",
+    "zh-Hans": "苔藓",
+    "ar": "طحلب",
+    "he": "טחב",
+    "fr": "Mousse",
+    "de": "Moos",
+    "es": "Musgo",
+    "pt": "Musgo"
+   },
+   "background": "#26301C",
+   "floor": "#55703B",
+   "roughness": 0.95,
+   "metalness": 0.0,
+   "normalIntensity": 0.45,
+   "reflectivity": 0.02,
+   "friction": 1.0,
+   "restitution": 0.05,
+   "accent": "#3A4A28"
+  }
+ ]
+}

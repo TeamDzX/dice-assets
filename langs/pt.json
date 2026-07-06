@@ -32,13 +32,28 @@
   },
   "party-night": {
    "name": "Pacote Noite de Festa",
-   "tagline": "Três sucessos de izakaya",
-   "description": "Três jogos de dados rápidos, animados, de sorte e ousadia, direto da mesa do izakaya: Chinchirorin, Cee-lo e Drop Dead. Regras completas e ilustradas incluídas."
+   "tagline": "Cinco sucessos de izakaya",
+   "description": "Cinco jogos de dados rápidos, barulhentos, de sorte e ousadia, direto da mesa do izakaya: Chinchirorin, Cee-lo, Drop Dead, Bunco e Sete e Fora. Regras ilustradas completas incluídas."
   },
   "tavern-classics": {
    "name": "Clássicos de Taverna",
    "tagline": "Favoritos de bar com séculos de história",
-   "description": "Três jogos de taverna atemporais — Feche a Caixa, Trios e Rumo a Boston — com regras completas para a sua noite de jogos."
+   "description": "Cinco jogos de taverna atemporais — Feche a Caixa, Trios, Rumo a Boston, Chicago e Ajude o Vizinho — com regras completas para a noite de jogos."
+  },
+  "kyoto-nights": {
+   "name": "Noites de Kyoto",
+   "tagline": "Índigo, vermelhão e folha de ouro",
+   "description": "Quatro dados imersos na noite japonesa: índigo aizome profundo, vermelhão de portal torii, folha de ouro reluzente e carvão de pedra de nanquim."
+  },
+  "deep-sea": {
+   "name": "Mar Profundo",
+   "tagline": "Tesouros da fossa oceânica",
+   "description": "Quatro dados vindos do fundo do oceano: pérola aconchegante, coral vibrante, turquesa tropical e um dado abismo que brilha com luz própria."
+  },
+  "zen-garden": {
+   "name": "Jardim Zen",
+   "tagline": "Rastele, respire, jogue",
+   "description": "Três superfícies serenas para jogadas contemplativas: areia karesansui rastelada, ardósia fresca e musgo macio de floresta — cada uma com sua própria física suave."
   }
  },
  "styles": {
@@ -60,7 +75,18 @@
   "Tatami": "Tatame",
   "Red Baize": "Feltro vermelho",
   "Navy Baize": "Feltro azul-marinho",
-  "Walnut": "Nogueira"
+  "Walnut": "Nogueira",
+  "Indigo": "Índigo",
+  "Vermilion": "Vermelhão",
+  "Gold Leaf": "Folha de ouro",
+  "Sumi": "Nanquim",
+  "Pearl": "Pérola",
+  "Coral": "Coral",
+  "Turquoise": "Turquesa",
+  "Abyss": "Abismo",
+  "Sand Garden": "Jardim de areia",
+  "Slate": "Ardósia",
+  "Moss": "Musgo"
  },
  "games": {
   "chinchirorin": {
@@ -127,6 +153,50 @@
     "Lance o último dado — a soma dos seus três dados guardados é a sua pontuação.",
     "Cada jogador lança na sua vez; a maior pontuação vence a rodada.",
     "Vence o jogo quem primeiro ganhar um número combinado de rodadas — cinco funciona bem."
+   ]
+  },
+  "bunco": {
+   "name": "Bunco",
+   "summary": "O clássico de festa para grupos grandes — seis rodadas animadas de dados combinados.",
+   "rules": [
+    "Os jogadores se revezam jogando três dados, em busca do número da rodada atual (a rodada 1 busca os 1s, a rodada 2 busca os 2s, e assim por diante até o 6).",
+    "Marque 1 ponto para cada dado igual ao número da rodada e jogue de novo sempre que pontuar.",
+    "Tirar três dados com o número da rodada é um BUNCO — 21 pontos, e você tem que gritar!",
+    "Tirar três dados iguais de qualquer outro número vale 5 pontos.",
+    "Quando um jogador atinge 21 pontos, a rodada termina. Quem vencer mais rodadas das seis leva a partida."
+   ]
+  },
+  "sevens-out": {
+   "name": "Sete e Fora",
+   "summary": "Continue jogando e guardando pontos — mas tire um 7 e sua vez acaba.",
+   "rules": [
+    "Revezem-se jogando dois dados e somando o total à pontuação da sua vez.",
+    "Duplas valem em dobro — um par de 4s soma 16.",
+    "Tire um total de 7 e sua vez termina na hora; você não guarda nada.",
+    "Pare quando quiser para guardar a pontuação da vez no seu total geral.",
+    "O primeiro jogador a chegar a 500 pontos vence."
+   ]
+  },
+  "chicago": {
+   "name": "Chicago",
+   "summary": "Onze rodadas rápidas, um alvo em cada — persiga todos os totais de 2 a 12.",
+   "rules": [
+    "O jogo dura onze rodadas, mirando os totais de 2 a 12 em ordem.",
+    "Em cada rodada, todo jogador joga dois dados uma vez.",
+    "Tire o total alvo da rodada e marque essa quantidade de pontos; qualquer outro resultado não vale nada.",
+    "Após a rodada final (12), somem todas as pontuações.",
+    "O maior total vence. Empates são decididos com uma jogada de desempate."
+   ]
+  },
+  "help-your-neighbor": {
+   "name": "Ajude o Vizinho",
+   "summary": "Escolha seus números e torça para os vizinhos tirá-los — quem se livrar das dez fichas primeiro vence.",
+   "rules": [
+    "Distribuam os números de 1 a 6 igualmente pela mesa (com menos de seis jogadores, alguns ficam com dois números).",
+    "Cada jogador começa com dez fichas.",
+    "Revezem-se jogando três dados: cada dado mostrando o SEU número permite descartar uma ficha.",
+    "Suas próprias jogadas também podem descartar suas fichas — mas na maior parte do tempo você estará ajudando os vizinhos.",
+    "O primeiro jogador a ficar sem fichas vence."
    ]
   }
  }

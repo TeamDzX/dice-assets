@@ -1,0 +1,83 @@
+{
+ "id": "kyoto-nights",
+ "type": "dice",
+ "version": 1,
+ "styles": [
+  {
+   "id": "indigo",
+   "name": {
+    "en": "Indigo",
+    "ja": "藍",
+    "zh-Hans": "靛蓝",
+    "ar": "نيلي",
+    "he": "אינדיגו",
+    "fr": "Indigo",
+    "de": "Indigo",
+    "es": "Índigo",
+    "pt": "Índigo"
+   },
+   "body": "#1B2C58",
+   "pip": "#EFE9DC",
+   "roughness": 0.35,
+   "metalness": 0.0,
+   "emission": null
+  },
+  {
+   "id": "vermilion",
+   "name": {
+    "en": "Vermilion",
+    "ja": "朱",
+    "zh-Hans": "朱红",
+    "ar": "قرمزي",
+    "he": "ורמיליון",
+    "fr": "Vermillon",
+    "de": "Zinnoberrot",
+    "es": "Bermellón",
+    "pt": "Vermelhão"
+   },
+   "body": "#C43A28",
+   "pip": "#FFF6EA",
+   "roughness": 0.3,
+   "metalness": 0.0,
+   "emission": null
+  },
+  {
+   "id": "gold-leaf",
+   "name": {
+    "en": "Gold Leaf",
+    "ja": "金箔",
+    "zh-Hans": "金箔",
+    "ar": "ورق الذهب",
+    "he": "עלה זהב",
+    "fr": "Feuille d'or",
+    "de": "Blattgold",
+    "es": "Pan de oro",
+    "pt": "Folha de ouro"
+   },
+   "body": "#C9A227",
+   "pip": "#231C0A",
+   "roughness": 0.3,
+   "metalness": 0.9,
+   "emission": null
+  },
+  {
+   "id": "sumi",
+   "name": {
+    "en": "Sumi",
+    "ja": "墨",
+    "zh-Hans": "墨黑",
+    "ar": "حبر",
+    "he": "דיו",
+    "fr": "Encre",
+    "de": "Tusche",
+    "es": "Tinta",
+    "pt": "Nanquim"
+   },
+   "body": "#26262B",
+   "pip": "#E8E4DA",
+   "roughness": 0.5,
+   "metalness": 0.0,
+   "emission": null
+  }
+ ]
+}

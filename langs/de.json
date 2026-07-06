@@ -32,13 +32,28 @@
   },
   "party-night": {
    "name": "Partynacht-Paket",
-   "tagline": "Drei Izakaya-Klassiker für die Runde",
-   "description": "Drei schnelle, laute Würfelspiele voller Glück und Nervenkitzel, direkt vom Izakaya-Tisch: Chinchirorin, Cee-lo und Drop Dead. Komplette illustrierte Regeln inklusive."
+   "tagline": "Fünf Izakaya-Publikumslieblinge",
+   "description": "Fünf schnelle, laute Würfelspiele voller Glück und Nervenkitzel, direkt vom Izakaya-Tisch: Chinchirorin, Cee-lo, Drop Dead, Bunco und Sevens Out. Komplett illustrierte Regeln inklusive."
   },
   "tavern-classics": {
    "name": "Wirtshaus-Klassiker",
    "tagline": "Jahrhundertealte Kneipenfavoriten",
-   "description": "Drei zeitlose Wirtshausspiele – Shut the Box, Threes und Nach Boston – mit vollständigen Regeln für deinen Spieleabend."
+   "description": "Fünf zeitlose Wirtshausspiele — Shut the Box, Threes, Nach Boston, Chicago und Hilf deinem Nachbarn — mit vollständigen Regeln für den Spieleabend."
+  },
+  "kyoto-nights": {
+   "name": "Kyoto bei Nacht",
+   "tagline": "Indigo, Zinnoberrot und Blattgold",
+   "description": "Vier Würfel, getaucht in die japanische Nacht: tiefes Aizome-Indigo, Torii-Zinnoberrot, schimmerndes Blattgold und Tuschestein-Anthrazit."
+  },
+  "deep-sea": {
+   "name": "Tiefsee",
+   "tagline": "Schätze aus dem Graben",
+   "description": "Vier Würfel vom Meeresgrund: warme Perle, leuchtende Koralle, tropisches Türkis und ein Abgrund-Würfel, der aus eigener Kraft leuchtet."
+  },
+  "zen-garden": {
+   "name": "Zen-Garten",
+   "tagline": "Harken, atmen, würfeln",
+   "description": "Drei ruhige Oberflächen für besinnliches Würfeln: geharkter Karesansui-Sand, kühler Schiefer und weiches Waldmoos — jede mit ihrer eigenen sanften Physik."
   }
  },
  "styles": {
@@ -60,7 +75,18 @@
   "Tatami": "Tatami",
   "Red Baize": "Rotes Tuch",
   "Navy Baize": "Blaues Tuch",
-  "Walnut": "Nussbaum"
+  "Walnut": "Nussbaum",
+  "Indigo": "Indigo",
+  "Vermilion": "Zinnoberrot",
+  "Gold Leaf": "Blattgold",
+  "Sumi": "Tusche",
+  "Pearl": "Perle",
+  "Coral": "Koralle",
+  "Turquoise": "Türkis",
+  "Abyss": "Abgrund",
+  "Sand Garden": "Sandgarten",
+  "Slate": "Schiefer",
+  "Moss": "Moos"
  },
  "games": {
   "chinchirorin": {
@@ -127,6 +153,50 @@
     "Wirf den letzten Würfel – die Summe deiner drei behaltenen Würfel ist deine Punktzahl.",
     "Jeder Spieler würfelt der Reihe nach; die höchste Punktzahl gewinnt die Runde.",
     "Wer zuerst eine vereinbarte Anzahl an Runden gewinnt – fünf sind ein guter Wert –, gewinnt das Spiel."
+   ]
+  },
+  "bunco": {
+   "name": "Bunco",
+   "summary": "Der Partyklassiker für große Runden — sechs turbulente Runden auf der Jagd nach gleichen Würfeln.",
+   "rules": [
+    "Die Spieler würfeln reihum mit drei Würfeln und jagen die aktuelle Rundenzahl (Runde 1 jagt Einsen, Runde 2 jagt Zweien und so weiter bis zur 6).",
+    "Jeder Würfel, der die Rundenzahl zeigt, bringt 1 Punkt — und wer punktet, darf gleich noch einmal würfeln.",
+    "Dreimal die Rundenzahl ist ein BUNCO — 21 Punkte, und du musst es laut rufen!",
+    "Dreimal eine beliebige andere Zahl bringt 5 Punkte.",
+    "Erreicht ein Spieler 21 Punkte, endet die Runde. Wer nach allen sechs Runden die meisten Runden gewonnen hat, gewinnt das Spiel."
+   ]
+  },
+  "sevens-out": {
+   "name": "Sevens Out",
+   "summary": "Würfle weiter und sichere deine Punkte — aber bei einer 7 ist dein Zug vorbei.",
+   "rules": [
+    "Würfelt reihum mit zwei Würfeln und zählt die Summe zu eurem Zugergebnis.",
+    "Päsche zählen doppelt — zwei Vieren bringen 16.",
+    "Würfelst du insgesamt 7, endet dein Zug sofort und du sicherst nichts.",
+    "Höre auf, wann immer du willst, um dein Zugergebnis deinem Gesamtstand gutzuschreiben.",
+    "Wer zuerst 500 Punkte erreicht, gewinnt."
+   ]
+  },
+  "chicago": {
+   "name": "Chicago",
+   "summary": "Elf schnelle Runden mit je einem Ziel — jage jede Summe von 2 bis 12.",
+   "rules": [
+    "Das Spiel geht über elf Runden, in denen der Reihe nach die Summen 2 bis 12 das Ziel sind.",
+    "In jeder Runde würfelt jeder Spieler einmal mit zwei Würfeln.",
+    "Triffst du die Zielsumme der Runde, bekommst du genauso viele Punkte; alles andere bringt nichts.",
+    "Nach der letzten Runde (12) werden alle Punkte zusammengezählt.",
+    "Die höchste Gesamtsumme gewinnt. Bei Gleichstand entscheidet ein Stechen."
+   ]
+  },
+  "help-your-neighbor": {
+   "name": "Hilf deinem Nachbarn",
+   "summary": "Sichere dir deine Zahlen und hoffe, dass deine Nachbarn sie würfeln — wer zuerst alle zehn Chips loswird, gewinnt.",
+   "rules": [
+    "Verteilt die Zahlen 1 bis 6 gleichmäßig am Tisch (bei weniger als sechs Spielern übernehmen manche Spieler zwei Zahlen).",
+    "Jeder Spieler beginnt mit zehn Chips.",
+    "Würfelt reihum mit drei Würfeln: Für jeden Würfel, der DEINE Zahl zeigt, darfst du einen Chip abgeben.",
+    "Auch deine eigenen Würfe können deine Chips loswerden — meistens hilfst du aber deinen Nachbarn.",
+    "Der erste Spieler ohne Chips gewinnt."
    ]
   }
  }

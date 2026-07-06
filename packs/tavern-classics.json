@@ -1,7 +1,7 @@
 {
  "id": "tavern-classics",
  "type": "games",
- "version": 1,
+ "version": 2,
  "games": [
   {
    "id": "shut-the-box",
@@ -255,6 +255,176 @@
      "de": "Wer zuerst eine vereinbarte Anzahl an Runden gewinnt – fünf sind ein guter Wert –, gewinnt das Spiel.",
      "es": "El primero en ganar un número acordado de rondas — cinco funciona bien — gana la partida.",
      "pt": "Vence o jogo quem primeiro ganhar um número combinado de rodadas — cinco funciona bem."
+    }
+   ]
+  },
+  {
+   "id": "chicago",
+   "icon": "building.2.fill",
+   "diceNeeded": 2,
+   "players": "2+",
+   "name": {
+    "en": "Chicago",
+    "ja": "シカゴ",
+    "zh-Hans": "芝加哥",
+    "ar": "شيكاغو",
+    "he": "שיקגו",
+    "fr": "Chicago",
+    "de": "Chicago",
+    "es": "Chicago",
+    "pt": "Chicago"
+   },
+   "summary": {
+    "en": "Eleven quick rounds, one target each — chase every total from 2 to 12.",
+    "ja": "1ラウンドにつき1つの目標、全11ラウンド——2から12までのすべての合計を狙います。",
+    "zh-Hans": "十一个快速回合，每回合一个目标——依次追逐从 2 到 12 的每个总点数。",
+    "ar": "إحدى عشرة جولة سريعة، ولكل جولة هدف واحد — طارد كل مجموع من 2 إلى 12.",
+    "he": "אחד-עשר סיבובים מהירים, יעד אחד בכל סיבוב — רודפים אחרי כל סכום מ-2 עד 12.",
+    "fr": "Onze manches rapides, une cible par manche — visez chaque total de 2 à 12.",
+    "de": "Elf schnelle Runden mit je einem Ziel — jage jede Summe von 2 bis 12.",
+    "es": "Once rondas rápidas, un objetivo en cada una: persigue todos los totales del 2 al 12.",
+    "pt": "Onze rodadas rápidas, um alvo em cada — persiga todos os totais de 2 a 12."
+   },
+   "rules": [
+    {
+     "en": "The game lasts eleven rounds, targeting the totals 2 through 12 in order.",
+     "ja": "ゲームは全11ラウンドで、2から12までの合計を順番に目標とします。",
+     "zh-Hans": "游戏共十一个回合，按顺序以总点数 2 到 12 为目标。",
+     "ar": "تستمر اللعبة إحدى عشرة جولة، تستهدف المجاميع من 2 إلى 12 بالترتيب.",
+     "he": "המשחק נמשך אחד-עשר סיבובים, עם יעדים של הסכומים 2 עד 12 לפי הסדר.",
+     "fr": "La partie dure onze manches, qui visent dans l'ordre les totaux de 2 à 12.",
+     "de": "Das Spiel geht über elf Runden, in denen der Reihe nach die Summen 2 bis 12 das Ziel sind.",
+     "es": "La partida dura once rondas, con los totales del 2 al 12 como objetivo en orden.",
+     "pt": "O jogo dura onze rodadas, mirando os totais de 2 a 12 em ordem."
+    },
+    {
+     "en": "Each round, every player rolls two dice once.",
+     "ja": "各ラウンドでは、全プレイヤーが2つのダイスを1回ずつ振ります。",
+     "zh-Hans": "每个回合，每位玩家掷两枚骰子一次。",
+     "ar": "في كل جولة، يرمي كل لاعب نردين مرة واحدة.",
+     "he": "בכל סיבוב, כל שחקן מגלגל שתי קוביות פעם אחת.",
+     "fr": "À chaque manche, chaque joueur lance deux dés une seule fois.",
+     "de": "In jeder Runde würfelt jeder Spieler einmal mit zwei Würfeln.",
+     "es": "En cada ronda, cada jugador lanza dos dados una vez.",
+     "pt": "Em cada rodada, todo jogador joga dois dados uma vez."
+    },
+    {
+     "en": "Roll the round's target total and score that many points; anything else scores nothing.",
+     "ja": "そのラウンドの目標の合計を出せば、その数がそのまま得点になります。それ以外の目は0点です。",
+     "zh-Hans": "掷出本回合的目标总点数即得该点数的分数；掷出其他点数不得分。",
+     "ar": "إذا حقّقت مجموع الجولة المستهدف تسجّل نقاطًا بقدره؛ وأي مجموع آخر لا يسجّل شيئًا.",
+     "he": "גלגלתם את סכום היעד של הסיבוב וקיבלתם את המספר הזה בנקודות; כל סכום אחר לא שווה כלום.",
+     "fr": "Obtenez le total cible de la manche et marquez autant de points ; tout autre résultat ne rapporte rien.",
+     "de": "Triffst du die Zielsumme der Runde, bekommst du genauso viele Punkte; alles andere bringt nichts.",
+     "es": "Si sacas el total objetivo de la ronda, anotas esa cantidad de puntos; cualquier otro resultado no vale nada.",
+     "pt": "Tire o total alvo da rodada e marque essa quantidade de pontos; qualquer outro resultado não vale nada."
+    },
+    {
+     "en": "After the final round (12), add up all the scores.",
+     "ja": "最終ラウンド(12)が終わったら、すべての得点を合計します。",
+     "zh-Hans": "最后一个回合（12）结束后，统计所有得分。",
+     "ar": "بعد الجولة الأخيرة (12)، اجمعوا كل النقاط.",
+     "he": "אחרי הסיבוב האחרון (12), מחברים את כל הנקודות.",
+     "fr": "Après la dernière manche (le 12), additionnez tous les scores.",
+     "de": "Nach der letzten Runde (12) werden alle Punkte zusammengezählt.",
+     "es": "Tras la ronda final (12), suma todas las puntuaciones.",
+     "pt": "Após a rodada final (12), somem todas as pontuações."
+    },
+    {
+     "en": "The highest total wins. Ties are settled with a roll-off.",
+     "ja": "合計が最も高いプレイヤーの勝ちです。同点の場合はダイスの振り直しで決着します。",
+     "zh-Hans": "总分最高者获胜。若打平，则加掷一轮决胜。",
+     "ar": "صاحب المجموع الأعلى يفوز. وفي حال التعادل تُحسم النتيجة برمية فاصلة.",
+     "he": "הסכום הגבוה ביותר מנצח. תיקו נשבר בגלגול הכרעה.",
+     "fr": "Le total le plus élevé l'emporte. En cas d'égalité, on départage par un lancer.",
+     "de": "Die höchste Gesamtsumme gewinnt. Bei Gleichstand entscheidet ein Stechen.",
+     "es": "Gana el total más alto. Los empates se resuelven con una tirada de desempate.",
+     "pt": "O maior total vence. Empates são decididos com uma jogada de desempate."
+    }
+   ]
+  },
+  {
+   "id": "help-your-neighbor",
+   "icon": "person.2.wave.2.fill",
+   "diceNeeded": 3,
+   "players": "2+",
+   "name": {
+    "en": "Help Your Neighbor",
+    "ja": "ヘルプ・ユア・ネイバー",
+    "zh-Hans": "帮帮邻居",
+    "ar": "ساعد جارك",
+    "he": "עזור לשכן",
+    "fr": "Aide ton voisin",
+    "de": "Hilf deinem Nachbarn",
+    "es": "Ayuda a tu vecino",
+    "pt": "Ajude o Vizinho"
+   },
+   "summary": {
+    "en": "Claim your numbers, then pray your neighbors roll them — first to shed all ten chips wins.",
+    "ja": "自分の数字を決めたら、あとは隣人がその目を出してくれるよう祈るだけ——先に10枚のチップをすべて手放した人の勝ちです。",
+    "zh-Hans": "认领你的数字，然后祈祷邻居们把它掷出来——率先出完十枚筹码者获胜。",
+    "ar": "احجز أرقامك ثم ادعُ أن يرميها جيرانك — أول من يتخلّص من قطعه العشر يفوز.",
+    "he": "תופסים מספרים ומתפללים שהשכנים יגלגלו אותם — הראשון שנפטר מכל עשרת האסימונים מנצח.",
+    "fr": "Réclamez vos numéros, puis priez pour que vos voisins les lancent — le premier à se défausser de ses dix jetons gagne.",
+    "de": "Sichere dir deine Zahlen und hoffe, dass deine Nachbarn sie würfeln — wer zuerst alle zehn Chips loswird, gewinnt.",
+    "es": "Reclama tus números y reza para que tus vecinos los saquen: el primero en deshacerse de sus diez fichas gana.",
+    "pt": "Escolha seus números e torça para os vizinhos tirá-los — quem se livrar das dez fichas primeiro vence."
+   },
+   "rules": [
+    {
+     "en": "Assign the numbers 1 to 6 evenly around the table (with fewer than six players, some players take two numbers).",
+     "ja": "1から6の数字をテーブル全体に均等に割り当てます(プレイヤーが6人未満の場合は、2つの数字を受け持つ人が出ます)。",
+     "zh-Hans": "把数字 1 到 6 平均分配给围坐的玩家（不足六人时，部分玩家认领两个数字）。",
+     "ar": "وزّعوا الأرقام من 1 إلى 6 بالتساوي حول الطاولة (إذا كان اللاعبون أقل من ستة، يأخذ بعضهم رقمين).",
+     "he": "מחלקים את המספרים 1 עד 6 באופן שווה סביב השולחן (עם פחות משישה שחקנים, חלק מהשחקנים לוקחים שני מספרים).",
+     "fr": "Répartissez équitablement les numéros de 1 à 6 autour de la table (à moins de six joueurs, certains prennent deux numéros).",
+     "de": "Verteilt die Zahlen 1 bis 6 gleichmäßig am Tisch (bei weniger als sechs Spielern übernehmen manche Spieler zwei Zahlen).",
+     "es": "Reparte los números del 1 al 6 de forma equitativa alrededor de la mesa (con menos de seis jugadores, algunos toman dos números).",
+     "pt": "Distribuam os números de 1 a 6 igualmente pela mesa (com menos de seis jogadores, alguns ficam com dois números)."
+    },
+    {
+     "en": "Each player starts with ten chips.",
+     "ja": "各プレイヤーはチップ10枚を持ってスタートします。",
+     "zh-Hans": "每位玩家初始有十枚筹码。",
+     "ar": "يبدأ كل لاعب بعشر قطع.",
+     "he": "כל שחקן מתחיל עם עשרה אסימונים.",
+     "fr": "Chaque joueur commence la partie avec dix jetons.",
+     "de": "Jeder Spieler beginnt mit zehn Chips.",
+     "es": "Cada jugador empieza con diez fichas.",
+     "pt": "Cada jogador começa com dez fichas."
+    },
+    {
+     "en": "Take turns rolling three dice: every die showing YOUR number lets you discard one chip.",
+     "ja": "順番に3つのダイスを振り、自分の数字が出たダイス1つにつき、チップを1枚捨てられます。",
+     "zh-Hans": "轮流掷三枚骰子：每有一枚骰子掷出你的数字，你就可以弃掉一枚筹码。",
+     "ar": "تناوبوا على رمي ثلاثة نردات: كل نرد يُظهر رقمك يسمح لك بالتخلّص من قطعة واحدة.",
+     "he": "מגלגלים בתורות שלוש קוביות: כל קובייה שמראה את המספר שלכם מאפשרת לכם להיפטר מאסימון אחד.",
+     "fr": "À tour de rôle, lancez trois dés : chaque dé affichant VOTRE numéro vous permet de défausser un jeton.",
+     "de": "Würfelt reihum mit drei Würfeln: Für jeden Würfel, der DEINE Zahl zeigt, darfst du einen Chip abgeben.",
+     "es": "Por turnos, lanza tres dados: cada dado que muestre TU número te permite descartar una ficha.",
+     "pt": "Revezem-se jogando três dados: cada dado mostrando o SEU número permite descartar uma ficha."
+    },
+    {
+     "en": "Your own rolls can shed your chips too — but mostly you'll be helping your neighbors.",
+     "ja": "自分の出目で自分のチップを減らせることもありますが、たいていは隣人を助けることになります。",
+     "zh-Hans": "你自己掷骰也能帮自己出筹码——但大多数时候，你都是在帮邻居。",
+     "ar": "رمياتك أنت قد تُسقط قطعك أيضًا — لكنك في الغالب ستساعد جيرانك.",
+     "he": "גם הגלגולים שלכם יכולים להוריד לכם אסימונים — אבל רוב הזמן תעזרו דווקא לשכנים.",
+     "fr": "Vos propres lancers peuvent aussi vous débarrasser de jetons — mais la plupart du temps, ce sont vos voisins que vous aiderez.",
+     "de": "Auch deine eigenen Würfe können deine Chips loswerden — meistens hilfst du aber deinen Nachbarn.",
+     "es": "Tus propias tiradas también pueden librarte de fichas, pero sobre todo estarás ayudando a tus vecinos.",
+     "pt": "Suas próprias jogadas também podem descartar suas fichas — mas na maior parte do tempo você estará ajudando os vizinhos."
+    },
+    {
+     "en": "The first player with no chips left wins.",
+     "ja": "最初にチップがなくなったプレイヤーの勝ちです。",
+     "zh-Hans": "最先出完所有筹码的玩家获胜。",
+     "ar": "أول لاعب تنفد قطعه يفوز.",
+     "he": "השחקן הראשון שנשאר בלי אסימונים מנצח.",
+     "fr": "Le premier joueur qui n'a plus aucun jeton gagne.",
+     "de": "Der erste Spieler ohne Chips gewinnt.",
+     "es": "El primer jugador que se quede sin fichas gana.",
+     "pt": "O primeiro jogador a ficar sem fichas vence."
     }
    ]
   }

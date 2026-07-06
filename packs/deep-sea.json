@@ -1,0 +1,83 @@
+{
+ "id": "deep-sea",
+ "type": "dice",
+ "version": 1,
+ "styles": [
+  {
+   "id": "pearl",
+   "name": {
+    "en": "Pearl",
+    "ja": "真珠",
+    "zh-Hans": "珍珠",
+    "ar": "لؤلؤ",
+    "he": "פנינה",
+    "fr": "Perle",
+    "de": "Perle",
+    "es": "Perla",
+    "pt": "Pérola"
+   },
+   "body": "#EDE8E0",
+   "pip": "#4A4238",
+   "roughness": 0.15,
+   "metalness": 0.1,
+   "emission": null
+  },
+  {
+   "id": "coral",
+   "name": {
+    "en": "Coral",
+    "ja": "珊瑚",
+    "zh-Hans": "珊瑚",
+    "ar": "مرجان",
+    "he": "אלמוג",
+    "fr": "Corail",
+    "de": "Koralle",
+    "es": "Coral",
+    "pt": "Coral"
+   },
+   "body": "#E86A5E",
+   "pip": "#FFF5ED",
+   "roughness": 0.3,
+   "metalness": 0.0,
+   "emission": null
+  },
+  {
+   "id": "turquoise",
+   "name": {
+    "en": "Turquoise",
+    "ja": "ターコイズ",
+    "zh-Hans": "绿松石",
+    "ar": "فيروز",
+    "he": "טורקיז",
+    "fr": "Turquoise",
+    "de": "Türkis",
+    "es": "Turquesa",
+    "pt": "Turquesa"
+   },
+   "body": "#2AB5A5",
+   "pip": "#063B36",
+   "roughness": 0.2,
+   "metalness": 0.0,
+   "emission": null
+  },
+  {
+   "id": "abyss",
+   "name": {
+    "en": "Abyss",
+    "ja": "深淵",
+    "zh-Hans": "深渊",
+    "ar": "الهاوية",
+    "he": "תהום",
+    "fr": "Abysse",
+    "de": "Abgrund",
+    "es": "Abismo",
+    "pt": "Abismo"
+   },
+   "body": "#04121F",
+   "pip": "#BFE9FF",
+   "roughness": 0.35,
+   "metalness": 0.0,
+   "emission": "#2E9BFF"
+  }
+ ]
+}

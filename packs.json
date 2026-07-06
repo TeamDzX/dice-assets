@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-05",
+ "updated": "2026-07-06",
  "categories": [
   "dice",
   "table",
@@ -209,6 +209,106 @@
    "sizeKB": 1
   },
   {
+   "id": "kyoto-nights",
+   "type": "dice",
+   "emoji": "🏮",
+   "name": {
+    "en": "Kyoto Nights",
+    "ja": "京都の夜",
+    "zh-Hans": "京都之夜",
+    "ar": "ليالي كيوتو",
+    "he": "לילות קיוטו",
+    "fr": "Nuits de Kyoto",
+    "de": "Kyoto bei Nacht",
+    "es": "Noches de Kioto",
+    "pt": "Noites de Kyoto"
+   },
+   "tagline": {
+    "en": "Indigo, vermilion, and gold leaf",
+    "ja": "藍、朱、そして金箔",
+    "zh-Hans": "靛蓝、朱红与金箔",
+    "ar": "نيلي وقرمزي وورق الذهب",
+    "he": "אינדיגו, ורמיליון ועלה זהב",
+    "fr": "Indigo, vermillon et feuille d'or",
+    "de": "Indigo, Zinnoberrot und Blattgold",
+    "es": "Índigo, bermellón y pan de oro",
+    "pt": "Índigo, vermelhão e folha de ouro"
+   },
+   "description": {
+    "en": "Four dice steeped in the Japanese night: deep aizome indigo, torii-gate vermilion, gleaming gold leaf, and ink-stone charcoal.",
+    "ja": "日本の夜に染まった4つのダイス。深い藍染の藍、鳥居の朱、きらめく金箔、そして硯を思わせる墨色を揃えました。",
+    "zh-Hans": "四枚浸染日本夜色的骰子：深邃的蓝染靛蓝、鸟居朱红、熠熠金箔，以及砚石墨黑。",
+    "ar": "أربعة نردات مغموسة في الليل الياباني: نيلي «أيزومي» العميق، وقرمزي بوابات التوري، وورق ذهب متلألئ، وفحمي بلون حجر الحبر.",
+    "he": "ארבע קוביות ספוגות בליל יפני: אינדיגו אאיזומה עמוק, ורמיליון בגון שערי טוריי, עלה זהב נוצץ ופחם בגון אבן דיו.",
+    "fr": "Quatre dés imprégnés de la nuit japonaise : l'indigo profond de l'aizome, le vermillon des portiques torii, l'éclat de la feuille d'or et le charbon de la pierre à encre.",
+    "de": "Vier Würfel, getaucht in die japanische Nacht: tiefes Aizome-Indigo, Torii-Zinnoberrot, schimmerndes Blattgold und Tuschestein-Anthrazit.",
+    "es": "Cuatro dados impregnados de la noche japonesa: índigo aizome profundo, bermellón de portal torii, pan de oro resplandeciente y carbón de piedra de tinta.",
+    "pt": "Quatro dados imersos na noite japonesa: índigo aizome profundo, vermelhão de portal torii, folha de ouro reluzente e carvão de pedra de nanquim."
+   },
+   "tags": [
+    "japan",
+    "premium"
+   ],
+   "iconSymbol": "moon.stars.fill",
+   "iconColor": "indigo",
+   "version": 1,
+   "featured": false,
+   "productId": "TeamDZX.dice.pack.dicestyles",
+   "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/kyoto-nights.jpg",
+   "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/kyoto-nights.json",
+   "sizeKB": 1
+  },
+  {
+   "id": "deep-sea",
+   "type": "dice",
+   "emoji": "🌊",
+   "name": {
+    "en": "Deep Sea",
+    "ja": "深海",
+    "zh-Hans": "深海",
+    "ar": "أعماق البحر",
+    "he": "מעמקי הים",
+    "fr": "Grand Bleu",
+    "de": "Tiefsee",
+    "es": "Mar profundo",
+    "pt": "Mar Profundo"
+   },
+   "tagline": {
+    "en": "Treasures from the trench",
+    "ja": "海溝から届いた宝物",
+    "zh-Hans": "来自海沟的珍宝",
+    "ar": "كنوز من قاع الخندق",
+    "he": "אוצרות מהתהום",
+    "fr": "Trésors remontés des abysses",
+    "de": "Schätze aus dem Graben",
+    "es": "Tesoros de la fosa",
+    "pt": "Tesouros da fossa oceânica"
+   },
+   "description": {
+    "en": "Four dice from the ocean floor: warm pearl, bright coral, tropical turquoise, and an abyss die that glows with its own light.",
+    "ja": "海の底から届いた4つのダイス。温もりのある真珠、鮮やかな珊瑚、南国のターコイズ、そして自ら光を放つ深淵のダイスを収録しています。",
+    "zh-Hans": "四枚来自海底的骰子：温润珍珠、明艳珊瑚、热带绿松石，还有一枚自体发光的深渊骰。",
+    "ar": "أربعة نردات من قاع المحيط: لؤلؤ دافئ، ومرجان زاهٍ، وفيروز استوائي، ونرد الهاوية الذي يتوهّج بضوئه الخاص.",
+    "he": "ארבע קוביות מקרקעית האוקיינוס: פנינה חמימה, אלמוג זוהר, טורקיז טרופי וקוביית תהום שזוהרת באור משלה.",
+    "fr": "Quatre dés venus du fond de l'océan : une perle chaleureuse, un corail éclatant, une turquoise tropicale et un dé abysse qui brille de sa propre lumière.",
+    "de": "Vier Würfel vom Meeresgrund: warme Perle, leuchtende Koralle, tropisches Türkis und ein Abgrund-Würfel, der aus eigener Kraft leuchtet.",
+    "es": "Cuatro dados del fondo del océano: perla cálida, coral brillante, turquesa tropical y un dado abisal que brilla con luz propia.",
+    "pt": "Quatro dados vindos do fundo do oceano: pérola aconchegante, coral vibrante, turquesa tropical e um dado abismo que brilha com luz própria."
+   },
+   "tags": [
+    "ocean",
+    "premium"
+   ],
+   "iconSymbol": "water.waves",
+   "iconColor": "cyan",
+   "version": 1,
+   "featured": false,
+   "productId": "TeamDZX.dice.pack.dicestyles",
+   "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/deep-sea.jpg",
+   "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/deep-sea.json",
+   "sizeKB": 1
+  },
+  {
    "id": "tatami-room",
    "type": "table",
    "emoji": "🎋",
@@ -309,6 +409,57 @@
    "sizeKB": 1
   },
   {
+   "id": "zen-garden",
+   "type": "table",
+   "emoji": "🪨",
+   "name": {
+    "en": "Zen Garden",
+    "ja": "枯山水",
+    "zh-Hans": "枯山水",
+    "ar": "حديقة الزن",
+    "he": "גן זן",
+    "fr": "Jardin Zen",
+    "de": "Zen-Garten",
+    "es": "Jardín zen",
+    "pt": "Jardim Zen"
+   },
+   "tagline": {
+    "en": "Rake, breathe, roll",
+    "ja": "砂紋を描き、息を整え、振る",
+    "zh-Hans": "耙沙、深呼吸、掷骰",
+    "ar": "مشّط الرمل، خذ نفسًا، وارمِ",
+    "he": "לגרוף, לנשום, לגלגל",
+    "fr": "Ratissez, respirez, lancez",
+    "de": "Harken, atmen, würfeln",
+    "es": "Rastrilla, respira, lanza",
+    "pt": "Rastele, respire, jogue"
+   },
+   "description": {
+    "en": "Three serene surfaces for contemplative rolling: raked karesansui sand, cool slate, and soft forest moss — each with its own gentle physics.",
+    "ja": "静寂のなかでダイスを転がすための3つの表面。砂紋を描いた枯山水の砂、冷たいスレート、柔らかな森の苔——それぞれが繊細な物理挙動を備えています。",
+    "zh-Hans": "三种静谧的表面，为凝神掷骰而生：耙纹枯山水细沙、清凉板岩与柔软林间苔藓——每一种都有独特的轻柔物理效果。",
+    "ar": "ثلاثة أسطح هادئة لرميات تأمّلية: رمل «كاريسانسوي» الممشّط، وإردواز بارد، وطحلب غابات ناعم — ولكلٍّ منها فيزياؤها اللطيفة الخاصة.",
+    "he": "שלושה משטחים שלווים לגלגול מדיטטיבי: חול קארסאנסוי מגורף, צפחה צוננת וטחב יער רך — לכל אחד פיזיקה עדינה משלו.",
+    "fr": "Trois surfaces sereines pour des lancers contemplatifs : le sable ratissé d'un karesansui, l'ardoise fraîche et la douce mousse des sous-bois — chacune avec sa propre physique délicate.",
+    "de": "Drei ruhige Oberflächen für besinnliches Würfeln: geharkter Karesansui-Sand, kühler Schiefer und weiches Waldmoos — jede mit ihrer eigenen sanften Physik.",
+    "es": "Tres superficies serenas para tiradas contemplativas: arena karesansui rastrillada, pizarra fresca y suave musgo del bosque, cada una con su propia física delicada.",
+    "pt": "Três superfícies serenas para jogadas contemplativas: areia karesansui rastelada, ardósia fresca e musgo macio de floresta — cada uma com sua própria física suave."
+   },
+   "tags": [
+    "japan",
+    "zen",
+    "premium"
+   ],
+   "iconSymbol": "circle.hexagongrid.circle",
+   "iconColor": "mint",
+   "version": 1,
+   "featured": false,
+   "productId": "TeamDZX.dice.pack.tables",
+   "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/zen-garden.jpg",
+   "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/zen-garden.json",
+   "sizeKB": 1
+  },
+  {
    "id": "party-night",
    "type": "games",
    "emoji": "🏮",
@@ -316,7 +467,7 @@
     "en": "Party Night Pack",
     "ja": "パーティーナイトパック",
     "zh-Hans": "派对之夜包",
-    "ar": "حزمة ليلة السهر",
+    "ar": "حزمة ليلة الحفلات",
     "he": "חבילת ליל מסיבה",
     "fr": "Pack Soirée Festive",
     "de": "Partynacht-Paket",
@@ -324,26 +475,26 @@
     "pt": "Pacote Noite de Festa"
    },
    "tagline": {
-    "en": "Three izakaya crowd-pleasers",
-    "ja": "居酒屋で盛り上がる定番3種",
-    "zh-Hans": "三款居酒屋人气游戏",
-    "ar": "ثلاث ألعاب تشعل أجواء الإيزاكايا",
-    "he": "שלושה להיטי איזקאיה",
-    "fr": "Trois valeurs sûres de l'izakaya",
-    "de": "Drei Izakaya-Klassiker für die Runde",
-    "es": "Tres éxitos de izakaya",
-    "pt": "Três sucessos de izakaya"
+    "en": "Five izakaya crowd-pleasers",
+    "ja": "居酒屋で盛り上がる5つのゲーム",
+    "zh-Hans": "五款居酒屋人气游戏",
+    "ar": "خمس ألعاب تُشعل أجواء الإيزاكايا",
+    "he": "חמישה להיטי איזאקאיה",
+    "fr": "Cinq incontournables d'izakaya",
+    "de": "Fünf Izakaya-Publikumslieblinge",
+    "es": "Cinco favoritos de izakaya",
+    "pt": "Cinco sucessos de izakaya"
    },
    "description": {
-    "en": "Three fast, loud, luck-and-nerve dice games straight from the izakaya table: Chinchirorin, Cee-lo, and Drop Dead. Full illustrated rules included.",
-    "ja": "居酒屋の席そのままの、スピーディーで熱くなれる運と度胸のダイスゲーム3種。チンチロリン、シーロー、ドロップデッド。イラスト付きの詳しいルールも収録しています。",
-    "zh-Hans": "三款节奏快、气氛热、拼运气也拼胆量的骰子游戏，直接来自居酒屋的酒桌：亲亲罗林（Chinchirorin）、四五六（Cee-lo）和一败涂地（Drop Dead）。附完整图解规则。",
-    "ar": "ثلاث ألعاب نرد سريعة وصاخبة تجمع بين الحظ والجرأة، قادمة مباشرة من طاولات الإيزاكايا اليابانية: تشينتشيرورين، وسي-لو، ودروب ديد. مع قواعد كاملة مصوّرة.",
-    "he": "שלושה משחקי קוביות מהירים, רועשים, של מזל ועצבי ברזל היישר משולחן האיזקאיה: צ'ינצ'ירורין, סי-לו ודרופ דד. כולל חוקים מלאים ומאוירים.",
-    "fr": "Trois jeux de dés rapides, bruyants, entre chance et sang-froid, tout droit venus des tables d'izakaya : Chinchirorin, Cee-lo et Drop Dead. Règles complètes illustrées incluses.",
-    "de": "Drei schnelle, laute Würfelspiele voller Glück und Nervenkitzel, direkt vom Izakaya-Tisch: Chinchirorin, Cee-lo und Drop Dead. Komplette illustrierte Regeln inklusive.",
-    "es": "Tres juegos de dados rápidos, ruidosos y de pura suerte y sangre fría, directos de la mesa de un izakaya: Chinchirorin, Cee-lo y Drop Dead. Incluye reglas completas ilustradas.",
-    "pt": "Três jogos de dados rápidos, animados, de sorte e ousadia, direto da mesa do izakaya: Chinchirorin, Cee-lo e Drop Dead. Regras completas e ilustradas incluídas."
+    "en": "Five fast, loud, luck-and-nerve dice games straight from the izakaya table: Chinchirorin, Cee-lo, Drop Dead, Bunco, and Sevens Out. Full illustrated rules included.",
+    "ja": "居酒屋のテーブルから生まれた、スピーディーで賑やかな運と度胸のダイスゲーム5種。チンチロリン、シーロー、ドロップデッド、ブンコ、セブンズアウトを収録。イラスト付きの完全ルールも含まれています。",
+    "zh-Hans": "五款节奏快、气氛热烈、考验运气与胆量的骰子游戏，直接来自居酒屋的餐桌：亲亲罗林（Chinchirorin）、四五六（Cee-lo）、一败涂地（Drop Dead）、邦戈（Bunco）和逢七出局。附完整图解规则。",
+    "ar": "خمس ألعاب نرد سريعة وصاخبة تجمع الحظ والجرأة، قادمة مباشرة من طاولة الإيزاكايا: تشينتشيرورين، وسي-لو، ودروب ديد، وبونكو، وسيفنز آوت. مع قواعد مصوّرة كاملة.",
+    "he": "חמישה משחקי קוביות מהירים, רועשים ומלאי מזל ועצבים היישר משולחן האיזאקאיה: צ'ינצ'ירורין, סי-לו, דרופ דד, בונקו וסבנס אאוט. כולל חוקים מאוירים מלאים.",
+    "fr": "Cinq jeux de dés rapides et bruyants, mêlant chance et culot, tout droit venus des tables d'izakaya : Chinchirorin, Cee-lo, Drop Dead, Bunco et Sevens Out. Règles illustrées complètes incluses.",
+    "de": "Fünf schnelle, laute Würfelspiele voller Glück und Nervenkitzel, direkt vom Izakaya-Tisch: Chinchirorin, Cee-lo, Drop Dead, Bunco und Sevens Out. Komplett illustrierte Regeln inklusive.",
+    "es": "Cinco juegos de dados rápidos, ruidosos, de suerte y de nervio, directos de la mesa del izakaya: Chinchirorin, Cee-lo, Drop Dead, Bunco y Sietes fuera. Incluye reglas ilustradas completas.",
+    "pt": "Cinco jogos de dados rápidos, barulhentos, de sorte e ousadia, direto da mesa do izakaya: Chinchirorin, Cee-lo, Drop Dead, Bunco e Sete e Fora. Regras ilustradas completas incluídas."
    },
    "tags": [
     "party",
@@ -352,12 +503,12 @@
    ],
    "iconSymbol": "flame.fill",
    "iconColor": "orange",
-   "version": 1,
+   "version": 2,
    "featured": false,
    "productId": "TeamDZX.dice.pack.partynight",
    "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/party-night.jpg",
    "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/party-night.json",
-   "sizeKB": 19
+   "sizeKB": 31
   },
   {
    "id": "tavern-classics",
@@ -376,25 +527,25 @@
    },
    "tagline": {
     "en": "Centuries-old pub favourites",
-    "ja": "何世紀も愛されるパブの定番",
-    "zh-Hans": "流传数百年的酒馆名作",
+    "ja": "何世紀にもわたり愛されるパブの定番",
+    "zh-Hans": "传承数百年的酒馆最爱",
     "ar": "ألعاب حانات عريقة عمرها قرون",
-    "he": "משחקי פאב אהובים בני מאות שנים",
-    "fr": "Des jeux de pub vieux de plusieurs siècles",
+    "he": "להיטי פאב בני מאות שנים",
+    "fr": "Des classiques de pub vieux de plusieurs siècles",
     "de": "Jahrhundertealte Kneipenfavoriten",
     "es": "Favoritos de pub con siglos de historia",
     "pt": "Favoritos de bar com séculos de história"
    },
    "description": {
-    "en": "Three timeless tavern games — Shut the Box, Threes, and Going to Boston — with complete rules for game night.",
-    "ja": "時代を超えて愛される酒場のゲーム3種——シャット・ザ・ボックス、スリーズ、ゴーイング・トゥ・ボストン。ゲームナイトにぴったりの完全ルール付きです。",
-    "zh-Hans": "三款经久不衰的酒馆游戏——关盒子（Shut the Box）、逢三清零（Threes）和波士顿之旅（Going to Boston），附完整规则，游戏之夜必备。",
-    "ar": "ثلاث ألعاب حانة خالدة — شَت ذا بوكس، وثريز، وغوينغ تو بوسطن — مع قواعد كاملة لأمسيات اللعب.",
-    "he": "שלושה משחקי פאב על-זמניים — סגור את הקופסה, שלשות ונוסעים לבוסטון — עם חוקים מלאים לערב משחקים.",
-    "fr": "Trois jeux de taverne intemporels — Shut the Box (« Ferme la boîte »), Threes et En route pour Boston — avec des règles complètes pour vos soirées jeux.",
-    "de": "Drei zeitlose Wirtshausspiele – Shut the Box, Threes und Nach Boston – mit vollständigen Regeln für deinen Spieleabend.",
-    "es": "Tres juegos de taberna atemporales — Cierra la caja, Treses y Rumbo a Boston — con reglas completas para tu noche de juegos.",
-    "pt": "Três jogos de taverna atemporais — Feche a Caixa, Trios e Rumo a Boston — com regras completas para a sua noite de jogos."
+    "en": "Five timeless tavern games — Shut the Box, Threes, Going to Boston, Chicago, and Help Your Neighbor — with complete rules for game night.",
+    "ja": "時代を超えて親しまれてきた5つのタバーンゲーム——シャット・ザ・ボックス、スリーズ、ゴーイング・トゥ・ボストン、シカゴ、ヘルプ・ユア・ネイバー。ゲームナイトにぴったりの完全ルール付きです。",
+    "zh-Hans": "五款经久不衰的酒馆游戏——关盒子、逢三清零、波士顿之旅、芝加哥和帮帮邻居——附完整规则，游戏之夜必备。",
+    "ar": "خمس ألعاب حانة خالدة — شَت ذا بوكس، وثريز، وغوينغ تو بوسطن، وشيكاغو، وساعد جارك — مع قواعد كاملة لليلة الألعاب.",
+    "he": "חמישה משחקי פאב על-זמניים — סגור את הקופסה, שלשות, נוסעים לבוסטון, שיקגו ועזור לשכן — עם חוקים מלאים לערב משחקים.",
+    "fr": "Cinq jeux de taverne intemporels — « Ferme la boîte », Threes, En route pour Boston, Chicago et Aide ton voisin — avec les règles complètes pour vos soirées jeux.",
+    "de": "Fünf zeitlose Wirtshausspiele — Shut the Box, Threes, Nach Boston, Chicago und Hilf deinem Nachbarn — mit vollständigen Regeln für den Spieleabend.",
+    "es": "Cinco juegos de taberna atemporales — Cierra la caja, Treses, Rumbo a Boston, Chicago y Ayuda a tu vecino — con reglas completas para tu noche de juegos.",
+    "pt": "Cinco jogos de taverna atemporais — Feche a Caixa, Trios, Rumo a Boston, Chicago e Ajude o Vizinho — com regras completas para a noite de jogos."
    },
    "tags": [
     "classic",
@@ -402,12 +553,12 @@
    ],
    "iconSymbol": "mug.fill",
    "iconColor": "yellow",
-   "version": 1,
+   "version": 2,
    "featured": false,
    "productId": "TeamDZX.dice.pack.tavernclassics",
    "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/tavern-classics.jpg",
    "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/tavern-classics.json",
-   "sizeKB": 19
+   "sizeKB": 31
   }
  ]
 }

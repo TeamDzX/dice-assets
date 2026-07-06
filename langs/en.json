@@ -32,13 +32,28 @@
   },
   "party-night": {
    "name": "Party Night Pack",
-   "tagline": "Three izakaya crowd-pleasers",
-   "description": "Three fast, loud, luck-and-nerve dice games straight from the izakaya table: Chinchirorin, Cee-lo, and Drop Dead. Full illustrated rules included."
+   "tagline": "Five izakaya crowd-pleasers",
+   "description": "Five fast, loud, luck-and-nerve dice games straight from the izakaya table: Chinchirorin, Cee-lo, Drop Dead, Bunco, and Sevens Out. Full illustrated rules included."
   },
   "tavern-classics": {
    "name": "Tavern Classics",
    "tagline": "Centuries-old pub favourites",
-   "description": "Three timeless tavern games — Shut the Box, Threes, and Going to Boston — with complete rules for game night."
+   "description": "Five timeless tavern games — Shut the Box, Threes, Going to Boston, Chicago, and Help Your Neighbor — with complete rules for game night."
+  },
+  "kyoto-nights": {
+   "name": "Kyoto Nights",
+   "tagline": "Indigo, vermilion, and gold leaf",
+   "description": "Four dice steeped in the Japanese night: deep aizome indigo, torii-gate vermilion, gleaming gold leaf, and ink-stone charcoal."
+  },
+  "deep-sea": {
+   "name": "Deep Sea",
+   "tagline": "Treasures from the trench",
+   "description": "Four dice from the ocean floor: warm pearl, bright coral, tropical turquoise, and an abyss die that glows with its own light."
+  },
+  "zen-garden": {
+   "name": "Zen Garden",
+   "tagline": "Rake, breathe, roll",
+   "description": "Three serene surfaces for contemplative rolling: raked karesansui sand, cool slate, and soft forest moss — each with its own gentle physics."
   }
  },
  "styles": {
@@ -60,7 +75,18 @@
   "Tatami": "Tatami",
   "Red Baize": "Red Baize",
   "Navy Baize": "Navy Baize",
-  "Walnut": "Walnut"
+  "Walnut": "Walnut",
+  "Indigo": "Indigo",
+  "Vermilion": "Vermilion",
+  "Gold Leaf": "Gold Leaf",
+  "Sumi": "Sumi",
+  "Pearl": "Pearl",
+  "Coral": "Coral",
+  "Turquoise": "Turquoise",
+  "Abyss": "Abyss",
+  "Sand Garden": "Sand Garden",
+  "Slate": "Slate",
+  "Moss": "Moss"
  },
  "games": {
   "chinchirorin": {
@@ -127,6 +153,50 @@
     "Roll the last die — the sum of your three kept dice is your score.",
     "Every player rolls in turn; the highest score wins the round.",
     "First to win an agreed number of rounds — five works well — wins the game."
+   ]
+  },
+  "bunco": {
+   "name": "Bunco",
+   "summary": "The big-group party classic — six noisy rounds of matching dice.",
+   "rules": [
+    "Players take turns rolling three dice, hunting the current round number (round 1 hunts 1s, round 2 hunts 2s, and so on up to 6).",
+    "Score 1 point for each die matching the round number, and roll again whenever you score.",
+    "Rolling three of the round number is a BUNCO — 21 points, and you have to shout it!",
+    "Rolling three of any other number scores 5 points.",
+    "When a player reaches 21 points the round ends. Most rounds won after all six rounds takes the game."
+   ]
+  },
+  "sevens-out": {
+   "name": "Sevens Out",
+   "summary": "Keep rolling and banking — but roll a 7 and your turn is over.",
+   "rules": [
+    "Take turns rolling two dice and adding the total to your turn score.",
+    "Doubles score double — a pair of 4s adds 16.",
+    "Roll a total of 7 and your turn ends immediately; you bank nothing.",
+    "Stop whenever you like to bank your turn score onto your overall total.",
+    "First player to 500 points wins."
+   ]
+  },
+  "chicago": {
+   "name": "Chicago",
+   "summary": "Eleven quick rounds, one target each — chase every total from 2 to 12.",
+   "rules": [
+    "The game lasts eleven rounds, targeting the totals 2 through 12 in order.",
+    "Each round, every player rolls two dice once.",
+    "Roll the round's target total and score that many points; anything else scores nothing.",
+    "After the final round (12), add up all the scores.",
+    "The highest total wins. Ties are settled with a roll-off."
+   ]
+  },
+  "help-your-neighbor": {
+   "name": "Help Your Neighbor",
+   "summary": "Claim your numbers, then pray your neighbors roll them — first to shed all ten chips wins.",
+   "rules": [
+    "Assign the numbers 1 to 6 evenly around the table (with fewer than six players, some players take two numbers).",
+    "Each player starts with ten chips.",
+    "Take turns rolling three dice: every die showing YOUR number lets you discard one chip.",
+    "Your own rolls can shed your chips too — but mostly you'll be helping your neighbors.",
+    "The first player with no chips left wins."
    ]
   }
  }

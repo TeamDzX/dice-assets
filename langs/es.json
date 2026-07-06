@@ -32,13 +32,28 @@
   },
   "party-night": {
    "name": "Pack Noche de fiesta",
-   "tagline": "Tres éxitos de izakaya",
-   "description": "Tres juegos de dados rápidos, ruidosos y de pura suerte y sangre fría, directos de la mesa de un izakaya: Chinchirorin, Cee-lo y Drop Dead. Incluye reglas completas ilustradas."
+   "tagline": "Cinco favoritos de izakaya",
+   "description": "Cinco juegos de dados rápidos, ruidosos, de suerte y de nervio, directos de la mesa del izakaya: Chinchirorin, Cee-lo, Drop Dead, Bunco y Sietes fuera. Incluye reglas ilustradas completas."
   },
   "tavern-classics": {
    "name": "Clásicos de taberna",
    "tagline": "Favoritos de pub con siglos de historia",
-   "description": "Tres juegos de taberna atemporales — Cierra la caja, Treses y Rumbo a Boston — con reglas completas para tu noche de juegos."
+   "description": "Cinco juegos de taberna atemporales — Cierra la caja, Treses, Rumbo a Boston, Chicago y Ayuda a tu vecino — con reglas completas para tu noche de juegos."
+  },
+  "kyoto-nights": {
+   "name": "Noches de Kioto",
+   "tagline": "Índigo, bermellón y pan de oro",
+   "description": "Cuatro dados impregnados de la noche japonesa: índigo aizome profundo, bermellón de portal torii, pan de oro resplandeciente y carbón de piedra de tinta."
+  },
+  "deep-sea": {
+   "name": "Mar profundo",
+   "tagline": "Tesoros de la fosa",
+   "description": "Cuatro dados del fondo del océano: perla cálida, coral brillante, turquesa tropical y un dado abisal que brilla con luz propia."
+  },
+  "zen-garden": {
+   "name": "Jardín zen",
+   "tagline": "Rastrilla, respira, lanza",
+   "description": "Tres superficies serenas para tiradas contemplativas: arena karesansui rastrillada, pizarra fresca y suave musgo del bosque, cada una con su propia física delicada."
   }
  },
  "styles": {
@@ -60,7 +75,18 @@
   "Tatami": "Tatami",
   "Red Baize": "Tapete rojo",
   "Navy Baize": "Tapete azul marino",
-  "Walnut": "Nogal"
+  "Walnut": "Nogal",
+  "Indigo": "Índigo",
+  "Vermilion": "Bermellón",
+  "Gold Leaf": "Pan de oro",
+  "Sumi": "Tinta",
+  "Pearl": "Perla",
+  "Coral": "Coral",
+  "Turquoise": "Turquesa",
+  "Abyss": "Abismo",
+  "Sand Garden": "Jardín de arena",
+  "Slate": "Pizarra",
+  "Moss": "Musgo"
  },
  "games": {
   "chinchirorin": {
@@ -127,6 +153,50 @@
     "Lanza el último dado: la suma de tus tres dados apartados es tu puntuación.",
     "Cada jugador lanza por turnos; la puntuación más alta gana la ronda.",
     "El primero en ganar un número acordado de rondas — cinco funciona bien — gana la partida."
+   ]
+  },
+  "bunco": {
+   "name": "Bunco",
+   "summary": "El clásico de fiesta para grupos grandes: seis rondas ruidosas buscando dados iguales.",
+   "rules": [
+    "Por turnos, lanza tres dados buscando el número de la ronda actual (en la ronda 1 se buscan los 1, en la ronda 2 los 2, y así hasta el 6).",
+    "Anota 1 punto por cada dado que coincida con el número de la ronda, y vuelve a lanzar cada vez que puntúes.",
+    "Sacar tres dados con el número de la ronda es un ¡BUNCO!: 21 puntos, ¡y tienes que gritarlo!",
+    "Sacar tres dados iguales de cualquier otro número vale 5 puntos.",
+    "Cuando un jugador llega a 21 puntos, la ronda termina. Quien gane más rondas de las seis se lleva la partida."
+   ]
+  },
+  "sevens-out": {
+   "name": "Sietes fuera",
+   "summary": "Sigue lanzando y asegurando puntos, pero saca un 7 y tu turno se acaba.",
+   "rules": [
+    "Por turnos, lanza dos dados y suma el total a la puntuación de tu turno.",
+    "Los dobles valen el doble: un par de 4 suma 16.",
+    "Si sacas un total de 7, tu turno termina de inmediato y no aseguras nada.",
+    "Detente cuando quieras para asegurar la puntuación de tu turno en tu total general.",
+    "El primer jugador en llegar a 500 puntos gana."
+   ]
+  },
+  "chicago": {
+   "name": "Chicago",
+   "summary": "Once rondas rápidas, un objetivo en cada una: persigue todos los totales del 2 al 12.",
+   "rules": [
+    "La partida dura once rondas, con los totales del 2 al 12 como objetivo en orden.",
+    "En cada ronda, cada jugador lanza dos dados una vez.",
+    "Si sacas el total objetivo de la ronda, anotas esa cantidad de puntos; cualquier otro resultado no vale nada.",
+    "Tras la ronda final (12), suma todas las puntuaciones.",
+    "Gana el total más alto. Los empates se resuelven con una tirada de desempate."
+   ]
+  },
+  "help-your-neighbor": {
+   "name": "Ayuda a tu vecino",
+   "summary": "Reclama tus números y reza para que tus vecinos los saquen: el primero en deshacerse de sus diez fichas gana.",
+   "rules": [
+    "Reparte los números del 1 al 6 de forma equitativa alrededor de la mesa (con menos de seis jugadores, algunos toman dos números).",
+    "Cada jugador empieza con diez fichas.",
+    "Por turnos, lanza tres dados: cada dado que muestre TU número te permite descartar una ficha.",
+    "Tus propias tiradas también pueden librarte de fichas, pero sobre todo estarás ayudando a tus vecinos.",
+    "El primer jugador que se quede sin fichas gana."
    ]
   }
  }

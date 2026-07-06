@@ -15,7 +15,7 @@ import json, os, sys
 ROOT = os.path.dirname(os.path.abspath(__file__))
 RAW = "https://raw.githubusercontent.com/TeamDzX/dice-assets/main"
 LANG_CODES = ["en", "ja", "zh-Hans", "ar", "he", "fr", "de", "es", "pt"]
-UPDATED = "2026-07-05"
+UPDATED = "2026-07-06"
 
 # IAP structure (decided 2026-07-05): section bundles + per-game-pack products,
 # plus an Everything bundle handled app-side (it unlocks every pack regardless
@@ -74,6 +74,28 @@ DICE_PACKS = {
             ("ultraviolet", "Ultraviolet", "#12081F", "#EFE4FF", 0.40, 0.0, "#8B5CF6"),
         ],
     },
+    "kyoto-nights": {
+        "emoji": "🏮", "iconSymbol": "moon.stars.fill", "iconColor": "indigo",
+        "featured": False, "productId": DICE_STYLES_ID,
+        "tags": ["japan", "premium"],
+        "styles": [
+            ("indigo",     "Indigo",     "#1B2C58", "#EFE9DC", 0.35, 0.0, None),
+            ("vermilion",  "Vermilion",  "#C43A28", "#FFF6EA", 0.30, 0.0, None),
+            ("gold-leaf",  "Gold Leaf",  "#C9A227", "#231C0A", 0.30, 0.90, None),
+            ("sumi",       "Sumi",       "#26262B", "#E8E4DA", 0.50, 0.0, None),
+        ],
+    },
+    "deep-sea": {
+        "emoji": "🌊", "iconSymbol": "water.waves", "iconColor": "cyan",
+        "featured": False, "productId": DICE_STYLES_ID,
+        "tags": ["ocean", "premium"],
+        "styles": [
+            ("pearl",     "Pearl",     "#EDE8E0", "#4A4238", 0.15, 0.10, None),
+            ("coral",     "Coral",     "#E86A5E", "#FFF5ED", 0.30, 0.0, None),
+            ("turquoise", "Turquoise", "#2AB5A5", "#063B36", 0.20, 0.0, None),
+            ("abyss",     "Abyss",     "#04121F", "#BFE9FF", 0.35, 0.0, "#2E9BFF"),
+        ],
+    },
 }
 
 TABLE_PACKS = {
@@ -95,6 +117,16 @@ TABLE_PACKS = {
             ("walnut",     "Walnut",     "#241209", "#5C3A22", 0.50, 0.0, 0.40, 0.08, 0.55, 0.28, "#3A2113"),
         ],
     },
+    "zen-garden": {
+        "emoji": "🪨", "iconSymbol": "circle.hexagongrid.circle", "iconColor": "mint",
+        "featured": False, "productId": TABLES_ID,
+        "tags": ["japan", "zen", "premium"],
+        "surfaces": [
+            ("sand-garden", "Sand Garden", "#4A4436", "#CBBFA3", 0.95, 0.0, 0.50, 0.02, 1.0, 0.06, "#6B6250"),
+            ("slate",       "Slate",       "#1E2226", "#3E464D", 0.60, 0.0, 0.30, 0.06, 0.70, 0.20, "#2E363D"),
+            ("moss",        "Moss",        "#26301C", "#55703B", 0.95, 0.0, 0.45, 0.02, 1.0, 0.05, "#3A4A28"),
+        ],
+    },
 }
 
 GAME_PACKS = {
@@ -102,21 +134,27 @@ GAME_PACKS = {
         "emoji": "🏮", "iconSymbol": "lanternfestival.fill" if False else "flame.fill",
         "iconColor": "orange", "featured": False,
         "productId": PARTY_NIGHT_ID, "tags": ["party", "japan", "premium"],
+        "version": 2,  # v2 (2026-07-06): +Bunco, +Sevens Out — free update for owners
         # id, icon, diceNeeded, players
         "games": [
             ("chinchirorin",    "sparkles",                3, "2+"),
             ("cee-lo",          "flame.fill",              3, "2+"),
             ("drop-dead",       "heart.slash.fill",        5, "2+"),
+            ("bunco",           "person.3.fill",           3, "4+"),
+            ("sevens-out",      "7.square.fill",           2, "2+"),
         ],
     },
     "tavern-classics": {
         "emoji": "🍺", "iconSymbol": "mug.fill", "iconColor": "yellow",
         "featured": False, "productId": TAVERN_ID,
         "tags": ["classic", "premium"],
+        "version": 2,  # v2 (2026-07-06): +Chicago, +Help Your Neighbor — free update for owners
         "games": [
             ("shut-the-box",    "square.grid.3x3.fill",    2, "2+"),
             ("threes",          "3.circle.fill",           5, "1+"),
             ("going-to-boston", "arrow.right.circle.fill", 3, "2+"),
+            ("chicago",         "building.2.fill",         2, "2+"),
+            ("help-your-neighbor", "person.2.wave.2.fill", 3, "2+"),
         ],
     },
 }
@@ -158,7 +196,8 @@ os.makedirs(os.path.join(ROOT, "packs"), exist_ok=True)
 manifest_packs = []
 
 def emit(slug, ptype, spec, payload_body):
-    payload = {"id": slug, "type": ptype, "version": 1, **payload_body}
+    version = spec.get("version", 1)
+    payload = {"id": slug, "type": ptype, "version": version, **payload_body}
     path = os.path.join(ROOT, "packs", f"{slug}.json")
     with open(path, "w") as f:
         json.dump(payload, f, ensure_ascii=False, indent=1)
@@ -173,7 +212,7 @@ def emit(slug, ptype, spec, payload_body):
         "tags": spec["tags"],
         "iconSymbol": spec["iconSymbol"],
         "iconColor": spec["iconColor"],
-        "version": 1,
+        "version": version,
         "featured": spec["featured"],
         "productId": spec["productId"],
         "banner": f"{RAW}/banners/{slug}.jpg",

@@ -1,7 +1,7 @@
 {
  "id": "party-night",
  "type": "games",
- "version": 1,
+ "version": 2,
  "games": [
   {
    "id": "chinchirorin",
@@ -255,6 +255,176 @@
      "de": "Wer nach allen Zügen die höchste Gesamtpunktzahl hat, gewinnt.",
      "es": "Gana quien tenga la puntuación total más alta cuando todos hayan jugado.",
      "pt": "Vence quem tiver a maior pontuação total depois que todos jogarem."
+    }
+   ]
+  },
+  {
+   "id": "bunco",
+   "icon": "person.3.fill",
+   "diceNeeded": 3,
+   "players": "4+",
+   "name": {
+    "en": "Bunco",
+    "ja": "ブンコ",
+    "zh-Hans": "邦戈（Bunco）",
+    "ar": "بونكو",
+    "he": "בונקו",
+    "fr": "Bunco",
+    "de": "Bunco",
+    "es": "Bunco",
+    "pt": "Bunco"
+   },
+   "summary": {
+    "en": "The big-group party classic — six noisy rounds of matching dice.",
+    "ja": "大人数で盛り上がるパーティーの定番——同じ目を狙う、賑やかな全6ラウンド。",
+    "zh-Hans": "大团体派对经典——六个热闹回合，比拼配对骰子。",
+    "ar": "كلاسيكية حفلات المجموعات الكبيرة — ست جولات صاخبة من مطابقة النرد.",
+    "he": "קלאסיקת המסיבות לקבוצות גדולות — שישה סיבובים רועשים של התאמת קוביות.",
+    "fr": "Le grand classique des soirées en groupe — six manches bruyantes où l'on traque les dés assortis.",
+    "de": "Der Partyklassiker für große Runden — sechs turbulente Runden auf der Jagd nach gleichen Würfeln.",
+    "es": "El clásico de fiesta para grupos grandes: seis rondas ruidosas buscando dados iguales.",
+    "pt": "O clássico de festa para grupos grandes — seis rodadas animadas de dados combinados."
+   },
+   "rules": [
+    {
+     "en": "Players take turns rolling three dice, hunting the current round number (round 1 hunts 1s, round 2 hunts 2s, and so on up to 6).",
+     "ja": "プレイヤーは順番に3つのダイスを振り、現在のラウンドの数字を狙います(ラウンド1では1、ラウンド2では2……と、6まで続きます)。",
+     "zh-Hans": "玩家轮流掷三枚骰子，寻找与当前回合数相同的点数（第 1 回合找 1 点，第 2 回合找 2 点，依此类推直到 6）。",
+     "ar": "يتناوب اللاعبون على رمي ثلاثة نردات بحثًا عن رقم الجولة الحالية (الجولة 1 تطارد الرقم 1، والجولة 2 تطارد الرقم 2، وهكذا حتى 6).",
+     "he": "השחקנים מגלגלים בתורם שלוש קוביות ומחפשים את מספר הסיבוב הנוכחי (בסיבוב 1 מחפשים 1, בסיבוב 2 מחפשים 2, וכן הלאה עד 6).",
+     "fr": "Chaque joueur lance à son tour trois dés, en visant le numéro de la manche en cours (la manche 1 vise les 1, la manche 2 les 2, et ainsi de suite jusqu'à 6).",
+     "de": "Die Spieler würfeln reihum mit drei Würfeln und jagen die aktuelle Rundenzahl (Runde 1 jagt Einsen, Runde 2 jagt Zweien und so weiter bis zur 6).",
+     "es": "Por turnos, lanza tres dados buscando el número de la ronda actual (en la ronda 1 se buscan los 1, en la ronda 2 los 2, y así hasta el 6).",
+     "pt": "Os jogadores se revezam jogando três dados, em busca do número da rodada atual (a rodada 1 busca os 1s, a rodada 2 busca os 2s, e assim por diante até o 6)."
+    },
+    {
+     "en": "Score 1 point for each die matching the round number, and roll again whenever you score.",
+     "ja": "ラウンドの数字と一致したダイス1つにつき1点を獲得し、得点した場合はもう一度振ります。",
+     "zh-Hans": "每有一枚骰子与回合数相同就得 1 分，只要得分就可以再掷一次。",
+     "ar": "احسب نقطة واحدة عن كل نرد يطابق رقم الجولة، وارمِ من جديد كلما سجّلت.",
+     "he": "כל קובייה שמראה את מספר הסיבוב שווה נקודה 1, ובכל פעם שצוברים נקודות מגלגלים שוב.",
+     "fr": "Marquez 1 point pour chaque dé affichant le numéro de la manche, et relancez chaque fois que vous marquez.",
+     "de": "Jeder Würfel, der die Rundenzahl zeigt, bringt 1 Punkt — und wer punktet, darf gleich noch einmal würfeln.",
+     "es": "Anota 1 punto por cada dado que coincida con el número de la ronda, y vuelve a lanzar cada vez que puntúes.",
+     "pt": "Marque 1 ponto para cada dado igual ao número da rodada e jogue de novo sempre que pontuar."
+    },
+    {
+     "en": "Rolling three of the round number is a BUNCO — 21 points, and you have to shout it!",
+     "ja": "ラウンドの数字が3つ揃えば「ブンコ」——21点です。必ず声に出して叫びましょう!",
+     "zh-Hans": "掷出三枚都是回合数即为 BUNCO——得 21 分，而且必须大声喊出来！",
+     "ar": "إذا رميت ثلاثة نردات كلها برقم الجولة فهذه «بونكو» — 21 نقطة، وعليك أن تصرخ بها!",
+     "he": "שלוש קוביות של מספר הסיבוב הן בונקו — 21 נקודות, וחייבים לצעוק את זה!",
+     "fr": "Trois dés au numéro de la manche : c'est un BUNCO — 21 points, et il faut le crier !",
+     "de": "Dreimal die Rundenzahl ist ein BUNCO — 21 Punkte, und du musst es laut rufen!",
+     "es": "Sacar tres dados con el número de la ronda es un ¡BUNCO!: 21 puntos, ¡y tienes que gritarlo!",
+     "pt": "Tirar três dados com o número da rodada é um BUNCO — 21 pontos, e você tem que gritar!"
+    },
+    {
+     "en": "Rolling three of any other number scores 5 points.",
+     "ja": "それ以外の数字が3つ揃った場合は5点です。",
+     "zh-Hans": "掷出三枚相同的其他点数得 5 分。",
+     "ar": "رمي ثلاثة نردات متطابقة بأي رقم آخر يمنحك 5 نقاط.",
+     "he": "שלוש קוביות של כל מספר אחר שוות 5 נקודות.",
+     "fr": "Trois dés identiques d'un autre numéro rapportent 5 points.",
+     "de": "Dreimal eine beliebige andere Zahl bringt 5 Punkte.",
+     "es": "Sacar tres dados iguales de cualquier otro número vale 5 puntos.",
+     "pt": "Tirar três dados iguais de qualquer outro número vale 5 pontos."
+    },
+    {
+     "en": "When a player reaches 21 points the round ends. Most rounds won after all six rounds takes the game.",
+     "ja": "誰かが21点に達するとそのラウンドは終了します。全6ラウンドを終えて、最も多くのラウンドに勝利したプレイヤーの勝ちです。",
+     "zh-Hans": "有玩家达到 21 分时该回合结束。六个回合全部结束后，赢得回合最多的玩家获胜。",
+     "ar": "عندما يصل لاعب إلى 21 نقطة تنتهي الجولة. ومن يفوز بأكثر الجولات بعد الجولات الست يفوز باللعبة.",
+     "he": "כששחקן מגיע ל-21 נקודות הסיבוב מסתיים. מי שניצח הכי הרבה סיבובים אחרי כל שישת הסיבובים לוקח את המשחק.",
+     "fr": "Dès qu'un joueur atteint 21 points, la manche se termine. Après les six manches, celui qui en a remporté le plus gagne la partie.",
+     "de": "Erreicht ein Spieler 21 Punkte, endet die Runde. Wer nach allen sechs Runden die meisten Runden gewonnen hat, gewinnt das Spiel.",
+     "es": "Cuando un jugador llega a 21 puntos, la ronda termina. Quien gane más rondas de las seis se lleva la partida.",
+     "pt": "Quando um jogador atinge 21 pontos, a rodada termina. Quem vencer mais rodadas das seis leva a partida."
+    }
+   ]
+  },
+  {
+   "id": "sevens-out",
+   "icon": "7.square.fill",
+   "diceNeeded": 2,
+   "players": "2+",
+   "name": {
+    "en": "Sevens Out",
+    "ja": "セブンズアウト",
+    "zh-Hans": "逢七出局",
+    "ar": "سيفنز آوت",
+    "he": "סבנס אאוט",
+    "fr": "Sevens Out",
+    "de": "Sevens Out",
+    "es": "Sietes fuera",
+    "pt": "Sete e Fora"
+   },
+   "summary": {
+    "en": "Keep rolling and banking — but roll a 7 and your turn is over.",
+    "ja": "振り続けて得点を貯めていきましょう——ただし7が出たらターン終了。",
+    "zh-Hans": "不断掷骰、不断存分——但掷出 7 点，你的回合就结束了。",
+    "ar": "واصل الرمي وادّخر النقاط — لكن إن رميت 7 انتهى دورك.",
+    "he": "ממשיכים לגלגל ולשמור נקודות — אבל גלגלתם 7 והתור שלכם נגמר.",
+    "fr": "Lancez et engrangez sans relâche — mais faites un 7 et votre tour s'arrête net.",
+    "de": "Würfle weiter und sichere deine Punkte — aber bei einer 7 ist dein Zug vorbei.",
+    "es": "Sigue lanzando y asegurando puntos, pero saca un 7 y tu turno se acaba.",
+    "pt": "Continue jogando e guardando pontos — mas tire um 7 e sua vez acaba."
+   },
+   "rules": [
+    {
+     "en": "Take turns rolling two dice and adding the total to your turn score.",
+     "ja": "順番に2つのダイスを振り、合計をそのターンの得点に加えていきます。",
+     "zh-Hans": "玩家轮流掷两枚骰子，将点数总和累加到本回合得分。",
+     "ar": "تناوبوا على رمي نردين وإضافة المجموع إلى نقاط دوركم.",
+     "he": "מגלגלים בתורות שתי קוביות ומוסיפים את הסכום לניקוד התור.",
+     "fr": "À tour de rôle, lancez deux dés et ajoutez le total au score de votre tour.",
+     "de": "Würfelt reihum mit zwei Würfeln und zählt die Summe zu eurem Zugergebnis.",
+     "es": "Por turnos, lanza dos dados y suma el total a la puntuación de tu turno.",
+     "pt": "Revezem-se jogando dois dados e somando o total à pontuação da sua vez."
+    },
+    {
+     "en": "Doubles score double — a pair of 4s adds 16.",
+     "ja": "ゾロ目は得点が2倍——4のゾロ目なら16点が加算されます。",
+     "zh-Hans": "掷出对子得分翻倍——一对 4 加 16 分。",
+     "ar": "الأزواج المتطابقة تُحسب مضاعفة — زوج من الرقم 4 يضيف 16.",
+     "he": "דאבל שווה כפול — זוג של 4 מוסיף 16.",
+     "fr": "Les doubles comptent double — une paire de 4 rapporte 16.",
+     "de": "Päsche zählen doppelt — zwei Vieren bringen 16.",
+     "es": "Los dobles valen el doble: un par de 4 suma 16.",
+     "pt": "Duplas valem em dobro — um par de 4s soma 16."
+    },
+    {
+     "en": "Roll a total of 7 and your turn ends immediately; you bank nothing.",
+     "ja": "合計が7になるとターンは即座に終了し、そのターンの得点はすべて失われます。",
+     "zh-Hans": "掷出总和 7 点，你的回合立即结束，本回合得分全部作废。",
+     "ar": "إذا كان مجموع الرمية 7 ينتهي دورك فورًا، ولا تدّخر شيئًا.",
+     "he": "גלגלתם סכום של 7 והתור שלכם מסתיים מיד; לא שומרים כלום.",
+     "fr": "Faites un total de 7 et votre tour prend fin immédiatement ; vous n'engrangez rien.",
+     "de": "Würfelst du insgesamt 7, endet dein Zug sofort und du sicherst nichts.",
+     "es": "Si sacas un total de 7, tu turno termina de inmediato y no aseguras nada.",
+     "pt": "Tire um total de 7 e sua vez termina na hora; você não guarda nada."
+    },
+    {
+     "en": "Stop whenever you like to bank your turn score onto your overall total.",
+     "ja": "好きなタイミングでやめれば、ターンの得点を総得点に確定できます。",
+     "zh-Hans": "你可以随时停手，把本回合得分存入总分。",
+     "ar": "توقّف متى شئت لتدّخر نقاط دورك في مجموعك الكلي.",
+     "he": "אפשר לעצור מתי שרוצים ולשמור את ניקוד התור בניקוד הכולל.",
+     "fr": "Arrêtez-vous quand vous le souhaitez pour ajouter le score de votre tour à votre total général.",
+     "de": "Höre auf, wann immer du willst, um dein Zugergebnis deinem Gesamtstand gutzuschreiben.",
+     "es": "Detente cuando quieras para asegurar la puntuación de tu turno en tu total general.",
+     "pt": "Pare quando quiser para guardar a pontuação da vez no seu total geral."
+    },
+    {
+     "en": "First player to 500 points wins.",
+     "ja": "先に500点に達したプレイヤーの勝ちです。",
+     "zh-Hans": "率先达到 500 分的玩家获胜。",
+     "ar": "أول لاعب يصل إلى 500 نقطة يفوز.",
+     "he": "השחקן הראשון שמגיע ל-500 נקודות מנצח.",
+     "fr": "Le premier joueur à atteindre 500 points gagne.",
+     "de": "Wer zuerst 500 Punkte erreicht, gewinnt.",
+     "es": "El primer jugador en llegar a 500 puntos gana.",
+     "pt": "O primeiro jogador a chegar a 500 pontos vence."
     }
    ]
   }

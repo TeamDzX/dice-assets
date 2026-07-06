@@ -32,13 +32,28 @@
   },
   "party-night": {
    "name": "Pack Soirée Festive",
-   "tagline": "Trois valeurs sûres de l'izakaya",
-   "description": "Trois jeux de dés rapides, bruyants, entre chance et sang-froid, tout droit venus des tables d'izakaya : Chinchirorin, Cee-lo et Drop Dead. Règles complètes illustrées incluses."
+   "tagline": "Cinq incontournables d'izakaya",
+   "description": "Cinq jeux de dés rapides et bruyants, mêlant chance et culot, tout droit venus des tables d'izakaya : Chinchirorin, Cee-lo, Drop Dead, Bunco et Sevens Out. Règles illustrées complètes incluses."
   },
   "tavern-classics": {
    "name": "Classiques de Taverne",
-   "tagline": "Des jeux de pub vieux de plusieurs siècles",
-   "description": "Trois jeux de taverne intemporels — Shut the Box (« Ferme la boîte »), Threes et En route pour Boston — avec des règles complètes pour vos soirées jeux."
+   "tagline": "Des classiques de pub vieux de plusieurs siècles",
+   "description": "Cinq jeux de taverne intemporels — « Ferme la boîte », Threes, En route pour Boston, Chicago et Aide ton voisin — avec les règles complètes pour vos soirées jeux."
+  },
+  "kyoto-nights": {
+   "name": "Nuits de Kyoto",
+   "tagline": "Indigo, vermillon et feuille d'or",
+   "description": "Quatre dés imprégnés de la nuit japonaise : l'indigo profond de l'aizome, le vermillon des portiques torii, l'éclat de la feuille d'or et le charbon de la pierre à encre."
+  },
+  "deep-sea": {
+   "name": "Grand Bleu",
+   "tagline": "Trésors remontés des abysses",
+   "description": "Quatre dés venus du fond de l'océan : une perle chaleureuse, un corail éclatant, une turquoise tropicale et un dé abysse qui brille de sa propre lumière."
+  },
+  "zen-garden": {
+   "name": "Jardin Zen",
+   "tagline": "Ratissez, respirez, lancez",
+   "description": "Trois surfaces sereines pour des lancers contemplatifs : le sable ratissé d'un karesansui, l'ardoise fraîche et la douce mousse des sous-bois — chacune avec sa propre physique délicate."
   }
  },
  "styles": {
@@ -60,7 +75,18 @@
   "Tatami": "Tatami",
   "Red Baize": "Feutrine rouge",
   "Navy Baize": "Feutrine marine",
-  "Walnut": "Noyer"
+  "Walnut": "Noyer",
+  "Indigo": "Indigo",
+  "Vermilion": "Vermillon",
+  "Gold Leaf": "Feuille d'or",
+  "Sumi": "Encre",
+  "Pearl": "Perle",
+  "Coral": "Corail",
+  "Turquoise": "Turquoise",
+  "Abyss": "Abysse",
+  "Sand Garden": "Jardin de sable",
+  "Slate": "Ardoise",
+  "Moss": "Mousse"
  },
  "games": {
   "chinchirorin": {
@@ -127,6 +153,50 @@
     "Lancez le dernier dé — la somme de vos trois dés conservés constitue votre score.",
     "Chaque joueur lance à son tour ; le score le plus élevé remporte la manche.",
     "Le premier à gagner un nombre de manches convenu — cinq fonctionne bien — remporte la partie."
+   ]
+  },
+  "bunco": {
+   "name": "Bunco",
+   "summary": "Le grand classique des soirées en groupe — six manches bruyantes où l'on traque les dés assortis.",
+   "rules": [
+    "Chaque joueur lance à son tour trois dés, en visant le numéro de la manche en cours (la manche 1 vise les 1, la manche 2 les 2, et ainsi de suite jusqu'à 6).",
+    "Marquez 1 point pour chaque dé affichant le numéro de la manche, et relancez chaque fois que vous marquez.",
+    "Trois dés au numéro de la manche : c'est un BUNCO — 21 points, et il faut le crier !",
+    "Trois dés identiques d'un autre numéro rapportent 5 points.",
+    "Dès qu'un joueur atteint 21 points, la manche se termine. Après les six manches, celui qui en a remporté le plus gagne la partie."
+   ]
+  },
+  "sevens-out": {
+   "name": "Sevens Out",
+   "summary": "Lancez et engrangez sans relâche — mais faites un 7 et votre tour s'arrête net.",
+   "rules": [
+    "À tour de rôle, lancez deux dés et ajoutez le total au score de votre tour.",
+    "Les doubles comptent double — une paire de 4 rapporte 16.",
+    "Faites un total de 7 et votre tour prend fin immédiatement ; vous n'engrangez rien.",
+    "Arrêtez-vous quand vous le souhaitez pour ajouter le score de votre tour à votre total général.",
+    "Le premier joueur à atteindre 500 points gagne."
+   ]
+  },
+  "chicago": {
+   "name": "Chicago",
+   "summary": "Onze manches rapides, une cible par manche — visez chaque total de 2 à 12.",
+   "rules": [
+    "La partie dure onze manches, qui visent dans l'ordre les totaux de 2 à 12.",
+    "À chaque manche, chaque joueur lance deux dés une seule fois.",
+    "Obtenez le total cible de la manche et marquez autant de points ; tout autre résultat ne rapporte rien.",
+    "Après la dernière manche (le 12), additionnez tous les scores.",
+    "Le total le plus élevé l'emporte. En cas d'égalité, on départage par un lancer."
+   ]
+  },
+  "help-your-neighbor": {
+   "name": "Aide ton voisin",
+   "summary": "Réclamez vos numéros, puis priez pour que vos voisins les lancent — le premier à se défausser de ses dix jetons gagne.",
+   "rules": [
+    "Répartissez équitablement les numéros de 1 à 6 autour de la table (à moins de six joueurs, certains prennent deux numéros).",
+    "Chaque joueur commence la partie avec dix jetons.",
+    "À tour de rôle, lancez trois dés : chaque dé affichant VOTRE numéro vous permet de défausser un jeton.",
+    "Vos propres lancers peuvent aussi vous débarrasser de jetons — mais la plupart du temps, ce sont vos voisins que vous aiderez.",
+    "Le premier joueur qui n'a plus aucun jeton gagne."
    ]
   }
  }
