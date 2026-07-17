@@ -15,7 +15,7 @@ import json, os, sys
 ROOT = os.path.dirname(os.path.abspath(__file__))
 RAW = "https://raw.githubusercontent.com/TeamDzX/dice-assets/main"
 LANG_CODES = ["en", "ja", "zh-Hans", "ar", "he", "fr", "de", "es", "pt"]
-UPDATED = "2026-07-06"
+UPDATED = "2026-07-17"
 
 # IAP structure (decided 2026-07-05): section bundles + per-game-pack products,
 # plus an Everything bundle handled app-side (it unlocks every pack regardless
@@ -28,6 +28,7 @@ DICE_STYLES_ID = "TeamDZX.dice.pack.dicestyles"
 TABLES_ID = "TeamDZX.dice.pack.tables"
 PARTY_NIGHT_ID = "TeamDZX.dice.pack.partynight"
 TAVERN_ID = "TeamDZX.dice.pack.tavernclassics"
+HIGH_ROLLERS_ID = "TeamDZX.dice.pack.highrollers"
 
 # ---------------------------------------------------------------- spec tables
 
@@ -127,6 +128,46 @@ TABLE_PACKS = {
             ("moss",        "Moss",        "#26301C", "#55703B", 0.95, 0.0, 0.45, 0.02, 1.0, 0.05, "#3A4A28"),
         ],
     },
+    "midnight-lounge": {
+        "emoji": "🍸", "iconSymbol": "wineglass.fill", "iconColor": "purple",
+        "featured": False, "productId": TABLES_ID,
+        "tags": ["lounge", "premium"],
+        "surfaces": [
+            ("plum-velvet",     "Plum Velvet",     "#1C0F1E", "#4A2545", 0.95, 0.0, 0.25, 0.04, 1.0, 0.10, "#2E1530"),
+            ("oxblood-leather", "Oxblood Leather", "#1E0D0D", "#5C2320", 0.65, 0.0, 0.45, 0.06, 0.75, 0.22, "#3A1512"),
+            ("smoked-glass",    "Smoked Glass",    "#101014", "#23252E", 0.08, 0.10, 0.05, 0.25, 0.35, 0.45, "#2E3040"),
+        ],
+    },
+    "arcade": {
+        "emoji": "🕹️", "iconSymbol": "gamecontroller.fill", "iconColor": "pink",
+        "featured": False, "productId": TABLES_ID,
+        "tags": ["neon", "retro", "premium"],
+        "surfaces": [
+            ("neon-grid",  "Neon Grid",  "#0A0616", "#141031", 0.40, 0.0,  0.20, 0.15, 0.50, 0.45, "#241B4A"),
+            ("titanium",   "Titanium",   "#101216", "#3C4148", 0.35, 0.85, 0.25, 0.12, 0.45, 0.35, "#23262B"),
+            ("holo-glass", "Holo Glass", "#050A12", "#0E1B2E", 0.05, 0.20, 0.05, 0.30, 0.30, 0.50, "#10233D"),
+        ],
+    },
+    "seaside": {
+        "emoji": "🏖️", "iconSymbol": "beach.umbrella.fill", "iconColor": "teal",
+        "featured": False, "productId": TABLES_ID,
+        "tags": ["ocean", "premium"],
+        "surfaces": [
+            ("driftwood", "Driftwood", "#2A2118", "#8A7458", 0.75, 0.0,  0.55, 0.03, 0.70, 0.18, "#4A3B2A"),
+            ("wet-sand",  "Wet Sand",  "#33291C", "#C2A87B", 0.90, 0.0,  0.50, 0.06, 0.95, 0.08, "#5C4A30"),
+            ("tide-pool", "Tide Pool", "#0A2228", "#16505A", 0.15, 0.05, 0.20, 0.22, 0.40, 0.35, "#10353D"),
+        ],
+    },
+    "old-world": {
+        "emoji": "🗺️", "iconSymbol": "map.fill", "iconColor": "orange",
+        "featured": False, "productId": TABLES_ID,
+        "tags": ["classic", "premium"],
+        "surfaces": [
+            ("parchment",    "Parchment",    "#3A2E1C", "#C7B084", 0.80, 0.0, 0.30, 0.04, 0.85, 0.12, "#57452A"),
+            ("castle-stone", "Castle Stone", "#1C1D1F", "#55575C", 0.85, 0.0, 0.60, 0.04, 0.80, 0.15, "#33353A"),
+            ("tavern-oak",   "Tavern Oak",   "#241507", "#6B4423", 0.55, 0.0, 0.50, 0.06, 0.60, 0.25, "#3E2712"),
+        ],
+    },
 }
 
 GAME_PACKS = {
@@ -155,6 +196,18 @@ GAME_PACKS = {
             ("going-to-boston", "arrow.right.circle.fill", 3, "2+"),
             ("chicago",         "building.2.fill",         2, "2+"),
             ("help-your-neighbor", "person.2.wave.2.fill", 3, "2+"),
+        ],
+    },
+    "high-rollers": {
+        "emoji": "💰", "iconSymbol": "trophy.fill", "iconColor": "green",
+        "featured": True, "productId": HIGH_ROLLERS_ID,
+        "tags": ["push-your-luck", "premium"],
+        "games": [
+            ("farkle",            "die.face.6.fill",      6, "2+"),
+            ("pig",               "1.circle.fill",        1, "2+"),
+            ("ship-captain-crew", "sailboat.fill",        5, "2+"),
+            ("liars-dice",        "eye.slash.fill",       5, "2+"),
+            ("yacht",             "crown.fill",           5, "1+"),
         ],
     },
 }

@@ -86,8 +86,8 @@ the Game Library, all resolved to the user's selected app language.
 - **Size:** 800×400 JPG at `banners/<slug>.jpg`. **House style:** clean,
   premium, soft glowing shapes on a themed gradient — **no text, no people**
   (FLUX garbles text).
-- **Current files are PLACEHOLDERS** from `make_placeholder_banners.py`
-  (ComfyUI server was down on 2026-07-05). When it's back, regenerate:
+- Current files are real FLUX renders (regenerated 2026-07-05/06 once the
+  ComfyUI server came back). To generate or replace a banner:
   ```
   python3 ~/.claude/scripts/imagegen/comfy_gen.py banners/<slug>.jpg \
     "PROMPT" SEED --size 1216x608 --max 800

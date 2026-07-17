@@ -1,0 +1,76 @@
+{
+ "id": "arcade",
+ "type": "table",
+ "version": 1,
+ "surfaces": [
+  {
+   "id": "neon-grid",
+   "name": {
+    "en": "Neon Grid",
+    "ja": "ネオングリッド",
+    "zh-Hans": "霓虹网格",
+    "ar": "شبكة نيون",
+    "he": "רשת ניאון",
+    "fr": "Grille Néon",
+    "de": "Neon-Gitter",
+    "es": "Rejilla de neón",
+    "pt": "Grade Neon"
+   },
+   "background": "#0A0616",
+   "floor": "#141031",
+   "roughness": 0.4,
+   "metalness": 0.0,
+   "normalIntensity": 0.2,
+   "reflectivity": 0.15,
+   "friction": 0.5,
+   "restitution": 0.45,
+   "accent": "#241B4A"
+  },
+  {
+   "id": "titanium",
+   "name": {
+    "en": "Titanium",
+    "ja": "チタニウム",
+    "zh-Hans": "钛金属",
+    "ar": "تيتانيوم",
+    "he": "טיטניום",
+    "fr": "Titane",
+    "de": "Titan",
+    "es": "Titanio",
+    "pt": "Titânio"
+   },
+   "background": "#101216",
+   "floor": "#3C4148",
+   "roughness": 0.35,
+   "metalness": 0.85,
+   "normalIntensity": 0.25,
+   "reflectivity": 0.12,
+   "friction": 0.45,
+   "restitution": 0.35,
+   "accent": "#23262B"
+  },
+  {
+   "id": "holo-glass",
+   "name": {
+    "en": "Holo Glass",
+    "ja": "ホログラス",
+    "zh-Hans": "全息玻璃",
+    "ar": "زجاج هولوغرامي",
+    "he": "זכוכית הולוגרפית",
+    "fr": "Verre Holo",
+    "de": "Holo-Glas",
+    "es": "Vidrio holográfico",
+    "pt": "Vidro Holográfico"
+   },
+   "background": "#050A12",
+   "floor": "#0E1B2E",
+   "roughness": 0.05,
+   "metalness": 0.2,
+   "normalIntensity": 0.05,
+   "reflectivity": 0.3,
+   "friction": 0.3,
+   "restitution": 0.5,
+   "accent": "#10233D"
+  }
+ ]
+}

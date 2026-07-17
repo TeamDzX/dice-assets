@@ -1,0 +1,76 @@
+{
+ "id": "seaside",
+ "type": "table",
+ "version": 1,
+ "surfaces": [
+  {
+   "id": "driftwood",
+   "name": {
+    "en": "Driftwood",
+    "ja": "流木",
+    "zh-Hans": "浮木",
+    "ar": "خشب طافٍ",
+    "he": "עץ סחף",
+    "fr": "Bois Flotté",
+    "de": "Treibholz",
+    "es": "Madera de deriva",
+    "pt": "Madeira do Mar"
+   },
+   "background": "#2A2118",
+   "floor": "#8A7458",
+   "roughness": 0.75,
+   "metalness": 0.0,
+   "normalIntensity": 0.55,
+   "reflectivity": 0.03,
+   "friction": 0.7,
+   "restitution": 0.18,
+   "accent": "#4A3B2A"
+  },
+  {
+   "id": "wet-sand",
+   "name": {
+    "en": "Wet Sand",
+    "ja": "濡れた砂",
+    "zh-Hans": "湿沙",
+    "ar": "رمل مبلّل",
+    "he": "חול רטוב",
+    "fr": "Sable Mouillé",
+    "de": "Nasser Sand",
+    "es": "Arena mojada",
+    "pt": "Areia Molhada"
+   },
+   "background": "#33291C",
+   "floor": "#C2A87B",
+   "roughness": 0.9,
+   "metalness": 0.0,
+   "normalIntensity": 0.5,
+   "reflectivity": 0.06,
+   "friction": 0.95,
+   "restitution": 0.08,
+   "accent": "#5C4A30"
+  },
+  {
+   "id": "tide-pool",
+   "name": {
+    "en": "Tide Pool",
+    "ja": "潮だまり",
+    "zh-Hans": "潮池",
+    "ar": "بركة مدّ",
+    "he": "בריכת גאות",
+    "fr": "Bassin de Marée",
+    "de": "Gezeitentümpel",
+    "es": "Poza de marea",
+    "pt": "Poça de Maré"
+   },
+   "background": "#0A2228",
+   "floor": "#16505A",
+   "roughness": 0.15,
+   "metalness": 0.05,
+   "normalIntensity": 0.2,
+   "reflectivity": 0.22,
+   "friction": 0.4,
+   "restitution": 0.35,
+   "accent": "#10353D"
+  }
+ ]
+}

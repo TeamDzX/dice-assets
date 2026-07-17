@@ -54,6 +54,31 @@
    "name": "Zen-Garten",
    "tagline": "Harken, atmen, würfeln",
    "description": "Drei ruhige Oberflächen für besinnliches Würfeln: geharkter Karesansui-Sand, kühler Schiefer und weiches Waldmoos — jede mit ihrer eigenen sanften Physik."
+  },
+  "midnight-lounge": {
+   "name": "Mitternachts-Lounge",
+   "tagline": "Atmosphäre nach Feierabend",
+   "description": "Drei Oberflächen für späte Stunden mit Members-Club-Flair: Pflaumensamt, Oxblood-Leder und Rauchglas. Dimm das Licht und lass die Würfel sprechen."
+  },
+  "arcade": {
+   "name": "Arcade",
+   "tagline": "Münze rein, Würfel raus",
+   "description": "Drei Oberflächen direkt aus der Spielhalle: leuchtendes Neon-Gitter, gebürstetes Titan und Holo-Glas mit extra lebhaftem Sprung. Wie gemacht für die Neonlicht-Würfel."
+  },
+  "seaside": {
+   "name": "Am Meer",
+   "tagline": "Sonne, Salz und Treibholz",
+   "description": "Drei Küstenstreifen für deinen Tisch: sonnengebleichtes Treibholz, fester nasser Sand und ein glasklarer Gezeitentümpel — jeder rollt genau so, wie er aussieht."
+  },
+  "old-world": {
+   "name": "Alte Welt",
+   "tagline": "Würfeln durch die Jahrhunderte",
+   "description": "Drei Oberflächen aus einer früheren Zeit: ein Kartentisch aus Pergament, kalter Burgstein und abgewetzte Wirtshaus-Eiche. Die perfekte Bühne für die Wirtshaus-Klassiker."
+  },
+  "high-rollers": {
+   "name": "High-Roller-Paket",
+   "tagline": "Fünf Spiele für Mut und Glück",
+   "description": "Fünf legendäre Zocker-Spiele — Farkle, Schweinchen, Schiff-Kapitän-Crew, Lügenwürfel und Yacht — mit vollständigen Regeln für die mutigste Runde."
   }
  },
  "styles": {
@@ -86,7 +111,19 @@
   "Abyss": "Abgrund",
   "Sand Garden": "Sandgarten",
   "Slate": "Schiefer",
-  "Moss": "Moos"
+  "Moss": "Moos",
+  "Plum Velvet": "Pflaumensamt",
+  "Oxblood Leather": "Oxblood-Leder",
+  "Smoked Glass": "Rauchglas",
+  "Neon Grid": "Neon-Gitter",
+  "Titanium": "Titan",
+  "Holo Glass": "Holo-Glas",
+  "Driftwood": "Treibholz",
+  "Wet Sand": "Nasser Sand",
+  "Tide Pool": "Gezeitentümpel",
+  "Parchment": "Pergament",
+  "Castle Stone": "Burgstein",
+  "Tavern Oak": "Wirtshaus-Eiche"
  },
  "games": {
   "chinchirorin": {
@@ -197,6 +234,61 @@
     "Würfelt reihum mit drei Würfeln: Für jeden Würfel, der DEINE Zahl zeigt, darfst du einen Chip abgeben.",
     "Auch deine eigenen Würfe können deine Chips loswerden — meistens hilfst du aber deinen Nachbarn.",
     "Der erste Spieler ohne Chips gewinnt."
+   ]
+  },
+  "farkle": {
+   "name": "Farkle",
+   "summary": "Der große Zocker-Klassiker — sichere deine Punkte, bevor du farkelst.",
+   "rules": [
+    "Wirf alle sechs Würfel. Jede einzelne 1 zählt 100 Punkte, jede einzelne 5 zählt 50; ein Drilling zählt Augenzahl mal 100 (drei Einsen zählen 1.000).",
+    "Lege nach jedem Wurf mindestens einen punktenden Würfel beiseite und entscheide dann: Punkte sichern oder mit den restlichen weiterwürfeln.",
+    "Enthält ein Wurf keinen einzigen punktenden Würfel, ist das ein Farkle — alles in diesem Zug Gesammelte ist verloren.",
+    "Punkten alle sechs Würfel, hast du „heiße Würfel“ — wirf alle sechs erneut und baue weiter auf.",
+    "Sichere deine Punkte, um den Zug zu beenden. Wer zuerst 10.000 Punkte erreicht, gewinnt."
+   ]
+  },
+  "pig": {
+   "name": "Schweinchen",
+   "summary": "Ein Würfel, eine Wahl: weiterwürfeln oder sichern. Nur keine 1 werfen.",
+   "rules": [
+    "Wirf in deinem Zug einen einzelnen Würfel, so oft du dich traust, und addiere jeden Wurf zu deiner Zugsumme.",
+    "Wirfst du eine 1, ist die ganze Zugsumme weg — der Würfel wandert zum nächsten Spieler.",
+    "Hörst du vorher auf, schreibst du die Zugsumme deinem Punktestand gut.",
+    "Behalte die Führenden im Blick: Je näher jemand dem Sieg kommt, desto mutiger musst du würfeln.",
+    "Wer zuerst 100 Punkte erreicht, gewinnt."
+   ]
+  },
+  "ship-captain-crew": {
+   "name": "Schiff, Kapitän & Crew",
+   "summary": "Finde Schiff, Kapitän und Crew in drei Würfen — der Rest ist Ladung.",
+   "rules": [
+    "Wirf fünf Würfel. Du brauchst eine 6 (das Schiff), dann eine 5 (den Kapitän), dann eine 4 (die Crew) — in dieser Reihenfolge.",
+    "Lege jeden davon beiseite, sobald er fällt; du hast insgesamt drei Würfe.",
+    "Kein Kapitän vor dem Schiff, keine Crew vor dem Kapitän.",
+    "Sind alle drei an Bord, sind die zwei übrigen Würfel deine Ladung — ihre Summe ist dein Ergebnis. Mit verbleibenden Würfen darfst du sie neu werfen.",
+    "Ohne Schiff-Kapitän-Crew in drei Würfen gibt es null Punkte. Die höchste Ladung gewinnt die Runde."
+   ]
+  },
+  "liars-dice": {
+   "name": "Lügenwürfel",
+   "summary": "Verdeckte Würfel, steigende Gebote und dreiste Bluffs — der letzte Becher gewinnt.",
+   "rules": [
+    "Jeder Spieler würfelt fünf Würfel verdeckt unter seinem Becher und schaut nur die eigenen an.",
+    "Reihum bieten die Spieler, wie viele Würfel eines Wertes insgesamt auf dem Tisch liegen — zum Beispiel „vier Dreien“.",
+    "Jedes Gebot muss das vorige übertreffen: mehr Würfel, oder gleich viele mit höherem Wert.",
+    "Statt zu erhöhen, kannst du „Lügner!“ rufen — alle decken auf. Stimmt das Gebot, verliert der Herausforderer einen Würfel; sonst der Bieter.",
+    "Einsen sind Joker und zählen für jedes Gebot. Wer als Letzter noch Würfel hat, gewinnt."
+   ]
+  },
+  "yacht": {
+   "name": "Yacht",
+   "summary": "Fülle alle zwölf Kategorien im Urahn der Würfelspiele mit Punktezettel.",
+   "rules": [
+    "Wirf in deinem Zug fünf Würfel bis zu dreimal und behalte zwischen den Würfen beliebige Würfel.",
+    "Trage das Ergebnis dann in eine freie Kategorie deines Zettels ein: Einsen bis Sechsen, Full House, Vierling, kleine Straße, große Straße, Chance oder Yacht.",
+    "Eine Yacht — fünf Gleiche — zählt 50 Punkte; die Straßen zählen 30; der Rest zählt die Augensumme.",
+    "Jede Kategorie muss einmal gefüllt werden — ein schlechter Wurf muss also manchmal als Null eingetragen werden.",
+    "Nach zwölf Zügen pro Spieler gewinnt die höchste Gesamtsumme."
    ]
   }
  }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-06",
+ "updated": "2026-07-17",
  "categories": [
   "dice",
   "table",
@@ -460,6 +460,207 @@
    "sizeKB": 1
   },
   {
+   "id": "midnight-lounge",
+   "type": "table",
+   "emoji": "🍸",
+   "name": {
+    "en": "Midnight Lounge",
+    "ja": "ミッドナイトラウンジ",
+    "zh-Hans": "午夜酒廊",
+    "ar": "صالة منتصف الليل",
+    "he": "לאונג' חצות",
+    "fr": "Lounge de Minuit",
+    "de": "Mitternachts-Lounge",
+    "es": "Lounge de medianoche",
+    "pt": "Lounge da Meia-Noite"
+   },
+   "tagline": {
+    "en": "After-hours atmosphere",
+    "ja": "夜更けのムードをテーブルに",
+    "zh-Hans": "打烊后的微醺氛围",
+    "ar": "أجواء ما بعد السهرة على طاولتك",
+    "he": "אווירת אחרי-שעות על השולחן",
+    "fr": "L'ambiance des heures tardives",
+    "de": "Atmosphäre nach Feierabend",
+    "es": "Ambiente de última hora",
+    "pt": "Clima de fim de noite"
+   },
+   "description": {
+    "en": "Three after-dark surfaces with a members-club feel: plum velvet, oxblood leather, and smoked glass. Dim the lights and let the dice do the talking.",
+    "ja": "会員制クラブのような大人のアフターダークな表面3種。プラムベルベット、オックスブラッドレザー、スモークガラス。灯りを落として、あとはダイスに語らせましょう。",
+    "zh-Hans": "三种深夜质感的桌面，尽显会员制俱乐部格调：梅紫丝绒、牛血红皮革、烟熏玻璃。调暗灯光，让骰子替你说话。",
+    "ar": "ثلاثة أسطح ليلية بروح النوادي الخاصة: مخمل برقوقي، وجلد أحمر داكن، وزجاج مدخّن. أخفِت الأضواء ودَع النرد يتكلم.",
+    "he": "שלושה משטחים ליליים בתחושת מועדון חברים: קטיפת שזיף, עור בורדו וזכוכית מעושנת. עמעמו את האורות ותנו לקוביות לדבר.",
+    "fr": "Trois surfaces d'après-minuit à l'esprit club privé : velours prune, cuir sang-de-bœuf et verre fumé. Tamisez les lumières et laissez parler les dés.",
+    "de": "Drei Oberflächen für späte Stunden mit Members-Club-Flair: Pflaumensamt, Oxblood-Leder und Rauchglas. Dimm das Licht und lass die Würfel sprechen.",
+    "es": "Tres superficies nocturnas con aire de club privado: terciopelo ciruela, cuero burdeos y vidrio ahumado. Baja las luces y deja que hablen los dados.",
+    "pt": "Três superfícies noturnas com ar de clube exclusivo: veludo ameixa, couro vinho e vidro fumê. Diminua as luzes e deixe os dados falarem."
+   },
+   "tags": [
+    "lounge",
+    "premium"
+   ],
+   "iconSymbol": "wineglass.fill",
+   "iconColor": "purple",
+   "version": 1,
+   "featured": false,
+   "productId": "TeamDZX.dice.pack.tables",
+   "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/midnight-lounge.jpg",
+   "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/midnight-lounge.json",
+   "sizeKB": 1
+  },
+  {
+   "id": "arcade",
+   "type": "table",
+   "emoji": "🕹️",
+   "name": {
+    "en": "Arcade",
+    "ja": "アーケード",
+    "zh-Hans": "街机厅",
+    "ar": "صالة الأركيد",
+    "he": "ארקייד",
+    "fr": "Arcade",
+    "de": "Arcade",
+    "es": "Arcade",
+    "pt": "Fliperama"
+   },
+   "tagline": {
+    "en": "Insert coin, roll dice",
+    "ja": "コインを入れて、ダイスを振ろう",
+    "zh-Hans": "投币开局，掷骰进行",
+    "ar": "أدخل العملة وارمِ النرد",
+    "he": "הכניסו מטבע, גלגלו קוביות",
+    "fr": "Insérez une pièce, lancez les dés",
+    "de": "Münze rein, Würfel raus",
+    "es": "Inserta la moneda y tira",
+    "pt": "Insira a ficha, role os dados"
+   },
+   "description": {
+    "en": "Three surfaces straight from the arcade floor: a glowing neon grid, brushed titanium, and slick holo-glass with an extra-lively bounce. The natural home for the Neon Glow dice.",
+    "ja": "ゲームセンターから届いた3つの表面。光るネオングリッド、ヘアライン仕上げのチタニウム、そしてよく跳ねるホログラス。ネオングロウのダイスとの相性は抜群です。",
+    "zh-Hans": "三种来自街机厅的桌面：发光的霓虹网格、拉丝钛金属，以及弹性十足的全息玻璃。与霓虹光辉骰子是天生一对。",
+    "ar": "ثلاثة أسطح قادمة من صالة الألعاب: شبكة نيون متوهجة، وتيتانيوم مصقول، وزجاج هولوغرامي بارتداد حيوي. الرفيق المثالي لنرد وهج النيون.",
+    "he": "שלושה משטחים היישר מאולם המשחקים: רשת ניאון זוהרת, טיטניום מוברש וזכוכית הולוגרפית עם קפיצה חיה במיוחד. השידוך המושלם לקוביות זוהר ניאון.",
+    "fr": "Trois surfaces tout droit venues de la salle d'arcade : grille néon lumineuse, titane brossé et verre holo au rebond survolté. Le terrain de jeu rêvé des dés Éclat Néon.",
+    "de": "Drei Oberflächen direkt aus der Spielhalle: leuchtendes Neon-Gitter, gebürstetes Titan und Holo-Glas mit extra lebhaftem Sprung. Wie gemacht für die Neonlicht-Würfel.",
+    "es": "Tres superficies sacadas del salón recreativo: rejilla de neón brillante, titanio cepillado y vidrio holográfico con un rebote extra vivo. El hogar natural de los dados Neón.",
+    "pt": "Três superfícies direto do fliperama: grade neon brilhante, titânio escovado e vidro holográfico com quique extra. O lar perfeito para os dados Brilho Neon."
+   },
+   "tags": [
+    "neon",
+    "retro",
+    "premium"
+   ],
+   "iconSymbol": "gamecontroller.fill",
+   "iconColor": "pink",
+   "version": 1,
+   "featured": false,
+   "productId": "TeamDZX.dice.pack.tables",
+   "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/arcade.jpg",
+   "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/arcade.json",
+   "sizeKB": 1
+  },
+  {
+   "id": "seaside",
+   "type": "table",
+   "emoji": "🏖️",
+   "name": {
+    "en": "Seaside",
+    "ja": "シーサイド",
+    "zh-Hans": "海滨",
+    "ar": "شاطئ البحر",
+    "he": "חוף הים",
+    "fr": "Bord de Mer",
+    "de": "Am Meer",
+    "es": "Junto al mar",
+    "pt": "Beira-Mar"
+   },
+   "tagline": {
+    "en": "Sun, salt, and driftwood",
+    "ja": "太陽と潮風と流木と",
+    "zh-Hans": "阳光、海盐与浮木",
+    "ar": "شمس وملح وخشب طافٍ",
+    "he": "שמש, מלח ועץ סחף",
+    "fr": "Soleil, sel et bois flotté",
+    "de": "Sonne, Salz und Treibholz",
+    "es": "Sol, sal y madera de deriva",
+    "pt": "Sol, sal e madeira do mar"
+   },
+   "description": {
+    "en": "Three shorelines for your table: sun-bleached driftwood, firm wet sand, and a glass-clear tide pool — each one rolling exactly the way it looks.",
+    "ja": "テーブルに広がる3つの海辺。日に晒された流木、しっとり固い濡れた砂、ガラスのように澄んだ潮だまり——見た目どおりの転がり心地です。",
+    "zh-Hans": "把三片海岸线搬上桌面：日晒褪色的浮木、紧实的湿沙，以及清澈如镜的潮池——手感与外观如出一辙。",
+    "ar": "ثلاثة شواطئ على طاولتك: خشب طافٍ قصّرته الشمس، ورمل مبلّل متماسك، وبركة مدّ صافية كالزجاج — كلٌّ منها يتدحرج تمامًا كما يبدو.",
+    "he": "שלושה קווי חוף לשולחן שלכם: עץ סחף מולבן שמש, חול רטוב ומהודק ובריכת גאות צלולה כזכוכית — כל אחד מתגלגל בדיוק כפי שהוא נראה.",
+    "fr": "Trois rivages pour votre table : bois flotté blanchi par le soleil, sable mouillé bien ferme et bassin de marée limpide — chacun roule exactement comme il en a l'air.",
+    "de": "Drei Küstenstreifen für deinen Tisch: sonnengebleichtes Treibholz, fester nasser Sand und ein glasklarer Gezeitentümpel — jeder rollt genau so, wie er aussieht.",
+    "es": "Tres orillas para tu mesa: madera de deriva blanqueada por el sol, arena mojada y firme, y una poza de marea cristalina — cada una rueda exactamente como aparenta.",
+    "pt": "Três litorais para a sua mesa: madeira clareada pelo sol, areia molhada e firme e uma poça de maré cristalina — cada uma rola exatamente como aparenta."
+   },
+   "tags": [
+    "ocean",
+    "premium"
+   ],
+   "iconSymbol": "beach.umbrella.fill",
+   "iconColor": "teal",
+   "version": 1,
+   "featured": false,
+   "productId": "TeamDZX.dice.pack.tables",
+   "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/seaside.jpg",
+   "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/seaside.json",
+   "sizeKB": 1
+  },
+  {
+   "id": "old-world",
+   "type": "table",
+   "emoji": "🗺️",
+   "name": {
+    "en": "Old World",
+    "ja": "オールドワールド",
+    "zh-Hans": "旧世界",
+    "ar": "العالم القديم",
+    "he": "העולם הישן",
+    "fr": "Vieux Monde",
+    "de": "Alte Welt",
+    "es": "Viejo Mundo",
+    "pt": "Velho Mundo"
+   },
+   "tagline": {
+    "en": "Roll across the ages",
+    "ja": "時代を超えてひと振り",
+    "zh-Hans": "掷骰穿越旧时光",
+    "ar": "ارمِ النرد عبر العصور",
+    "he": "הטלה אל תוך ההיסטוריה",
+    "fr": "Lancez à travers les âges",
+    "de": "Würfeln durch die Jahrhunderte",
+    "es": "Tira a través de los siglos",
+    "pt": "Role através dos séculos"
+   },
+   "description": {
+    "en": "Three surfaces from an earlier age: a parchment map table, cold castle stone, and well-worn tavern oak. The perfect stage for Tavern Classics.",
+    "ja": "古き時代から届いた3つの表面。羊皮紙の地図テーブル、冷たい城の石畳、使い込まれた酒場のオーク。タバーンクラシックスの舞台にぴったりです。",
+    "zh-Hans": "三种来自旧时代的桌面：羊皮纸地图桌、冰冷的城堡石板、久经使用的酒馆橡木。正是酒馆经典游戏的最佳舞台。",
+    "ar": "ثلاثة أسطح من زمن مضى: طاولة خرائط من الرقّ، وحجر قلعة بارد، وبلّوط حانة صقلته السنون. المسرح الأمثل لألعاب كلاسيكيات الحانة.",
+    "he": "שלושה משטחים מימים עברו: שולחן מפות מקלף, אבן טירה קרה ואלון פאב משופשף היטב. הבמה המושלמת לקלאסיקות הפאב.",
+    "fr": "Trois surfaces d'un autre temps : table aux cartes en parchemin, pierre de château glacée et chêne de taverne patiné. La scène idéale des Classiques de Taverne.",
+    "de": "Drei Oberflächen aus einer früheren Zeit: ein Kartentisch aus Pergament, kalter Burgstein und abgewetzte Wirtshaus-Eiche. Die perfekte Bühne für die Wirtshaus-Klassiker.",
+    "es": "Tres superficies de otra época: una mesa de mapas de pergamino, fría piedra de castillo y roble de taberna curtido. El escenario perfecto para los Clásicos de taberna.",
+    "pt": "Três superfícies de outra era: uma mesa de mapas de pergaminho, pedra fria de castelo e carvalho de taverna bem gasto. O palco perfeito para os Clássicos de Taverna."
+   },
+   "tags": [
+    "classic",
+    "premium"
+   ],
+   "iconSymbol": "map.fill",
+   "iconColor": "orange",
+   "version": 1,
+   "featured": false,
+   "productId": "TeamDZX.dice.pack.tables",
+   "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/old-world.jpg",
+   "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/old-world.json",
+   "sizeKB": 1
+  },
+  {
    "id": "party-night",
    "type": "games",
    "emoji": "🏮",
@@ -559,6 +760,56 @@
    "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/tavern-classics.jpg",
    "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/tavern-classics.json",
    "sizeKB": 31
+  },
+  {
+   "id": "high-rollers",
+   "type": "games",
+   "emoji": "💰",
+   "name": {
+    "en": "High Rollers",
+    "ja": "ハイローラーズ",
+    "zh-Hans": "豪赌客包",
+    "ar": "حزمة المغامرين",
+    "he": "המהמרים הגדולים",
+    "fr": "Pack Gros Joueurs",
+    "de": "High-Roller-Paket",
+    "es": "Grandes apostadores",
+    "pt": "Grandes Apostas"
+   },
+   "tagline": {
+    "en": "Five games of nerve and fortune",
+    "ja": "度胸と運だめしの5ゲーム",
+    "zh-Hans": "五款考验胆识与运气的游戏",
+    "ar": "خمس ألعاب جرأة وحظ",
+    "he": "חמישה משחקי אומץ ומזל",
+    "fr": "Cinq jeux d'audace et de fortune",
+    "de": "Fünf Spiele für Mut und Glück",
+    "es": "Cinco juegos de nervio y fortuna",
+    "pt": "Cinco jogos de coragem e sorte"
+   },
+   "description": {
+    "en": "Five legendary push-your-luck games — Farkle, Pig, Ship Captain & Crew, Liar's Dice, and Yacht — with complete rules for the boldest table.",
+    "ja": "ファークル、ピッグ、船長と乗組員、ライアーズダイス、ヨット——攻めるか降りるかを迫る伝説の5ゲームを、完全ルール付きで収録しました。",
+    "zh-Hans": "五款传奇的推运气游戏——法克骰、小猪、船长与船员、大话骰、快艇骰——附完整规则，献给最敢下注的牌桌。",
+    "ar": "خمس ألعاب مجازفة أسطورية — فاركل، وبيغ، والسفينة والقبطان والطاقم، ونرد الكذّاب، واليخت — مع قواعد كاملة لأجرأ طاولة.",
+    "he": "חמישה משחקי דחוף-את-המזל אגדיים — פארקל, חזיר, ספינה קברניט וצוות, קוביות השקרן ויאכטה — עם חוקים מלאים לשולחן הנועז ביותר.",
+    "fr": "Cinq jeux légendaires où l'on pousse sa chance — Farkle, Cochon, Bateau-Capitaine-Équipage, Dés du Menteur et Yacht — avec règles complètes pour les tables les plus audacieuses.",
+    "de": "Fünf legendäre Zocker-Spiele — Farkle, Schweinchen, Schiff-Kapitän-Crew, Lügenwürfel und Yacht — mit vollständigen Regeln für die mutigste Runde.",
+    "es": "Cinco legendarios juegos de tentar la suerte — Farkle, Cerdito, Barco capitán y tripulación, Dados mentirosos y Yacht — con reglas completas para la mesa más audaz.",
+    "pt": "Cinco jogos lendários de arriscar a sorte — Farkle, Porquinho, Navio Capitão e Tripulação, Dados Mentirosos e Yacht — com regras completas para a mesa mais ousada."
+   },
+   "tags": [
+    "push-your-luck",
+    "premium"
+   ],
+   "iconSymbol": "trophy.fill",
+   "iconColor": "green",
+   "version": 1,
+   "featured": true,
+   "productId": "TeamDZX.dice.pack.highrollers",
+   "banner": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/banners/high-rollers.jpg",
+   "payload": "https://raw.githubusercontent.com/TeamDzX/dice-assets/main/packs/high-rollers.json",
+   "sizeKB": 34
   }
  ]
 }

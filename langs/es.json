@@ -54,6 +54,31 @@
    "name": "Jardín zen",
    "tagline": "Rastrilla, respira, lanza",
    "description": "Tres superficies serenas para tiradas contemplativas: arena karesansui rastrillada, pizarra fresca y suave musgo del bosque, cada una con su propia física delicada."
+  },
+  "midnight-lounge": {
+   "name": "Lounge de medianoche",
+   "tagline": "Ambiente de última hora",
+   "description": "Tres superficies nocturnas con aire de club privado: terciopelo ciruela, cuero burdeos y vidrio ahumado. Baja las luces y deja que hablen los dados."
+  },
+  "arcade": {
+   "name": "Arcade",
+   "tagline": "Inserta la moneda y tira",
+   "description": "Tres superficies sacadas del salón recreativo: rejilla de neón brillante, titanio cepillado y vidrio holográfico con un rebote extra vivo. El hogar natural de los dados Neón."
+  },
+  "seaside": {
+   "name": "Junto al mar",
+   "tagline": "Sol, sal y madera de deriva",
+   "description": "Tres orillas para tu mesa: madera de deriva blanqueada por el sol, arena mojada y firme, y una poza de marea cristalina — cada una rueda exactamente como aparenta."
+  },
+  "old-world": {
+   "name": "Viejo Mundo",
+   "tagline": "Tira a través de los siglos",
+   "description": "Tres superficies de otra época: una mesa de mapas de pergamino, fría piedra de castillo y roble de taberna curtido. El escenario perfecto para los Clásicos de taberna."
+  },
+  "high-rollers": {
+   "name": "Grandes apostadores",
+   "tagline": "Cinco juegos de nervio y fortuna",
+   "description": "Cinco legendarios juegos de tentar la suerte — Farkle, Cerdito, Barco capitán y tripulación, Dados mentirosos y Yacht — con reglas completas para la mesa más audaz."
   }
  },
  "styles": {
@@ -86,7 +111,19 @@
   "Abyss": "Abismo",
   "Sand Garden": "Jardín de arena",
   "Slate": "Pizarra",
-  "Moss": "Musgo"
+  "Moss": "Musgo",
+  "Plum Velvet": "Terciopelo ciruela",
+  "Oxblood Leather": "Cuero burdeos",
+  "Smoked Glass": "Vidrio ahumado",
+  "Neon Grid": "Rejilla de neón",
+  "Titanium": "Titanio",
+  "Holo Glass": "Vidrio holográfico",
+  "Driftwood": "Madera de deriva",
+  "Wet Sand": "Arena mojada",
+  "Tide Pool": "Poza de marea",
+  "Parchment": "Pergamino",
+  "Castle Stone": "Piedra de castillo",
+  "Tavern Oak": "Roble de taberna"
  },
  "games": {
   "chinchirorin": {
@@ -197,6 +234,61 @@
     "Por turnos, lanza tres dados: cada dado que muestre TU número te permite descartar una ficha.",
     "Tus propias tiradas también pueden librarte de fichas, pero sobre todo estarás ayudando a tus vecinos.",
     "El primer jugador que se quede sin fichas gana."
+   ]
+  },
+  "farkle": {
+   "name": "Farkle",
+   "summary": "El gran clásico de tentar la suerte: guarda tus puntos antes de hacer farkle.",
+   "rules": [
+    "Tira los seis dados. Cada 1 suelto vale 100 puntos y cada 5 suelto vale 50; un trío vale 100 veces su número (tres 1 valen 1.000).",
+    "Tras cada tirada aparta al menos un dado que puntúe y decide: guardar tus puntos o volver a tirar los dados restantes.",
+    "Si una tirada no contiene ningún dado que puntúe, es un farkle: pierdes todo lo acumulado en el turno.",
+    "Puntúa con los seis dados y tendrás «dados calientes»: vuelve a tirar los seis y sigue sumando.",
+    "Guarda tus puntos para terminar el turno a salvo. Gana el primero en llegar a 10.000 puntos."
+   ]
+  },
+  "pig": {
+   "name": "Cerdito",
+   "summary": "Un dado, una decisión: seguir tirando o plantarse. Eso sí, no saques un 1.",
+   "rules": [
+    "En tu turno, tira un solo dado tantas veces como te atrevas, sumando cada tirada a tu total del turno.",
+    "Si sale un 1, pierdes todo el total del turno y el dado pasa al siguiente jugador.",
+    "Si te plantas antes, apuntas el total del turno a tu marcador.",
+    "Vigila a los líderes: cuanto más cerca esté alguien de ganar, más tendrás que arriesgar.",
+    "Gana el primer jugador que llegue a 100 puntos."
+   ]
+  },
+  "ship-captain-crew": {
+   "name": "Barco, capitán y tripulación",
+   "summary": "Consigue barco, capitán y tripulación en tres tiradas: el resto es carga.",
+   "rules": [
+    "Tira cinco dados. Debes encontrar un 6 (el barco), luego un 5 (el capitán) y luego un 4 (la tripulación), en ese orden.",
+    "Aparta cada uno en cuanto salga; tienes tres tiradas en total.",
+    "No puedes quedarte un capitán antes que el barco, ni una tripulación antes que el capitán.",
+    "Con los tres a bordo, los dos dados restantes son tu carga: su suma es tu puntuación. Puedes relanzarlos si te quedan tiradas.",
+    "Sin barco-capitán-tripulación en tres tiradas, puntúas cero. La carga más alta gana la ronda."
+   ]
+  },
+  "liars-dice": {
+   "name": "Dados mentirosos",
+   "summary": "Dados ocultos, apuestas que suben y faroles descarados: gana el último cubilete en pie.",
+   "rules": [
+    "Cada jugador tira cinco dados escondidos bajo su cubilete y solo mira los suyos.",
+    "Por turnos se apuesta cuántos dados de un valor hay en total en la mesa; por ejemplo, «cuatro treses».",
+    "Cada apuesta debe superar la anterior: más dados, o los mismos de un valor más alto.",
+    "En vez de subir, puedes gritar «¡mentiroso!» y todos revelan. Si la apuesta se cumplía, el retador pierde un dado; si no, lo pierde el apostador.",
+    "Los unos son comodines y cuentan para todas las apuestas. Gana el último jugador con dados."
+   ]
+  },
+  "yacht": {
+   "name": "Yacht",
+   "summary": "Completa las doce categorías del antepasado de los juegos de dados con hoja de puntuación.",
+   "rules": [
+    "En tu turno, tira cinco dados hasta tres veces, conservando los que quieras entre tiradas.",
+    "Después anota el resultado en una categoría libre de tu hoja: del 1 al 6, full, póker, escalera pequeña, escalera grande, libre o yacht.",
+    "Un yacht —cinco iguales— vale 50 puntos; las escaleras, 30; el resto, la suma de los dados.",
+    "Cada categoría debe rellenarse una vez, así que una mala tirada puede acabar anotada como cero.",
+    "Tras doce turnos por jugador, gana el total más alto."
    ]
   }
  }

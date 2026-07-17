@@ -1,0 +1,432 @@
+{
+ "id": "high-rollers",
+ "type": "games",
+ "version": 1,
+ "games": [
+  {
+   "id": "farkle",
+   "icon": "die.face.6.fill",
+   "diceNeeded": 6,
+   "players": "2+",
+   "name": {
+    "en": "Farkle",
+    "ja": "ファークル",
+    "zh-Hans": "法克骰",
+    "ar": "فاركل",
+    "he": "פארקל",
+    "fr": "Farkle",
+    "de": "Farkle",
+    "es": "Farkle",
+    "pt": "Farkle"
+   },
+   "summary": {
+    "en": "The great push-your-luck classic — bank your points before you farkle.",
+    "ja": "攻めるか、貯めるか。ファークルする前にポイントを確保せよ——押し引きの大定番。",
+    "zh-Hans": "经典推运气游戏——在“法克”之前，赶紧存分！",
+    "ar": "كلاسيكية المجازفة الكبرى — سجّل نقاطك قبل أن «تفركل».",
+    "he": "קלאסיקת דחוף-את-המזל הגדולה — בנקו את הנקודות לפני שתעשו פארקל.",
+    "fr": "Le grand classique du quitte ou double — engrangez vos points avant de faire farkle.",
+    "de": "Der große Zocker-Klassiker — sichere deine Punkte, bevor du farkelst.",
+    "es": "El gran clásico de tentar la suerte: guarda tus puntos antes de hacer farkle.",
+    "pt": "O grande clássico de arriscar a sorte — guarde seus pontos antes de dar farkle."
+   },
+   "rules": [
+    {
+     "en": "Roll all six dice. Each lone 1 scores 100 points and each lone 5 scores 50; three of a kind scores 100 times the face value (three 1s score 1,000).",
+     "ja": "6個のダイスを全部振ります。1の目は1個100点、5の目は1個50点。同じ目3つは目の数×100点(1のゾロ目3つは1,000点)です。",
+     "zh-Hans": "掷出全部六枚骰子。单个1计100分，单个5计50分；三枚相同点数计该点数×100分（三枚1计1,000分）。",
+     "ar": "ارمِ الأحجار الستة كلها. كل 1 منفرد يساوي 100 نقطة وكل 5 منفرد يساوي 50؛ وثلاثة أحجار متماثلة تساوي قيمة الوجه ×100 (ثلاث وحدات تساوي 1,000).",
+     "he": "גלגלו את כל שש הקוביות. כל 1 בודד שווה 100 נקודות וכל 5 בודד שווה 50; שלישייה שווה פי 100 מערך הפאה (שלוש אחדות שוות 1,000).",
+     "fr": "Lancez les six dés. Chaque 1 isolé vaut 100 points et chaque 5 isolé en vaut 50 ; un brelan vaut 100 fois la valeur de la face (trois 1 valent 1 000).",
+     "de": "Wirf alle sechs Würfel. Jede einzelne 1 zählt 100 Punkte, jede einzelne 5 zählt 50; ein Drilling zählt Augenzahl mal 100 (drei Einsen zählen 1.000).",
+     "es": "Tira los seis dados. Cada 1 suelto vale 100 puntos y cada 5 suelto vale 50; un trío vale 100 veces su número (tres 1 valen 1.000).",
+     "pt": "Role os seis dados. Cada 1 sozinho vale 100 pontos e cada 5 sozinho vale 50; uma trinca vale 100 vezes o número (três 1 valem 1.000)."
+    },
+    {
+     "en": "After every roll, set aside at least one scoring die, then decide: bank your points or roll the remaining dice.",
+     "ja": "振るたびに得点になるダイスを1個以上取り分け、続けて振るか、ポイントを確定させるか選びます。",
+     "zh-Hans": "每次掷骰后必须留下至少一枚得分骰，然后抉择：存分收手，还是继续掷剩余的骰子。",
+     "ar": "بعد كل رمية ضَع جانبًا حجرًا مسجِّلًا واحدًا على الأقل، ثم قرّر: تحفظ نقاطك أم ترمي الأحجار المتبقية؟",
+     "he": "אחרי כל גלגול הניחו בצד לפחות קובייה מנקדת אחת, ואז החליטו: לבנק את הנקודות או לגלגל את הנותרות.",
+     "fr": "Après chaque lancer, mettez de côté au moins un dé marquant, puis décidez : encaisser vos points ou relancer les dés restants.",
+     "de": "Lege nach jedem Wurf mindestens einen punktenden Würfel beiseite und entscheide dann: Punkte sichern oder mit den restlichen weiterwürfeln.",
+     "es": "Tras cada tirada aparta al menos un dado que puntúe y decide: guardar tus puntos o volver a tirar los dados restantes.",
+     "pt": "Depois de cada rolagem, separe pelo menos um dado que pontue e decida: guardar os pontos ou rolar os dados restantes."
+    },
+    {
+     "en": "If a roll contains no scoring dice at all, that's a farkle — you lose everything gathered this turn.",
+     "ja": "得点になるダイスが1個もなければ「ファークル」——このターンに貯めたポイントをすべて失います。",
+     "zh-Hans": "若一次掷骰没有任何得分骰，就是“法克”——本回合累积的分数全部清零。",
+     "ar": "إذا خلت الرمية من أي حجر مسجِّل فهذه «فاركل» — تخسر كل ما جمعته في هذا الدور.",
+     "he": "גלגול בלי אף קובייה מנקדת הוא פארקל — אתם מאבדים את כל מה שנצבר בתור הזה.",
+     "fr": "Si un lancer ne contient aucun dé marquant, c'est un farkle — vous perdez tout ce que vous avez accumulé ce tour.",
+     "de": "Enthält ein Wurf keinen einzigen punktenden Würfel, ist das ein Farkle — alles in diesem Zug Gesammelte ist verloren.",
+     "es": "Si una tirada no contiene ningún dado que puntúe, es un farkle: pierdes todo lo acumulado en el turno.",
+     "pt": "Se uma rolagem não tiver nenhum dado que pontue, é um farkle — você perde tudo o que acumulou no turno."
+    },
+    {
+     "en": "Score with all six dice and you have 'hot dice' — roll all six again and keep building.",
+     "ja": "6個すべてが得点になれば「ホットダイス」。もう一度6個全部を振って上乗せを狙えます。",
+     "zh-Hans": "六枚骰子全部得分即为“热骰”——再掷全部六枚，继续累积。",
+     "ar": "إذا سجّلت بالأحجار الستة كلها تحصل على «نرد ساخن» — ارمِ الستة من جديد وواصل التراكم.",
+     "he": "ניקוד בכל שש הקוביות מעניק \"קוביות לוהטות\" — גלגלו שוב את כל השש והמשיכו לצבור.",
+     "fr": "Marquez avec les six dés et ce sont des « dés chauds » : relancez les six et continuez d'accumuler.",
+     "de": "Punkten alle sechs Würfel, hast du „heiße Würfel“ — wirf alle sechs erneut und baue weiter auf.",
+     "es": "Puntúa con los seis dados y tendrás «dados calientes»: vuelve a tirar los seis y sigue sumando.",
+     "pt": "Pontue com todos os seis dados e ganhe \"dados quentes\": role os seis de novo e continue acumulando."
+    },
+    {
+     "en": "Bank your points to end your turn safely. First player to 10,000 points wins.",
+     "ja": "ポイントを確定するとターン終了。先に10,000点に到達したプレイヤーの勝ちです。",
+     "zh-Hans": "存分后回合结束。率先达到10,000分的玩家获胜。",
+     "ar": "احفظ نقاطك لتُنهي دورك بأمان. أول لاعب يبلغ 10,000 نقطة يفوز.",
+     "he": "בנקו את הנקודות כדי לסיים את התור בבטחה. הראשון שמגיע ל-10,000 נקודות מנצח.",
+     "fr": "Encaissez vos points pour terminer votre tour en sécurité. Le premier à 10 000 points gagne.",
+     "de": "Sichere deine Punkte, um den Zug zu beenden. Wer zuerst 10.000 Punkte erreicht, gewinnt.",
+     "es": "Guarda tus puntos para terminar el turno a salvo. Gana el primero en llegar a 10.000 puntos.",
+     "pt": "Guarde seus pontos para encerrar o turno em segurança. Vence quem chegar primeiro a 10.000 pontos."
+    }
+   ]
+  },
+  {
+   "id": "pig",
+   "icon": "1.circle.fill",
+   "diceNeeded": 1,
+   "players": "2+",
+   "name": {
+    "en": "Pig",
+    "ja": "ピッグ",
+    "zh-Hans": "小猪",
+    "ar": "بيغ",
+    "he": "חזיר",
+    "fr": "Cochon",
+    "de": "Schweinchen",
+    "es": "Cerdito",
+    "pt": "Porquinho"
+   },
+   "summary": {
+    "en": "One die, one choice: roll again or bank. Just don't roll a 1.",
+    "ja": "ダイスは1個、選択はひとつ——振り続けるか、確定するか。1さえ出なければ。",
+    "zh-Hans": "一枚骰子，一个抉择：继续掷还是存分？千万别掷出1。",
+    "ar": "حجر واحد وخيار واحد: ترمي من جديد أم تحفظ؟ فقط لا ترمِ 1.",
+    "he": "קובייה אחת, הכרעה אחת: לגלגל שוב או לבנק. רק אל תגלגלו 1.",
+    "fr": "Un dé, un choix : relancer ou encaisser. Surtout, ne faites pas 1.",
+    "de": "Ein Würfel, eine Wahl: weiterwürfeln oder sichern. Nur keine 1 werfen.",
+    "es": "Un dado, una decisión: seguir tirando o plantarse. Eso sí, no saques un 1.",
+    "pt": "Um dado, uma escolha: rolar de novo ou guardar. Só não tire 1."
+   },
+   "rules": [
+    {
+     "en": "On your turn, roll a single die as many times as you dare, adding each roll to your turn total.",
+     "ja": "自分の番では1個のダイスを好きなだけ振り、出た目をターン得点に加えていきます。",
+     "zh-Hans": "轮到你时，可以不断掷一枚骰子，把每次点数累加到回合得分中。",
+     "ar": "في دورك، ارمِ حجرًا واحدًا كما تشاء من المرات، مضيفًا كل رمية إلى رصيد الدور.",
+     "he": "בתורכם גלגלו קובייה אחת כמה שתעזו, והוסיפו כל גלגול לסכום התור.",
+     "fr": "À votre tour, lancez un seul dé autant de fois que vous l'osez, en ajoutant chaque résultat à votre score de tour.",
+     "de": "Wirf in deinem Zug einen einzelnen Würfel, so oft du dich traust, und addiere jeden Wurf zu deiner Zugsumme.",
+     "es": "En tu turno, tira un solo dado tantas veces como te atrevas, sumando cada tirada a tu total del turno.",
+     "pt": "No seu turno, role um único dado quantas vezes ousar, somando cada rolagem ao total do turno."
+    },
+    {
+     "en": "Roll a 1 and your whole turn total is gone — the die passes to the next player.",
+     "ja": "1が出たらターン得点は没収。ダイスは次のプレイヤーへ渡ります。",
+     "zh-Hans": "掷出1，回合得分全部作废——骰子传给下一位玩家。",
+     "ar": "إن ظهر الرقم 1 خسرت رصيد الدور كله — وينتقل الحجر إلى اللاعب التالي.",
+     "he": "יצא 1? כל סכום התור נמחק — והקובייה עוברת לשחקן הבא.",
+     "fr": "Faites un 1 et tout votre score de tour s'envole — le dé passe au joueur suivant.",
+     "de": "Wirfst du eine 1, ist die ganze Zugsumme weg — der Würfel wandert zum nächsten Spieler.",
+     "es": "Si sale un 1, pierdes todo el total del turno y el dado pasa al siguiente jugador.",
+     "pt": "Tirou 1? O total do turno vai embora — e o dado passa para o próximo jogador."
+    },
+    {
+     "en": "Stop before that happens and you bank the turn total onto your score.",
+     "ja": "その前にやめれば、ターン得点を自分のスコアに確定できます。",
+     "zh-Hans": "在那之前收手，即可把回合得分存入总分。",
+     "ar": "توقّف قبل ذلك تحفظ رصيد دورك في مجموعك العام.",
+     "he": "עצרו לפני כן ותבנקו את סכום התור אל הניקוד הכולל שלכם.",
+     "fr": "Arrêtez-vous avant et vous encaissez votre score de tour dans votre total.",
+     "de": "Hörst du vorher auf, schreibst du die Zugsumme deinem Punktestand gut.",
+     "es": "Si te plantas antes, apuntas el total del turno a tu marcador.",
+     "pt": "Pare antes disso e o total do turno entra no seu placar."
+    },
+    {
+     "en": "Watch the leaders: the closer someone gets to winning, the bolder you'll need to roll.",
+     "ja": "勝利が近いプレイヤーがいるほど、思い切った勝負が必要になります。",
+     "zh-Hans": "留意领先者：对手越接近获胜，你就得掷得越大胆。",
+     "ar": "راقب المتصدرين: كلما اقترب أحدهم من الفوز، لزمك مزيد من الجرأة.",
+     "he": "עקבו אחרי המובילים: ככל שמישהו מתקרב לניצחון, תצטרכו לגלגל בנועזות רבה יותר.",
+     "fr": "Surveillez les meneurs : plus quelqu'un approche de la victoire, plus il faudra oser.",
+     "de": "Behalte die Führenden im Blick: Je näher jemand dem Sieg kommt, desto mutiger musst du würfeln.",
+     "es": "Vigila a los líderes: cuanto más cerca esté alguien de ganar, más tendrás que arriesgar.",
+     "pt": "Fique de olho nos líderes: quanto mais perto alguém estiver de vencer, mais ousado você terá de ser."
+    },
+    {
+     "en": "First player to reach 100 points wins.",
+     "ja": "先に100点に到達したプレイヤーの勝ちです。",
+     "zh-Hans": "率先达到100分的玩家获胜。",
+     "ar": "أول لاعب يبلغ 100 نقطة يفوز.",
+     "he": "הראשון שמגיע ל-100 נקודות מנצח.",
+     "fr": "Le premier joueur à atteindre 100 points gagne.",
+     "de": "Wer zuerst 100 Punkte erreicht, gewinnt.",
+     "es": "Gana el primer jugador que llegue a 100 puntos.",
+     "pt": "Vence o primeiro jogador a alcançar 100 pontos."
+    }
+   ]
+  },
+  {
+   "id": "ship-captain-crew",
+   "icon": "sailboat.fill",
+   "diceNeeded": 5,
+   "players": "2+",
+   "name": {
+    "en": "Ship, Captain & Crew",
+    "ja": "船長と乗組員",
+    "zh-Hans": "船长与船员",
+    "ar": "السفينة والقبطان والطاقم",
+    "he": "ספינה, קברניט וצוות",
+    "fr": "Bateau, Capitaine, Équipage",
+    "de": "Schiff, Kapitän & Crew",
+    "es": "Barco, capitán y tripulación",
+    "pt": "Navio, Capitão e Tripulação"
+   },
+   "summary": {
+    "en": "Find your ship, captain, and crew in three throws — the rest is cargo.",
+    "ja": "3投のうちに船・船長・乗組員を揃えれば、残りはぜんぶ積み荷。",
+    "zh-Hans": "三次投掷凑齐船、船长与船员——剩下的都是货物。",
+    "ar": "اعثر على السفينة والقبطان والطاقم في ثلاث رميات — والباقي حمولة.",
+    "he": "מצאו ספינה, קברניט וצוות בשלוש הטלות — כל השאר מטען.",
+    "fr": "Trouvez bateau, capitaine et équipage en trois lancers — le reste, c'est la cargaison.",
+    "de": "Finde Schiff, Kapitän und Crew in drei Würfen — der Rest ist Ladung.",
+    "es": "Consigue barco, capitán y tripulación en tres tiradas: el resto es carga.",
+    "pt": "Encontre navio, capitão e tripulação em três jogadas — o resto é carga."
+   },
+   "rules": [
+    {
+     "en": "Roll five dice. You must find a 6 (the ship), then a 5 (the captain), then a 4 (the crew) — in that order.",
+     "ja": "5個のダイスを振ります。6(船)、5(船長)、4(乗組員)を、この順番で見つけなければなりません。",
+     "zh-Hans": "掷五枚骰子。你必须依次找到6（船）、5（船长）、4（船员）。",
+     "ar": "ارمِ خمسة أحجار. عليك إيجاد 6 (السفينة) ثم 5 (القبطان) ثم 4 (الطاقم) — بهذا الترتيب.",
+     "he": "גלגלו חמש קוביות. עליכם למצוא 6 (הספינה), אחר כך 5 (הקברניט) ואז 4 (הצוות) — בסדר הזה.",
+     "fr": "Lancez cinq dés. Il vous faut un 6 (le bateau), puis un 5 (le capitaine), puis un 4 (l'équipage) — dans cet ordre.",
+     "de": "Wirf fünf Würfel. Du brauchst eine 6 (das Schiff), dann eine 5 (den Kapitän), dann eine 4 (die Crew) — in dieser Reihenfolge.",
+     "es": "Tira cinco dados. Debes encontrar un 6 (el barco), luego un 5 (el capitán) y luego un 4 (la tripulación), en ese orden.",
+     "pt": "Role cinco dados. Você precisa de um 6 (o navio), depois um 5 (o capitão) e então um 4 (a tripulação) — nessa ordem."
+    },
+    {
+     "en": "Set each one aside as it appears; you have three throws in total.",
+     "ja": "出た順に取り分けます。振れるのは合計3回までです。",
+     "zh-Hans": "掷出后依次留下，总共只有三次投掷机会。",
+     "ar": "ضَع كلًّا منها جانبًا فور ظهوره؛ ولديك ثلاث رميات في المجموع.",
+     "he": "הניחו כל אחד מהם בצד ברגע שהוא מופיע; יש לכם שלוש הטלות בסך הכול.",
+     "fr": "Mettez chacun de côté dès qu'il apparaît ; vous disposez de trois lancers en tout.",
+     "de": "Lege jeden davon beiseite, sobald er fällt; du hast insgesamt drei Würfe.",
+     "es": "Aparta cada uno en cuanto salga; tienes tres tiradas en total.",
+     "pt": "Separe cada um assim que sair; você tem três jogadas no total."
+    },
+    {
+     "en": "You can't keep a captain before the ship, or a crew before the captain.",
+     "ja": "船より先に船長は取れず、船長より先に乗組員は取れません。",
+     "zh-Hans": "没有船不能留船长，没有船长不能留船员。",
+     "ar": "لا يجوز حفظ القبطان قبل السفينة، ولا الطاقم قبل القبطان.",
+     "he": "אי אפשר לשמור קברניט לפני ספינה, או צוות לפני קברניט.",
+     "fr": "Impossible de garder un capitaine avant le bateau, ou un équipage avant le capitaine.",
+     "de": "Kein Kapitän vor dem Schiff, keine Crew vor dem Kapitän.",
+     "es": "No puedes quedarte un capitán antes que el barco, ni una tripulación antes que el capitán.",
+     "pt": "Não dá para guardar capitão antes do navio, nem tripulação antes do capitão."
+    },
+    {
+     "en": "Once all three are aboard, the remaining two dice are your cargo — their total is your score. You may re-roll them with any throws you have left.",
+     "ja": "3つ揃ったら、残り2個が積み荷。その合計があなたの得点です。回数が残っていれば積み荷は振り直せます。",
+     "zh-Hans": "三者齐备后，剩下两枚骰子就是货物——点数之和即你的得分。若还有投掷次数，可重掷货物。",
+     "ar": "متى اكتمل الثلاثة، صار الحجران المتبقيان حمولتك — ومجموعهما هو نقاطك. ويمكنك إعادة رميهما بما تبقى لك من رميات.",
+     "he": "כשהשלושה על הסיפון, שתי הקוביות הנותרות הן המטען — סכומן הוא הניקוד שלכם. אפשר לגלגלן שוב בהטלות שנותרו.",
+     "fr": "Une fois les trois à bord, les deux dés restants sont votre cargaison — leur somme est votre score. Vous pouvez les relancer s'il vous reste des lancers.",
+     "de": "Sind alle drei an Bord, sind die zwei übrigen Würfel deine Ladung — ihre Summe ist dein Ergebnis. Mit verbleibenden Würfen darfst du sie neu werfen.",
+     "es": "Con los tres a bordo, los dos dados restantes son tu carga: su suma es tu puntuación. Puedes relanzarlos si te quedan tiradas.",
+     "pt": "Com os três a bordo, os dois dados restantes são sua carga — a soma deles é sua pontuação. Pode rolá-los de novo se ainda tiver jogadas."
+    },
+    {
+     "en": "No ship-captain-crew in three throws scores zero. The highest cargo wins the round.",
+     "ja": "3投で揃わなければ0点。積み荷が最も多いプレイヤーがラウンドの勝者です。",
+     "zh-Hans": "三次内没凑齐则计0分。货物最多的玩家赢得本轮。",
+     "ar": "من لم يجمع الثلاثة في ثلاث رميات فنقاطه صفر. صاحب الحمولة الأعلى يفوز بالجولة.",
+     "he": "בלי ספינה-קברניט-צוות בשלוש הטלות הניקוד אפס. המטען הגבוה ביותר מנצח בסיבוב.",
+     "fr": "Pas de bateau-capitaine-équipage en trois lancers ? Zéro point. La plus grosse cargaison remporte la manche.",
+     "de": "Ohne Schiff-Kapitän-Crew in drei Würfen gibt es null Punkte. Die höchste Ladung gewinnt die Runde.",
+     "es": "Sin barco-capitán-tripulación en tres tiradas, puntúas cero. La carga más alta gana la ronda.",
+     "pt": "Sem navio-capitão-tripulação em três jogadas, a pontuação é zero. A maior carga vence a rodada."
+    }
+   ]
+  },
+  {
+   "id": "liars-dice",
+   "icon": "eye.slash.fill",
+   "diceNeeded": 5,
+   "players": "2+",
+   "name": {
+    "en": "Liar's Dice",
+    "ja": "ライアーズダイス",
+    "zh-Hans": "大话骰",
+    "ar": "نرد الكذّاب",
+    "he": "קוביות השקרן",
+    "fr": "Dés du Menteur",
+    "de": "Lügenwürfel",
+    "es": "Dados mentirosos",
+    "pt": "Dados Mentirosos"
+   },
+   "summary": {
+    "en": "Hidden dice, rising bids, and barefaced bluffs — the last cup standing wins.",
+    "ja": "隠したダイス、吊り上がる宣言、真っ向勝負のブラフ——最後までカップが残った者の勝ち。",
+    "zh-Hans": "藏起骰子、层层加注、当面吹牛——最后仍有骰子者获胜。",
+    "ar": "أحجار مخفية ومزايدات متصاعدة وخداع صريح — آخر كوب صامد يفوز.",
+    "he": "קוביות חבויות, הכרזות מטפסות ובלוף חסר בושה — הכוס האחרונה שנשארת מנצחת.",
+    "fr": "Dés cachés, enchères qui montent et bluffs éhontés — le dernier gobelet debout l'emporte.",
+    "de": "Verdeckte Würfel, steigende Gebote und dreiste Bluffs — der letzte Becher gewinnt.",
+    "es": "Dados ocultos, apuestas que suben y faroles descarados: gana el último cubilete en pie.",
+    "pt": "Dados escondidos, apostas crescentes e blefes descarados — vence o último copo de pé."
+   },
+   "rules": [
+    {
+     "en": "Every player rolls five dice hidden under their own cup and peeks only at their own.",
+     "ja": "全員が5個のダイスをカップの下に隠して振り、自分のダイスだけをのぞきます。",
+     "zh-Hans": "每位玩家掷五枚骰子扣在自己的骰盅下，只能偷看自己的。",
+     "ar": "يرمي كل لاعب خمسة أحجار مخفية تحت كوبه، ولا يطّلع إلا على أحجاره.",
+     "he": "כל שחקן מגלגל חמש קוביות מוסתרות מתחת לכוס שלו ומציץ רק בשלו.",
+     "fr": "Chaque joueur lance cinq dés cachés sous son gobelet et ne regarde que les siens.",
+     "de": "Jeder Spieler würfelt fünf Würfel verdeckt unter seinem Becher und schaut nur die eigenen an.",
+     "es": "Cada jugador tira cinco dados escondidos bajo su cubilete y solo mira los suyos.",
+     "pt": "Cada jogador rola cinco dados escondidos sob o próprio copo e só espia os seus."
+    },
+    {
+     "en": "Players take turns bidding how many dice of one value they think are on the whole table — for example, 'four threes'.",
+     "ja": "テーブル全体で「3の目が4個」のように、ある目の合計個数を順番に宣言していきます。",
+     "zh-Hans": "玩家轮流竞猜全桌某个点数的总数量，例如“四个三”。",
+     "ar": "يتناوب اللاعبون على المزايدة بعدد وجهٍ ما على الطاولة كلها — مثل «أربع ثلاثات».",
+     "he": "השחקנים מכריזים בתורם כמה קוביות מערך מסוים יש לדעתם על השולחן כולו — למשל \"ארבע שלשות\".",
+     "fr": "À tour de rôle, on parie sur le nombre total d'une valeur présente sur la table — par exemple « quatre 3 ».",
+     "de": "Reihum bieten die Spieler, wie viele Würfel eines Wertes insgesamt auf dem Tisch liegen — zum Beispiel „vier Dreien“.",
+     "es": "Por turnos se apuesta cuántos dados de un valor hay en total en la mesa; por ejemplo, «cuatro treses».",
+     "pt": "Nos turnos, aposta-se quantos dados de um valor existem na mesa toda — por exemplo, \"quatro três\"."
+    },
+    {
+     "en": "Each bid must top the last: more dice, or the same number of a higher value.",
+     "ja": "宣言は前より強くする必要があります。個数を増やすか、同じ個数でより大きい目を選びます。",
+     "zh-Hans": "每次竞猜必须比上一次更高：数量更多，或数量相同但点数更大。",
+     "ar": "كل مزايدة يجب أن تفوق سابقتها: عدد أكبر من الأحجار، أو العدد نفسه بوجه أعلى.",
+     "he": "כל הכרזה חייבת לעלות על קודמתה: יותר קוביות, או אותו מספר בערך גבוה יותר.",
+     "fr": "Chaque enchère doit surpasser la précédente : plus de dés, ou autant de dés d'une valeur supérieure.",
+     "de": "Jedes Gebot muss das vorige übertreffen: mehr Würfel, oder gleich viele mit höherem Wert.",
+     "es": "Cada apuesta debe superar la anterior: más dados, o los mismos de un valor más alto.",
+     "pt": "Cada aposta deve superar a anterior: mais dados, ou a mesma quantidade de um valor mais alto."
+    },
+    {
+     "en": "Instead of raising, call 'liar!' — everyone reveals. If the bid was met, the challenger loses a die; if not, the bidder does.",
+     "ja": "吊り上げる代わりに「嘘だ!」とコール——全員が公開します。宣言どおりならコールした側が、足りなければ宣言した側がダイスを1個失います。",
+     "zh-Hans": "不想加注就喊“开！”——全员亮骰。竞猜成立则质疑者失去一枚骰子；不成立则竞猜者失去一枚。",
+     "ar": "بدل المزايدة يمكنك الصياح «كذّاب!» — فيكشف الجميع. إن صحّت المزايدة خسر المتحدي حجرًا؛ وإلا خسر المزايد.",
+     "he": "במקום להעלות אפשר לקרוא \"שקרן!\" — וכולם חושפים. אם ההכרזה התקיימה, המערער מאבד קובייה; אם לא — המכריז.",
+     "fr": "Au lieu de surenchérir, criez « menteur ! » — tout le monde révèle. Si l'enchère est tenue, le challenger perd un dé ; sinon, c'est l'enchérisseur.",
+     "de": "Statt zu erhöhen, kannst du „Lügner!“ rufen — alle decken auf. Stimmt das Gebot, verliert der Herausforderer einen Würfel; sonst der Bieter.",
+     "es": "En vez de subir, puedes gritar «¡mentiroso!» y todos revelan. Si la apuesta se cumplía, el retador pierde un dado; si no, lo pierde el apostador.",
+     "pt": "Em vez de aumentar, grite \"mentiroso!\" — todos revelam. Se a aposta se confirmar, o desafiante perde um dado; senão, quem apostou perde."
+    },
+    {
+     "en": "Ones are wild and count towards every bid. The last player with dice left wins.",
+     "ja": "1の目はワイルドで、どの宣言にも数えられます。最後までダイスが残ったプレイヤーの勝ちです。",
+     "zh-Hans": "1点是万能点，计入所有竞猜。最后仍有骰子的玩家获胜。",
+     "ar": "الوحدات جامحة وتُحسب في كل مزايدة. آخر لاعب تبقى لديه أحجار يفوز.",
+     "he": "אחדות הן ג'וקר ונספרות בכל הכרזה. השחקן האחרון שנותרו לו קוביות מנצח.",
+     "fr": "Les 1 sont des jokers et comptent dans toutes les enchères. Le dernier joueur avec des dés gagne.",
+     "de": "Einsen sind Joker und zählen für jedes Gebot. Wer als Letzter noch Würfel hat, gewinnt.",
+     "es": "Los unos son comodines y cuentan para todas las apuestas. Gana el último jugador con dados.",
+     "pt": "Os 1 são curingas e contam em todas as apostas. Vence o último jogador com dados."
+    }
+   ]
+  },
+  {
+   "id": "yacht",
+   "icon": "crown.fill",
+   "diceNeeded": 5,
+   "players": "1+",
+   "name": {
+    "en": "Yacht",
+    "ja": "ヨット",
+    "zh-Hans": "快艇骰",
+    "ar": "اليخت",
+    "he": "יאכטה",
+    "fr": "Yacht",
+    "de": "Yacht",
+    "es": "Yacht",
+    "pt": "Yacht"
+   },
+   "summary": {
+    "en": "Fill all twelve categories in the classic ancestor of the score-sheet dice games.",
+    "ja": "スコアシート系ダイスゲームの元祖。12のカテゴリーをすべて埋めよう。",
+    "zh-Hans": "计分表类骰子游戏的鼻祖——填满全部十二个类别。",
+    "ar": "املأ الفئات الاثنتي عشرة في الجدّ الأكبر لألعاب النرد ذات ورقة النقاط.",
+    "he": "מלאו את כל שתים-עשרה הקטגוריות באב הקדמון של משחקי דף הניקוד.",
+    "fr": "Remplissez les douze catégories de l'ancêtre des jeux de dés à feuille de score.",
+    "de": "Fülle alle zwölf Kategorien im Urahn der Würfelspiele mit Punktezettel.",
+    "es": "Completa las doce categorías del antepasado de los juegos de dados con hoja de puntuación.",
+    "pt": "Preencha as doze categorias no ancestral dos jogos de dados com folha de pontos."
+   },
+   "rules": [
+    {
+     "en": "On your turn, roll five dice up to three times, keeping any dice you like between rolls.",
+     "ja": "自分の番では5個のダイスを最大3回まで振れます。振り直す前に好きなダイスをキープできます。",
+     "zh-Hans": "轮到你时，五枚骰子最多可掷三次，每次之间可保留任意骰子。",
+     "ar": "في دورك، ارمِ خمسة أحجار حتى ثلاث مرات، محتفظًا بما تشاء بين الرميات.",
+     "he": "בתורכם גלגלו חמש קוביות עד שלוש פעמים, ושמרו אילו קוביות שתרצו בין הגלגולים.",
+     "fr": "À votre tour, lancez cinq dés jusqu'à trois fois, en gardant les dés de votre choix entre les lancers.",
+     "de": "Wirf in deinem Zug fünf Würfel bis zu dreimal und behalte zwischen den Würfen beliebige Würfel.",
+     "es": "En tu turno, tira cinco dados hasta tres veces, conservando los que quieras entre tiradas.",
+     "pt": "No seu turno, role cinco dados até três vezes, guardando os que quiser entre as rolagens."
+    },
+    {
+     "en": "Then score the result in one empty category on your sheet: ones through sixes, full house, four of a kind, little straight, big straight, choice, or yacht.",
+     "ja": "結果をシートの空いているカテゴリーに記入します。1〜6の目、フルハウス、フォーカード、スモールストレート、ビッグストレート、チョイス、ヨットです。",
+     "zh-Hans": "然后将结果填入计分表上的一个空类别：一点到六点、葫芦、四条、小顺、大顺、自由选择或快艇。",
+     "ar": "ثم سجّل النتيجة في فئة فارغة واحدة من ورقتك: من الوحدات إلى الستات، فول هاوس، أربعة متماثلة، سلسلة صغيرة، سلسلة كبيرة، الاختيار الحر، أو اليخت.",
+     "he": "אחר כך רשמו את התוצאה בקטגוריה פנויה אחת בדף: אחדות עד שישיות, פול האוס, רביעייה, סטרייט קטן, סטרייט גדול, בחירה חופשית או יאכטה.",
+     "fr": "Inscrivez ensuite le résultat dans une catégorie libre de votre feuille : des 1 aux 6, full, carré, petite suite, grande suite, choix, ou yacht.",
+     "de": "Trage das Ergebnis dann in eine freie Kategorie deines Zettels ein: Einsen bis Sechsen, Full House, Vierling, kleine Straße, große Straße, Chance oder Yacht.",
+     "es": "Después anota el resultado en una categoría libre de tu hoja: del 1 al 6, full, póker, escalera pequeña, escalera grande, libre o yacht.",
+     "pt": "Depois marque o resultado em uma categoria vazia da sua folha: de 1 a 6, full house, quadra, sequência menor, sequência maior, livre ou yacht."
+    },
+    {
+     "en": "A yacht — five of a kind — scores 50 points; the straights score 30; the rest score the pips they show.",
+     "ja": "ヨット(5個同じ目)は50点、ストレートは30点、その他は出た目の合計が得点です。",
+     "zh-Hans": "快艇（五枚同点）计50分；顺子计30分；其余按骰面点数计分。",
+     "ar": "اليخت — خمسة متماثلة — يساوي 50 نقطة؛ والسلاسل 30؛ والباقي بمجموع النقاط الظاهرة.",
+     "he": "יאכטה — חמישייה זהה — שווה 50 נקודות; הסטרייטים 30; והשאר לפי סכום הפאות.",
+     "fr": "Un yacht — cinq dés identiques — vaut 50 points ; les suites en valent 30 ; le reste vaut la somme des faces.",
+     "de": "Eine Yacht — fünf Gleiche — zählt 50 Punkte; die Straßen zählen 30; der Rest zählt die Augensumme.",
+     "es": "Un yacht —cinco iguales— vale 50 puntos; las escaleras, 30; el resto, la suma de los dados.",
+     "pt": "Um yacht — cinco iguais — vale 50 pontos; as sequências valem 30; o resto vale a soma dos dados."
+    },
+    {
+     "en": "Every category must be filled once, so a bad roll may have to be written off as a zero somewhere.",
+     "ja": "どのカテゴリーも一度は埋める必要があるため、悪い出目はどこかに0点で書くことになるかもしれません。",
+     "zh-Hans": "每个类别都必须填写一次，运气差的一掷可能只能在某处记零分。",
+     "ar": "يجب ملء كل فئة مرة واحدة، فقد تضطر رمية سيئة إلى تسجيل صفر في مكان ما.",
+     "he": "כל קטגוריה חייבת להתמלא פעם אחת, ולכן גלגול גרוע עלול להירשם איפשהו כאפס.",
+     "fr": "Chaque catégorie doit être remplie une fois : un mauvais lancer devra parfois se solder par un zéro.",
+     "de": "Jede Kategorie muss einmal gefüllt werden — ein schlechter Wurf muss also manchmal als Null eingetragen werden.",
+     "es": "Cada categoría debe rellenarse una vez, así que una mala tirada puede acabar anotada como cero.",
+     "pt": "Cada categoria deve ser preenchida uma vez, então uma rolagem ruim pode ter de virar zero em algum lugar."
+    },
+    {
+     "en": "After twelve turns each, the highest grand total wins.",
+     "ja": "各自12ターンを終えたら、合計点が最も高いプレイヤーの勝ちです。",
+     "zh-Hans": "每人十二回合后，总分最高者获胜。",
+     "ar": "بعد اثني عشر دورًا لكل لاعب، صاحب المجموع الأعلى يفوز.",
+     "he": "אחרי שתים-עשרה תורות לכל שחקן, הסכום הכולל הגבוה ביותר מנצח.",
+     "fr": "Après douze tours chacun, le plus haut total l'emporte.",
+     "de": "Nach zwölf Zügen pro Spieler gewinnt die höchste Gesamtsumme.",
+     "es": "Tras doce turnos por jugador, gana el total más alto.",
+     "pt": "Após doze turnos de cada jogador, vence o maior total."
+    }
+   ]
+  }
+ ]
+}

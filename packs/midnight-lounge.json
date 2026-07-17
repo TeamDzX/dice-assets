@@ -1,0 +1,76 @@
+{
+ "id": "midnight-lounge",
+ "type": "table",
+ "version": 1,
+ "surfaces": [
+  {
+   "id": "plum-velvet",
+   "name": {
+    "en": "Plum Velvet",
+    "ja": "プラムベルベット",
+    "zh-Hans": "梅紫丝绒",
+    "ar": "مخمل برقوقي",
+    "he": "קטיפת שזיף",
+    "fr": "Velours Prune",
+    "de": "Pflaumensamt",
+    "es": "Terciopelo ciruela",
+    "pt": "Veludo Ameixa"
+   },
+   "background": "#1C0F1E",
+   "floor": "#4A2545",
+   "roughness": 0.95,
+   "metalness": 0.0,
+   "normalIntensity": 0.25,
+   "reflectivity": 0.04,
+   "friction": 1.0,
+   "restitution": 0.1,
+   "accent": "#2E1530"
+  },
+  {
+   "id": "oxblood-leather",
+   "name": {
+    "en": "Oxblood Leather",
+    "ja": "オックスブラッドレザー",
+    "zh-Hans": "牛血红皮革",
+    "ar": "جلد أحمر داكن",
+    "he": "עור בורדו",
+    "fr": "Cuir Sang-de-bœuf",
+    "de": "Oxblood-Leder",
+    "es": "Cuero burdeos",
+    "pt": "Couro Vinho"
+   },
+   "background": "#1E0D0D",
+   "floor": "#5C2320",
+   "roughness": 0.65,
+   "metalness": 0.0,
+   "normalIntensity": 0.45,
+   "reflectivity": 0.06,
+   "friction": 0.75,
+   "restitution": 0.22,
+   "accent": "#3A1512"
+  },
+  {
+   "id": "smoked-glass",
+   "name": {
+    "en": "Smoked Glass",
+    "ja": "スモークガラス",
+    "zh-Hans": "烟熏玻璃",
+    "ar": "زجاج مدخّن",
+    "he": "זכוכית מעושנת",
+    "fr": "Verre Fumé",
+    "de": "Rauchglas",
+    "es": "Vidrio ahumado",
+    "pt": "Vidro Fumê"
+   },
+   "background": "#101014",
+   "floor": "#23252E",
+   "roughness": 0.08,
+   "metalness": 0.1,
+   "normalIntensity": 0.05,
+   "reflectivity": 0.25,
+   "friction": 0.35,
+   "restitution": 0.45,
+   "accent": "#2E3040"
+  }
+ ]
+}

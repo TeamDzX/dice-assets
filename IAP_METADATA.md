@@ -1,8 +1,9 @@
 # Dice — In-App Purchase Metadata (App Store Connect)
 
-Five products, all **Non-Consumable**, under app `TeamDZX.dice`.
+Six products, all **Non-Consumable**, under app `TeamDZX.dice`.
 Base price territory: **United Kingdom** — let Apple auto-generate all other
-territories from the GBP base. Decided 2026-07-05.
+territories from the GBP base. Decided 2026-07-05; High Rollers added
+2026-07-17.
 
 Every product needs a **review screenshot** (any Pack Gallery screenshot
 works, same one can be reused) before first submission. The app's Restore
@@ -85,7 +86,27 @@ Character limits: Display Name ≤ 30, Description ≤ 45.
 | es-ES / es-MX | Clásicos de taberna | Cierra la caja, Treses, Rumbo a Boston. |
 | pt-BR | Clássicos de Taverna | Feche a Caixa, Trios, Rumo a Boston. |
 
-## 5. Everything Bundle — £4.99
+## 5. High Rollers — £1.99
+
+- **Product ID:** `TeamDZX.dice.pack.highrollers`
+- **Reference name:** Dice — High Rollers
+- Covers: this game pack only (Farkle, Pig, Ship Captain & Crew, Liar's
+  Dice, Yacht). Added 2026-07-17 — **needs a new ASC non-consumable**; the
+  gallery shows Coming Soon until the product is live.
+
+| Locale | Display name | Description |
+|---|---|---|
+| en-GB / en-US | High Rollers | Farkle, Liar's Dice, Yacht and more. |
+| ja | ハイローラーズ | ファークルなど5つのゲームルール。 |
+| zh-Hans | 豪赌客包 | 法克骰、大话骰、快艇骰等五款游戏。 |
+| ar | حزمة المغامرين | قواعد خمس ألعاب نرد جريئة كاملة. |
+| he | המהמרים הגדולים | חוקים מלאים לחמישה משחקי קוביות נועזים. |
+| fr-FR | Pack Gros Joueurs | Farkle, Dés du Menteur, Yacht et plus. |
+| de-DE | High-Roller-Paket | Farkle, Lügenwürfel, Yacht und mehr. |
+| es-ES / es-MX | Grandes apostadores | Farkle, Dados mentirosos, Yacht y más. |
+| pt-BR | Grandes Apostas | Farkle, Dados Mentirosos, Yacht e mais. |
+
+## 6. Everything Bundle — £4.99
 
 - **Product ID:** `TeamDZX.dice.pack.allaccess`
 - **Reference name:** Dice — Everything Bundle
@@ -118,8 +139,9 @@ Character limits: Display Name ≤ 30, Description ≤ 45.
 
 ### Pricing sanity check
 
-Individually: 1.99 + 0.99 + 1.99 + 1.99 = **£6.96** → bundle at **£4.99**
-saves ~28%, a credible anchor without giving the catalog away.
+Individually: 1.99 + 0.99 + 1.99 + 1.99 + 1.99 = **£8.95** → bundle at
+**£4.99** saves ~44%, a credible anchor without giving the catalog away.
+(Was £6.96 / ~28% before High Rollers.)
 
 ### When adding future packs
 

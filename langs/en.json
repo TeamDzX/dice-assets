@@ -54,6 +54,31 @@
    "name": "Zen Garden",
    "tagline": "Rake, breathe, roll",
    "description": "Three serene surfaces for contemplative rolling: raked karesansui sand, cool slate, and soft forest moss — each with its own gentle physics."
+  },
+  "midnight-lounge": {
+   "name": "Midnight Lounge",
+   "tagline": "After-hours atmosphere",
+   "description": "Three after-dark surfaces with a members-club feel: plum velvet, oxblood leather, and smoked glass. Dim the lights and let the dice do the talking."
+  },
+  "arcade": {
+   "name": "Arcade",
+   "tagline": "Insert coin, roll dice",
+   "description": "Three surfaces straight from the arcade floor: a glowing neon grid, brushed titanium, and slick holo-glass with an extra-lively bounce. The natural home for the Neon Glow dice."
+  },
+  "seaside": {
+   "name": "Seaside",
+   "tagline": "Sun, salt, and driftwood",
+   "description": "Three shorelines for your table: sun-bleached driftwood, firm wet sand, and a glass-clear tide pool — each one rolling exactly the way it looks."
+  },
+  "old-world": {
+   "name": "Old World",
+   "tagline": "Roll across the ages",
+   "description": "Three surfaces from an earlier age: a parchment map table, cold castle stone, and well-worn tavern oak. The perfect stage for Tavern Classics."
+  },
+  "high-rollers": {
+   "name": "High Rollers",
+   "tagline": "Five games of nerve and fortune",
+   "description": "Five legendary push-your-luck games — Farkle, Pig, Ship Captain & Crew, Liar's Dice, and Yacht — with complete rules for the boldest table."
   }
  },
  "styles": {
@@ -86,7 +111,19 @@
   "Abyss": "Abyss",
   "Sand Garden": "Sand Garden",
   "Slate": "Slate",
-  "Moss": "Moss"
+  "Moss": "Moss",
+  "Plum Velvet": "Plum Velvet",
+  "Oxblood Leather": "Oxblood Leather",
+  "Smoked Glass": "Smoked Glass",
+  "Neon Grid": "Neon Grid",
+  "Titanium": "Titanium",
+  "Holo Glass": "Holo Glass",
+  "Driftwood": "Driftwood",
+  "Wet Sand": "Wet Sand",
+  "Tide Pool": "Tide Pool",
+  "Parchment": "Parchment",
+  "Castle Stone": "Castle Stone",
+  "Tavern Oak": "Tavern Oak"
  },
  "games": {
   "chinchirorin": {
@@ -197,6 +234,61 @@
     "Take turns rolling three dice: every die showing YOUR number lets you discard one chip.",
     "Your own rolls can shed your chips too — but mostly you'll be helping your neighbors.",
     "The first player with no chips left wins."
+   ]
+  },
+  "farkle": {
+   "name": "Farkle",
+   "summary": "The great push-your-luck classic — bank your points before you farkle.",
+   "rules": [
+    "Roll all six dice. Each lone 1 scores 100 points and each lone 5 scores 50; three of a kind scores 100 times the face value (three 1s score 1,000).",
+    "After every roll, set aside at least one scoring die, then decide: bank your points or roll the remaining dice.",
+    "If a roll contains no scoring dice at all, that's a farkle — you lose everything gathered this turn.",
+    "Score with all six dice and you have 'hot dice' — roll all six again and keep building.",
+    "Bank your points to end your turn safely. First player to 10,000 points wins."
+   ]
+  },
+  "pig": {
+   "name": "Pig",
+   "summary": "One die, one choice: roll again or bank. Just don't roll a 1.",
+   "rules": [
+    "On your turn, roll a single die as many times as you dare, adding each roll to your turn total.",
+    "Roll a 1 and your whole turn total is gone — the die passes to the next player.",
+    "Stop before that happens and you bank the turn total onto your score.",
+    "Watch the leaders: the closer someone gets to winning, the bolder you'll need to roll.",
+    "First player to reach 100 points wins."
+   ]
+  },
+  "ship-captain-crew": {
+   "name": "Ship, Captain & Crew",
+   "summary": "Find your ship, captain, and crew in three throws — the rest is cargo.",
+   "rules": [
+    "Roll five dice. You must find a 6 (the ship), then a 5 (the captain), then a 4 (the crew) — in that order.",
+    "Set each one aside as it appears; you have three throws in total.",
+    "You can't keep a captain before the ship, or a crew before the captain.",
+    "Once all three are aboard, the remaining two dice are your cargo — their total is your score. You may re-roll them with any throws you have left.",
+    "No ship-captain-crew in three throws scores zero. The highest cargo wins the round."
+   ]
+  },
+  "liars-dice": {
+   "name": "Liar's Dice",
+   "summary": "Hidden dice, rising bids, and barefaced bluffs — the last cup standing wins.",
+   "rules": [
+    "Every player rolls five dice hidden under their own cup and peeks only at their own.",
+    "Players take turns bidding how many dice of one value they think are on the whole table — for example, 'four threes'.",
+    "Each bid must top the last: more dice, or the same number of a higher value.",
+    "Instead of raising, call 'liar!' — everyone reveals. If the bid was met, the challenger loses a die; if not, the bidder does.",
+    "Ones are wild and count towards every bid. The last player with dice left wins."
+   ]
+  },
+  "yacht": {
+   "name": "Yacht",
+   "summary": "Fill all twelve categories in the classic ancestor of the score-sheet dice games.",
+   "rules": [
+    "On your turn, roll five dice up to three times, keeping any dice you like between rolls.",
+    "Then score the result in one empty category on your sheet: ones through sixes, full house, four of a kind, little straight, big straight, choice, or yacht.",
+    "A yacht — five of a kind — scores 50 points; the straights score 30; the rest score the pips they show.",
+    "Every category must be filled once, so a bad roll may have to be written off as a zero somewhere.",
+    "After twelve turns each, the highest grand total wins."
    ]
   }
  }

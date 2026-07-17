@@ -1,0 +1,76 @@
+{
+ "id": "old-world",
+ "type": "table",
+ "version": 1,
+ "surfaces": [
+  {
+   "id": "parchment",
+   "name": {
+    "en": "Parchment",
+    "ja": "羊皮紙",
+    "zh-Hans": "羊皮纸",
+    "ar": "رقّ قديم",
+    "he": "קלף",
+    "fr": "Parchemin",
+    "de": "Pergament",
+    "es": "Pergamino",
+    "pt": "Pergaminho"
+   },
+   "background": "#3A2E1C",
+   "floor": "#C7B084",
+   "roughness": 0.8,
+   "metalness": 0.0,
+   "normalIntensity": 0.3,
+   "reflectivity": 0.04,
+   "friction": 0.85,
+   "restitution": 0.12,
+   "accent": "#57452A"
+  },
+  {
+   "id": "castle-stone",
+   "name": {
+    "en": "Castle Stone",
+    "ja": "城の石畳",
+    "zh-Hans": "城堡石板",
+    "ar": "حجر القلعة",
+    "he": "אבן טירה",
+    "fr": "Pierre de Château",
+    "de": "Burgstein",
+    "es": "Piedra de castillo",
+    "pt": "Pedra de Castelo"
+   },
+   "background": "#1C1D1F",
+   "floor": "#55575C",
+   "roughness": 0.85,
+   "metalness": 0.0,
+   "normalIntensity": 0.6,
+   "reflectivity": 0.04,
+   "friction": 0.8,
+   "restitution": 0.15,
+   "accent": "#33353A"
+  },
+  {
+   "id": "tavern-oak",
+   "name": {
+    "en": "Tavern Oak",
+    "ja": "タバーンオーク",
+    "zh-Hans": "酒馆橡木",
+    "ar": "بلّوط الحانة",
+    "he": "אלון הפאב",
+    "fr": "Chêne de Taverne",
+    "de": "Wirtshaus-Eiche",
+    "es": "Roble de taberna",
+    "pt": "Carvalho de Taverna"
+   },
+   "background": "#241507",
+   "floor": "#6B4423",
+   "roughness": 0.55,
+   "metalness": 0.0,
+   "normalIntensity": 0.5,
+   "reflectivity": 0.06,
+   "friction": 0.6,
+   "restitution": 0.25,
+   "accent": "#3E2712"
+  }
+ ]
+}

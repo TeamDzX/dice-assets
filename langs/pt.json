@@ -54,6 +54,31 @@
    "name": "Jardim Zen",
    "tagline": "Rastele, respire, jogue",
    "description": "Três superfícies serenas para jogadas contemplativas: areia karesansui rastelada, ardósia fresca e musgo macio de floresta — cada uma com sua própria física suave."
+  },
+  "midnight-lounge": {
+   "name": "Lounge da Meia-Noite",
+   "tagline": "Clima de fim de noite",
+   "description": "Três superfícies noturnas com ar de clube exclusivo: veludo ameixa, couro vinho e vidro fumê. Diminua as luzes e deixe os dados falarem."
+  },
+  "arcade": {
+   "name": "Fliperama",
+   "tagline": "Insira a ficha, role os dados",
+   "description": "Três superfícies direto do fliperama: grade neon brilhante, titânio escovado e vidro holográfico com quique extra. O lar perfeito para os dados Brilho Neon."
+  },
+  "seaside": {
+   "name": "Beira-Mar",
+   "tagline": "Sol, sal e madeira do mar",
+   "description": "Três litorais para a sua mesa: madeira clareada pelo sol, areia molhada e firme e uma poça de maré cristalina — cada uma rola exatamente como aparenta."
+  },
+  "old-world": {
+   "name": "Velho Mundo",
+   "tagline": "Role através dos séculos",
+   "description": "Três superfícies de outra era: uma mesa de mapas de pergaminho, pedra fria de castelo e carvalho de taverna bem gasto. O palco perfeito para os Clássicos de Taverna."
+  },
+  "high-rollers": {
+   "name": "Grandes Apostas",
+   "tagline": "Cinco jogos de coragem e sorte",
+   "description": "Cinco jogos lendários de arriscar a sorte — Farkle, Porquinho, Navio Capitão e Tripulação, Dados Mentirosos e Yacht — com regras completas para a mesa mais ousada."
   }
  },
  "styles": {
@@ -86,7 +111,19 @@
   "Abyss": "Abismo",
   "Sand Garden": "Jardim de areia",
   "Slate": "Ardósia",
-  "Moss": "Musgo"
+  "Moss": "Musgo",
+  "Plum Velvet": "Veludo Ameixa",
+  "Oxblood Leather": "Couro Vinho",
+  "Smoked Glass": "Vidro Fumê",
+  "Neon Grid": "Grade Neon",
+  "Titanium": "Titânio",
+  "Holo Glass": "Vidro Holográfico",
+  "Driftwood": "Madeira do Mar",
+  "Wet Sand": "Areia Molhada",
+  "Tide Pool": "Poça de Maré",
+  "Parchment": "Pergaminho",
+  "Castle Stone": "Pedra de Castelo",
+  "Tavern Oak": "Carvalho de Taverna"
  },
  "games": {
   "chinchirorin": {
@@ -197,6 +234,61 @@
     "Revezem-se jogando três dados: cada dado mostrando o SEU número permite descartar uma ficha.",
     "Suas próprias jogadas também podem descartar suas fichas — mas na maior parte do tempo você estará ajudando os vizinhos.",
     "O primeiro jogador a ficar sem fichas vence."
+   ]
+  },
+  "farkle": {
+   "name": "Farkle",
+   "summary": "O grande clássico de arriscar a sorte — guarde seus pontos antes de dar farkle.",
+   "rules": [
+    "Role os seis dados. Cada 1 sozinho vale 100 pontos e cada 5 sozinho vale 50; uma trinca vale 100 vezes o número (três 1 valem 1.000).",
+    "Depois de cada rolagem, separe pelo menos um dado que pontue e decida: guardar os pontos ou rolar os dados restantes.",
+    "Se uma rolagem não tiver nenhum dado que pontue, é um farkle — você perde tudo o que acumulou no turno.",
+    "Pontue com todos os seis dados e ganhe \"dados quentes\": role os seis de novo e continue acumulando.",
+    "Guarde seus pontos para encerrar o turno em segurança. Vence quem chegar primeiro a 10.000 pontos."
+   ]
+  },
+  "pig": {
+   "name": "Porquinho",
+   "summary": "Um dado, uma escolha: rolar de novo ou guardar. Só não tire 1.",
+   "rules": [
+    "No seu turno, role um único dado quantas vezes ousar, somando cada rolagem ao total do turno.",
+    "Tirou 1? O total do turno vai embora — e o dado passa para o próximo jogador.",
+    "Pare antes disso e o total do turno entra no seu placar.",
+    "Fique de olho nos líderes: quanto mais perto alguém estiver de vencer, mais ousado você terá de ser.",
+    "Vence o primeiro jogador a alcançar 100 pontos."
+   ]
+  },
+  "ship-captain-crew": {
+   "name": "Navio, Capitão e Tripulação",
+   "summary": "Encontre navio, capitão e tripulação em três jogadas — o resto é carga.",
+   "rules": [
+    "Role cinco dados. Você precisa de um 6 (o navio), depois um 5 (o capitão) e então um 4 (a tripulação) — nessa ordem.",
+    "Separe cada um assim que sair; você tem três jogadas no total.",
+    "Não dá para guardar capitão antes do navio, nem tripulação antes do capitão.",
+    "Com os três a bordo, os dois dados restantes são sua carga — a soma deles é sua pontuação. Pode rolá-los de novo se ainda tiver jogadas.",
+    "Sem navio-capitão-tripulação em três jogadas, a pontuação é zero. A maior carga vence a rodada."
+   ]
+  },
+  "liars-dice": {
+   "name": "Dados Mentirosos",
+   "summary": "Dados escondidos, apostas crescentes e blefes descarados — vence o último copo de pé.",
+   "rules": [
+    "Cada jogador rola cinco dados escondidos sob o próprio copo e só espia os seus.",
+    "Nos turnos, aposta-se quantos dados de um valor existem na mesa toda — por exemplo, \"quatro três\".",
+    "Cada aposta deve superar a anterior: mais dados, ou a mesma quantidade de um valor mais alto.",
+    "Em vez de aumentar, grite \"mentiroso!\" — todos revelam. Se a aposta se confirmar, o desafiante perde um dado; senão, quem apostou perde.",
+    "Os 1 são curingas e contam em todas as apostas. Vence o último jogador com dados."
+   ]
+  },
+  "yacht": {
+   "name": "Yacht",
+   "summary": "Preencha as doze categorias no ancestral dos jogos de dados com folha de pontos.",
+   "rules": [
+    "No seu turno, role cinco dados até três vezes, guardando os que quiser entre as rolagens.",
+    "Depois marque o resultado em uma categoria vazia da sua folha: de 1 a 6, full house, quadra, sequência menor, sequência maior, livre ou yacht.",
+    "Um yacht — cinco iguais — vale 50 pontos; as sequências valem 30; o resto vale a soma dos dados.",
+    "Cada categoria deve ser preenchida uma vez, então uma rolagem ruim pode ter de virar zero em algum lugar.",
+    "Após doze turnos de cada jogador, vence o maior total."
    ]
   }
  }

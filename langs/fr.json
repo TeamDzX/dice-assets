@@ -54,6 +54,31 @@
    "name": "Jardin Zen",
    "tagline": "Ratissez, respirez, lancez",
    "description": "Trois surfaces sereines pour des lancers contemplatifs : le sable ratissé d'un karesansui, l'ardoise fraîche et la douce mousse des sous-bois — chacune avec sa propre physique délicate."
+  },
+  "midnight-lounge": {
+   "name": "Lounge de Minuit",
+   "tagline": "L'ambiance des heures tardives",
+   "description": "Trois surfaces d'après-minuit à l'esprit club privé : velours prune, cuir sang-de-bœuf et verre fumé. Tamisez les lumières et laissez parler les dés."
+  },
+  "arcade": {
+   "name": "Arcade",
+   "tagline": "Insérez une pièce, lancez les dés",
+   "description": "Trois surfaces tout droit venues de la salle d'arcade : grille néon lumineuse, titane brossé et verre holo au rebond survolté. Le terrain de jeu rêvé des dés Éclat Néon."
+  },
+  "seaside": {
+   "name": "Bord de Mer",
+   "tagline": "Soleil, sel et bois flotté",
+   "description": "Trois rivages pour votre table : bois flotté blanchi par le soleil, sable mouillé bien ferme et bassin de marée limpide — chacun roule exactement comme il en a l'air."
+  },
+  "old-world": {
+   "name": "Vieux Monde",
+   "tagline": "Lancez à travers les âges",
+   "description": "Trois surfaces d'un autre temps : table aux cartes en parchemin, pierre de château glacée et chêne de taverne patiné. La scène idéale des Classiques de Taverne."
+  },
+  "high-rollers": {
+   "name": "Pack Gros Joueurs",
+   "tagline": "Cinq jeux d'audace et de fortune",
+   "description": "Cinq jeux légendaires où l'on pousse sa chance — Farkle, Cochon, Bateau-Capitaine-Équipage, Dés du Menteur et Yacht — avec règles complètes pour les tables les plus audacieuses."
   }
  },
  "styles": {
@@ -86,7 +111,19 @@
   "Abyss": "Abysse",
   "Sand Garden": "Jardin de sable",
   "Slate": "Ardoise",
-  "Moss": "Mousse"
+  "Moss": "Mousse",
+  "Plum Velvet": "Velours Prune",
+  "Oxblood Leather": "Cuir Sang-de-bœuf",
+  "Smoked Glass": "Verre Fumé",
+  "Neon Grid": "Grille Néon",
+  "Titanium": "Titane",
+  "Holo Glass": "Verre Holo",
+  "Driftwood": "Bois Flotté",
+  "Wet Sand": "Sable Mouillé",
+  "Tide Pool": "Bassin de Marée",
+  "Parchment": "Parchemin",
+  "Castle Stone": "Pierre de Château",
+  "Tavern Oak": "Chêne de Taverne"
  },
  "games": {
   "chinchirorin": {
@@ -197,6 +234,61 @@
     "À tour de rôle, lancez trois dés : chaque dé affichant VOTRE numéro vous permet de défausser un jeton.",
     "Vos propres lancers peuvent aussi vous débarrasser de jetons — mais la plupart du temps, ce sont vos voisins que vous aiderez.",
     "Le premier joueur qui n'a plus aucun jeton gagne."
+   ]
+  },
+  "farkle": {
+   "name": "Farkle",
+   "summary": "Le grand classique du quitte ou double — engrangez vos points avant de faire farkle.",
+   "rules": [
+    "Lancez les six dés. Chaque 1 isolé vaut 100 points et chaque 5 isolé en vaut 50 ; un brelan vaut 100 fois la valeur de la face (trois 1 valent 1 000).",
+    "Après chaque lancer, mettez de côté au moins un dé marquant, puis décidez : encaisser vos points ou relancer les dés restants.",
+    "Si un lancer ne contient aucun dé marquant, c'est un farkle — vous perdez tout ce que vous avez accumulé ce tour.",
+    "Marquez avec les six dés et ce sont des « dés chauds » : relancez les six et continuez d'accumuler.",
+    "Encaissez vos points pour terminer votre tour en sécurité. Le premier à 10 000 points gagne."
+   ]
+  },
+  "pig": {
+   "name": "Cochon",
+   "summary": "Un dé, un choix : relancer ou encaisser. Surtout, ne faites pas 1.",
+   "rules": [
+    "À votre tour, lancez un seul dé autant de fois que vous l'osez, en ajoutant chaque résultat à votre score de tour.",
+    "Faites un 1 et tout votre score de tour s'envole — le dé passe au joueur suivant.",
+    "Arrêtez-vous avant et vous encaissez votre score de tour dans votre total.",
+    "Surveillez les meneurs : plus quelqu'un approche de la victoire, plus il faudra oser.",
+    "Le premier joueur à atteindre 100 points gagne."
+   ]
+  },
+  "ship-captain-crew": {
+   "name": "Bateau, Capitaine, Équipage",
+   "summary": "Trouvez bateau, capitaine et équipage en trois lancers — le reste, c'est la cargaison.",
+   "rules": [
+    "Lancez cinq dés. Il vous faut un 6 (le bateau), puis un 5 (le capitaine), puis un 4 (l'équipage) — dans cet ordre.",
+    "Mettez chacun de côté dès qu'il apparaît ; vous disposez de trois lancers en tout.",
+    "Impossible de garder un capitaine avant le bateau, ou un équipage avant le capitaine.",
+    "Une fois les trois à bord, les deux dés restants sont votre cargaison — leur somme est votre score. Vous pouvez les relancer s'il vous reste des lancers.",
+    "Pas de bateau-capitaine-équipage en trois lancers ? Zéro point. La plus grosse cargaison remporte la manche."
+   ]
+  },
+  "liars-dice": {
+   "name": "Dés du Menteur",
+   "summary": "Dés cachés, enchères qui montent et bluffs éhontés — le dernier gobelet debout l'emporte.",
+   "rules": [
+    "Chaque joueur lance cinq dés cachés sous son gobelet et ne regarde que les siens.",
+    "À tour de rôle, on parie sur le nombre total d'une valeur présente sur la table — par exemple « quatre 3 ».",
+    "Chaque enchère doit surpasser la précédente : plus de dés, ou autant de dés d'une valeur supérieure.",
+    "Au lieu de surenchérir, criez « menteur ! » — tout le monde révèle. Si l'enchère est tenue, le challenger perd un dé ; sinon, c'est l'enchérisseur.",
+    "Les 1 sont des jokers et comptent dans toutes les enchères. Le dernier joueur avec des dés gagne."
+   ]
+  },
+  "yacht": {
+   "name": "Yacht",
+   "summary": "Remplissez les douze catégories de l'ancêtre des jeux de dés à feuille de score.",
+   "rules": [
+    "À votre tour, lancez cinq dés jusqu'à trois fois, en gardant les dés de votre choix entre les lancers.",
+    "Inscrivez ensuite le résultat dans une catégorie libre de votre feuille : des 1 aux 6, full, carré, petite suite, grande suite, choix, ou yacht.",
+    "Un yacht — cinq dés identiques — vaut 50 points ; les suites en valent 30 ; le reste vaut la somme des faces.",
+    "Chaque catégorie doit être remplie une fois : un mauvais lancer devra parfois se solder par un zéro.",
+    "Après douze tours chacun, le plus haut total l'emporte."
    ]
   }
  }
